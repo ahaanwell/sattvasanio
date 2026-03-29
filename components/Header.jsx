@@ -33,7 +33,7 @@ export default function Header() {
             <Link href="/" className="flex items-center gap-2">
               <img
                 src="/images/logo.jpeg"
-                alt="Sttav Aarayna"
+                alt="Sattva Sanio Logo"
                 className="h-10 w-auto"
               />
             </Link>

@@ -11,11 +11,11 @@ function FloorPlanPage() {
 
   return (
     <>
-      <main className="w-full bg-white px-4 md:px-0">
+      <main className="w-full bg-white">
         <div>
           <PageHero title={"Floor Plan"} />
         </div>
-        <div className="max-w-5xl mx-auto py-10">
+        <div className="max-w-5xl mx-auto py-10 px-4 md:px-0">
           <h1 className="text-2xl md:text-3xl font-bold text-gray-800 text-center">
             Sattva Sanio Floor Plan
           </h1>
