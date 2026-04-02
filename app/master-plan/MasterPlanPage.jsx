@@ -40,237 +40,179 @@ function MasterPlanPage() {
             </button>
           </div>
           <div className="space-y-6 text-gray-800 mt-5">
-            <p>
-              The <b><a href="">Sattva Sanio</a> Master Plan</b> showcases a thoughtfully designed
-              residential community developed across <b>10+ acres</b> of prime land on
-              <a href="https://maps.app.goo.gl/e5q7mhcSqE3fgFY7A" rel="nofollow"><b> Old Madras Main Road near Budigere Cross, East Bangalore.</b></a> The
-              project consists of 4 elegant high-rise towers with <b>G + 35 floors </b>
-              and offers more than <b>600 premium apartments</b> in <b>2, 3, and 4 BHK
-              configurations.</b>
-            </p>
-            <div className="flex justify-center items-center">
-                <img 
-                src="/images/master-plan-banner.jpeg" 
-                alt="Sattva Sanio Master Plan" />
-            </div>
-            <p>
-              The master plan is designed to create a balanced environment that
-              blends <b>modern urban living with open green spaces, world-class
-              amenities, and well-planned infrastructure.</b> Every element of the
-              township is carefully positioned to ensure residents enjoy
-              comfort, convenience, and a peaceful lifestyle within the
-              community.
-            </p>
+  <p>
+    The <b><a href="">Sattva Sanio Master Plan</a></b> introduces a well-structured residential enclave spread across <b>over 10 acres</b> along 
+    <a href="https://maps.app.goo.gl/e5q7mhcSqE3fgFY7A" rel="nofollow"><b> Old Madras Road near Budigere Cross, East Bangalore</b></a>. 
+    This premium development features <b>four high-rise towers reaching up to G+35 floors</b> and includes more than 
+    <b> 600 thoughtfully planned apartments</b> in <b>2, 3, and 4 BHK layouts</b>.
+  </p>
 
-            <p>
-              A master plan represents the <b>overall layout of a residential
-              development</b>, including the placement of towers, internal roads,
-              landscaped gardens, clubhouse, recreational areas, parking spaces,
-              and other essential facilities. By studying the master plan,
-              buyers can clearly understand how the entire project is organized
-              and how different spaces interact within the community.
-            </p>
+  <div className="flex justify-center items-center">
+    <img 
+      src="/images/master-plan-banner.jpeg" 
+      alt="Sattva Sanio Master Plan Overview" 
+    />
+  </div>
 
-            <h2 className="text-2xl font-semibold mt-10">
-              Sattva Sanio Township Layout
-            </h2>
-            <div className="flex justify-center items-center">
-                <img 
-                src="/images/township-layout.jpeg" 
-                alt="Sattva Sanio Township Layout" />
-            </div>
-            <p>
-              The <b>Sattva Sanio master plan</b> layout highlights a modern
-              residential township designed with efficient land utilization and
-              plenty of open areas. The project is planned with wide internal
-              pathways, landscaped gardens, and thoughtfully placed residential
-              towers that ensure proper airflow and natural light.
-            </p>
+  <p>
+    The overall design focuses on creating a harmonious blend of <b>urban comfort, open landscapes, and modern infrastructure</b>. 
+    Every aspect of the layout is strategically planned to deliver a peaceful yet connected lifestyle within a gated community.
+  </p>
 
-            <p>The layout includes:</p>
+  <p>
+    A master plan gives a complete overview of a project’s layout, highlighting the arrangement of towers, internal roads, 
+    amenities, open spaces, and essential infrastructure. It helps buyers understand how different elements of the community 
+    are organized and how daily living spaces interact with each other.
+  </p>
 
-            <ul className="list-disc pl-6 space-y-2">
-              <li>4 high-rise residential towers</li>
-              <li>G + 35 floors in each tower</li>
-              <li>600+ premium apartments</li>
-              <li>Well-planned internal road network</li>
-              <li>Landscaped gardens and open spaces</li>
-              <li>Dedicated clubhouse and recreation zones</li>
-            </ul>
+  <h2 className="text-2xl font-semibold mt-10">
+    Township Planning & Layout Design
+  </h2>
 
-            <p>
-              The towers are strategically positioned with adequate spacing to
-              maintain privacy between homes while allowing residents to enjoy
-              open views of greenery and landscaped surroundings.
-            </p>
+  <div className="flex justify-center items-center">
+    <img 
+      src="/images/township-layout.jpeg" 
+      alt="Sattva Sanio Township Layout Design" 
+    />
+  </div>
 
-            <h3 className="text-2xl font-semibold mt-10">
-              Open Spaces and Green Landscape
-            </h3>
+  <p>
+    The <b>Sattva Sanio township layout</b> is crafted with a focus on efficient land utilization while maintaining ample open areas. 
+    Wide internal pathways, green zones, and carefully positioned towers ensure better airflow, natural lighting, and a spacious feel throughout the community.
+  </p>
 
-            <p>
-              One of the key highlights of the <a href="https://www.sattvasanio.in/master-plan"><b>Sattva Sanio Master Plan
-              Bangalore</b></a> is the focus on open spaces and greenery. A large
-              portion of the land is reserved for landscaped gardens, walking
-              paths, and recreational zones that enhance the overall living
-              experience.
-            </p>
+  <ul className="list-disc pl-6 space-y-2">
+    <li>Four modern residential towers</li>
+    <li>High-rise structures with G+35 floors</li>
+    <li>600+ premium residences</li>
+    <li>Wide internal roads and pathways</li>
+    <li>Landscaped gardens and leisure zones</li>
+    <li>Dedicated clubhouse and activity areas</li>
+  </ul>
 
-            <p>
-              Residents can enjoy a peaceful environment surrounded by nature
-              while still being connected to the city’s infrastructure. The
-              landscaped areas include:
-            </p>
+  <p>
+    The placement of towers ensures minimal overlap, providing enhanced privacy along with open views of landscaped surroundings.
+  </p>
 
-            <ul className="list-disc pl-6 space-y-2">
-              <li>Beautiful garden spaces</li>
-              <li>Jogging and walking tracks</li>
-              <li>Outdoor seating zones</li>
-              <li>Children’s play areas</li>
-              <li>Tree-lined pathways</li>
-            </ul>
+  <h3 className="text-2xl font-semibold mt-10">
+    Green Spaces & Outdoor Living
+  </h3>
 
-            <h3 className="text-2xl font-semibold mt-10">
-              Tower Placement and Apartment Layout
-            </h3>
+  <p>
+    A key highlight of the 
+    <a href="https://www.sattvasanio.in/master-plan"><b> Sattva Sanio Master Plan Bangalore</b></a> 
+    is its emphasis on greenery and open environments. A significant portion of the project is dedicated to outdoor spaces, 
+    offering residents a refreshing and nature-friendly lifestyle.
+  </p>
 
-            <p>
-              The residential towers in <b>Sattva Sanio</b> are placed in a way that
-              ensures each apartment receives <b>maximum sunlight, ventilation, and
-              scenic views.</b> The towers are positioned with sufficient distance
-              between them, preventing overcrowding and maintaining privacy.
-            </p>
+  <ul className="list-disc pl-6 space-y-2">
+    <li>Landscaped gardens and lawns</li>
+    <li>Jogging and walking tracks</li>
+    <li>Relaxation and seating areas</li>
+    <li>Children’s play zones</li>
+    <li>Tree-lined internal pathways</li>
+  </ul>
 
-            <p>
-              Each tower is designed with modern architectural concepts that
-              enhance both aesthetics and functionality. The layouts of the
-              apartments ensure smooth movement between rooms and efficient use
-              of living spaces.
-            </p>
+  <p>
+    These green spaces promote wellness and provide a calm atmosphere within the residential complex.
+  </p>
 
-            <p>The tower planning includes:</p>
+  <h3 className="text-2xl font-semibold mt-10">
+    Tower Positioning & Design Efficiency
+  </h3>
 
-            <ul className="list-disc pl-6 space-y-2">
-              <li>Spacious entrance lobbies</li>
-              <li>High-speed elevators</li>
-              <li>Wide corridors</li>
-              <li>Dedicated service areas</li>
-              <li>Secure access points</li>
-            </ul>
+  <p>
+    The towers at <b>Sattva Sanio</b> are thoughtfully arranged to maximize <b>natural light, ventilation, and scenic views</b>. 
+    Adequate spacing between buildings reduces congestion and enhances privacy for every residence.
+  </p>
 
-            <h3 className="text-2xl font-semibold mt-10">
-              Amenities in the Master Plan
-            </h3>
+  <ul className="list-disc pl-6 space-y-2">
+    <li>Grand entrance lobbies</li>
+    <li>High-speed elevators</li>
+    <li>Wide and well-lit corridors</li>
+    <li>Separate service zones</li>
+    <li>Controlled access entry points</li>
+  </ul>
 
-            <p>
-              The <b>Sattva Sanio master plan</b> integrates a wide range of modern
-              lifestyle amenities within the community. These amenities are
-              strategically distributed across the property so that residents
-              from all towers can easily access them.
-            </p>
+  <p>
+    The architectural design combines aesthetics with functionality, ensuring a comfortable living experience.
+  </p>
 
-            <p>Some of the major amenities include:</p>
+  <h3 className="text-2xl font-semibold mt-10">
+    Lifestyle Amenities Within the Community
+  </h3>
 
-            <ul className="list-disc pl-6 space-y-2">
-              <li>Grand clubhouse</li>
-              <li>Swimming pool</li>
-              <li>Fully equipped gymnasium</li>
-              <li>Multipurpose hall</li>
-              <li>Indoor games room</li>
-              <li>Outdoor sports courts</li>
-              <li>Yoga and meditation zone</li>
-              <li>Children’s play area</li>
-              <li>Party lawn and event spaces</li>
-            </ul>
+  <p>
+    The master plan integrates a wide range of lifestyle features that support recreation, fitness, and social engagement. 
+    Amenities are distributed across the project for easy accessibility from all towers.
+  </p>
 
-            <p>
-              These facilities allow residents to enjoy recreation, fitness, and
-              social interaction without leaving the comfort of their
-              residential community.
-            </p>
+  <ul className="list-disc pl-6 space-y-2">
+    <li>Premium clubhouse</li>
+    <li>Swimming pool</li>
+    <li>Fully equipped fitness center</li>
+    <li>Multipurpose hall</li>
+    <li>Indoor games facilities</li>
+    <li>Outdoor sports courts</li>
+    <li>Yoga and meditation spaces</li>
+    <li>Kids’ play area</li>
+    <li>Event lawns and gathering spaces</li>
+  </ul>
 
-            <h3 className="text-2xl font-semibold mt-10">
-              Parking and Internal Roads
-            </h3>
+  <h3 className="text-2xl font-semibold mt-10">
+    Parking & Internal Circulation
+  </h3>
 
-            <p>
-              The master plan also includes <b>well-planned parking facilities and
-              internal road networks</b> to ensure smooth vehicle movement
-              throughout the property. Dedicated basement parking spaces are
-              provided for residents, along with visitor parking areas.
-            </p>
+  <p>
+    The project includes a well-organized system for vehicle movement and parking, ensuring smooth traffic flow and convenience for residents.
+  </p>
 
-            <p>Key parking and circulation features include:</p>
+  <ul className="list-disc pl-6 space-y-2">
+    <li>Basement parking for residents</li>
+    <li>Visitor parking spaces</li>
+    <li>Wide internal driveways</li>
+    <li>Pedestrian-friendly walkways</li>
+    <li>Clearly defined entry and exit points</li>
+  </ul>
 
-            <ul className="list-disc pl-6 space-y-2">
-              <li>Basement parking facilities</li>
-              <li>Visitor parking zones</li>
-              <li>Wide internal driveways</li>
-              <li>Pedestrian-friendly pathways</li>
-              <li>Clearly marked entry and exit gates</li>
-            </ul>
+  <h3 className="text-2xl font-semibold mt-10">
+    Safety & Infrastructure Planning
+  </h3>
 
-            <p>
-              These elements are carefully designed to ensure safety,
-              convenience, and efficient traffic movement within the township.
-            </p>
+  <p>
+    Security and infrastructure are key components of the <b>Sattva Sanio master plan</b>, ensuring a safe and well-managed living environment.
+  </p>
 
-            <h3 className="text-2xl font-semibold mt-10">
-              Security and Community Infrastructure
-            </h3>
+  <ul className="list-disc pl-6 space-y-2">
+    <li>24/7 gated security system</li>
+    <li>CCTV monitoring across common areas</li>
+    <li>Intercom facility for communication</li>
+    <li>Security personnel at entry points</li>
+    <li>Well-lit pathways and roads</li>
+  </ul>
 
-            <p>
-              Safety is an important aspect of the <b>Sattva Sanio master plan
-              design.</b> The community is planned with modern security systems and
-              controlled entry points to provide residents with a secure living
-              environment.
-            </p>
+  <h3 className="text-2xl font-semibold mt-10">
+    What Makes This Master Plan Stand Out
+  </h3>
 
-            <p>Security features include:</p>
+  <p>
+    The <b>Sattva Sanio Master Plan in East Bangalore</b> stands apart due to its balanced approach to design, combining residential comfort, 
+    open green areas, and modern amenities within a structured community layout.
+  </p>
 
-            <ul className="list-disc pl-6 space-y-2">
-              <li>24/7 gated community security</li>
-              <li>CCTV surveillance in common areas</li>
-              <li>Intercom connectivity</li>
-              <li>Security cabins at entry points</li>
-              <li>Well-lit internal pathways</li>
-            </ul>
+  <ul className="list-disc pl-6 space-y-2">
+    <li>Expansive 10+ acre township</li>
+    <li>Four high-rise residential towers</li>
+    <li>Well-planned green and open spaces</li>
+    <li>Modern lifestyle amenities</li>
+    <li>Strategic location on Old Madras Road</li>
+  </ul>
 
-            <p>
-              These features create a safe and secure residential atmosphere for
-              families.
-            </p>
-
-            <h3 className="text-2xl font-semibold mt-10">
-              Why the Sattva Sanio Master Plan is Unique
-            </h3>
-
-            <p>
-              The <b>Sattva Sanio Master Plan in East Bangalore</b> stands out
-              because of its thoughtful design, spacious layout, and integration
-              of modern lifestyle features. The project combines residential
-              towers, open landscapes, and recreational facilities within a
-              well-organized community.
-            </p>
-
-            <p>Key highlights include:</p>
-
-            <ul className="list-disc pl-6 space-y-2">
-              <li>Large 10+ acre residential township</li>
-              <li>4 modern high-rise towers with premium apartments</li>
-              <li>Spacious community planning with green areas</li>
-              <li>World-class lifestyle amenities</li>
-              <li>
-                Strategic location on Old Madras Main Road near Budigere Cross
-              </li>
-            </ul>
-
-            <p>
-              With its modern design and excellent location connectivity, the
-              project offers a comfortable and luxurious living experience for
-              residents.
-            </p>
-          </div>
+  <p>
+    With its strategic planning and premium features, the project offers a refined living experience for homebuyers seeking 
+    comfort, connectivity, and long-term value in East Bangalore.
+  </p>
+</div>
         </div>
       </main>
       <LeadModal

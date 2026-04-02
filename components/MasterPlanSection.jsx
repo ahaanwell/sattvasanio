@@ -23,13 +23,15 @@ export default function MasterPlanSection() {
         </h2>
 
         <div className="w-full h-px bg-gray-200 mb-5" />
-        <div className="text-gray-800 mb-5">
-          <p>
-            <a href="https://www.sattvasanio.in/master-plan"><b>Sattva Sanio's master</b></a> plan calls for building a modern neighborhood with tall buildings,
-green parks, and well-thought-out services for everyday life. The development covers more than
-<b> 10 acres</b> at Budigere Cross on <b>Old Madras Main Road</b>. Its goal is to provide an easy city life
-while keeping green spaces and open spaces on the land.
-          </p>
+        <div className="text-gray-800 mb-5 space-y-6">
+            <p>
+      The <a href="https://www.sattvasanio.in/master-plan"><b>Sattva Sanio master plan</b></a> is thoughtfully designed to create a modern residential ecosystem that blends high-rise living with open green landscapes. Spread across approximately <b>10+ acres</b> at Budigere Cross on <b>Old Madras Road</b>, the development focuses on delivering a balanced lifestyle with urban convenience and natural surroundings.
+    </p>
+
+    <p>
+      The layout is carefully planned to ensure optimal space utilization, smooth internal circulation, and enhanced privacy for residents. From tower placement to landscaped zones, every element is strategically designed to offer a comfortable and visually appealing living environment.
+    </p>
+
         </div>
         <div className="max-w-2xl mx-auto">
           <div
@@ -69,49 +71,40 @@ while keeping green spaces and open spaces on the land.
         </div>
         <div className="pt-6 text-gray-800">
 
-  <h2 className="text-2xl font-semibold mb-6">
-    Below are the key master plan specifications of the project
-  </h2>
-
   <div className="space-y-6">
-
     <div>
       <h3 className="text-xl font-semibold mb-3">
-        Total Land Area
+        Land Parcel & Layout Design
       </h3>
       <p>
-        The project is built on more than 10 acres of good land in Budigere Cross, East Bangalore. This
-        lets the building include large apartment towers, green areas, and public places.
+        The project is spread over a vast land parcel, allowing the inclusion of residential towers, open green spaces, and lifestyle zones without congestion. The layout ensures a harmonious mix of built-up and open areas.
       </p>
     </div>
 
     <div>
       <h3 className="text-xl font-semibold mb-3">
-        Structure
+        High-Rise Tower Configuration
       </h3>
       <p>
-        Each private tower in Sattva Sanio is built with 35 floors above ground, giving residents
-        modern high-rise living with stunning views of the area.
+        Sattva Sanio features premium high-rise towers rising up to <b>G+35 floors</b>. These towers are designed to provide panoramic city views along with ample natural light and cross ventilation in every home.
       </p>
     </div>
 
     <div>
       <h3 className="text-xl font-semibold mb-3">
-        Number of Towers
+        Tower Placement & Planning
       </h3>
       <p>
-        The master plan calls for 4 private towers to be carefully placed in the layout so that the flats
-        have good air flow, privacy, and natural light.
+        The development includes <b>four residential towers</b> positioned to maximize privacy, reduce overlooking, and ensure proper airflow between buildings. The spacing enhances openness across the community.
       </p>
     </div>
 
     <div>
       <h3 className="text-xl font-semibold mb-3">
-        Total Number of Apartments
+        Total Residences
       </h3>
       <p>
-        The project will have more than 600 living units, making a well-planned gated community with
-        modern services and infrastructure.
+        The project offers <b>600+ premium apartments</b>, forming a well-structured gated community designed for modern urban families seeking comfort and security.
       </p>
     </div>
 
@@ -120,56 +113,48 @@ while keeping green spaces and open spaces on the land.
         Apartment Configurations
       </h3>
       <p>
-        The building has <b>2 BHK, 3 BHK, and 4 BHK flats</b>, each intended to meet the needs of a different
-        size family and way of life.
+        The master plan includes thoughtfully designed <b>2 BHK, 3 BHK, and 4 BHK homes</b>, catering to a wide range of homebuyers—from working professionals to large families.
       </p>
     </div>
 
     <div>
       <h3 className="text-xl font-semibold mb-3">
-        Open Spaces and Landscaping
+        Green Spaces & Open Areas
       </h3>
       <p>
-        A big part of the project plan is made up of natural parks, green zones, and open play areas,
-        which make the area healthy and peaceful for the people who live there.
+        A significant portion of the project is dedicated to landscaped gardens, open lawns, and recreational green zones. These areas promote a peaceful lifestyle while encouraging outdoor activities and relaxation.
       </p>
     </div>
 
     <div>
       <h3 className="text-xl font-semibold mb-3">
-        Central Amenities Zone
+        Lifestyle & Amenities Hub
       </h3>
       <p>
-        The master plan has a lounge and a lifestyle amenities zone with facilities like exercise centers,
-        play areas, and community activity zones that people can use.
+        A centrally located clubhouse and amenities zone forms the heart of the community. It includes fitness facilities, indoor games, leisure spaces, and social interaction areas for residents of all age groups.
       </p>
     </div>
 
     <div>
       <h3 className="text-xl font-semibold mb-3">
-        Internal Infrastructure
+        Internal Roads & Connectivity
       </h3>
       <p>
-        The building has wide internal roads, walking paths, and marked parking areas. This makes
-        sure that the community's infrastructure is well-organized and that people can move around
-        easily.
+        The internal infrastructure is designed with wide driveways, pedestrian-friendly walkways, and clearly defined parking areas. This ensures smooth traffic flow and safe movement within the premises.
       </p>
     </div>
 
     <div>
       <h3 className="text-xl font-semibold mb-3">
-        Security and Access
+        Safety & Gated Community Features
       </h3>
       <p>
-        Sattva Sanio is expected to be a closed residential community with controlled entry points,
-        security systems, and modern safety infrastructure to make sure that people can live in a safe
-        place.
+        The project is planned as a secure gated community with controlled entry and exit points, surveillance systems, and modern security measures to ensure a safe and comfortable living environment.
       </p>
     </div>
 
     <p>
-      Sattva Sanio's master plan is all about making a healthy place to live in East Bangalore, with
-      high-rise buildings, modern services, and green areas that make for a good quality of life.
+      Overall, the master plan of Sattva Sanio reflects a perfect balance between architecture, open spaces, and lifestyle amenities, making it a well-rounded residential destination in East Bangalore.
     </p>
 
   </div>

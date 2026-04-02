@@ -39,241 +39,214 @@ function PricePage() {
               <IoPricetagsOutline /> Cost Sheet
             </button>
           </div>
-         <div className="space-y-6 text-gray-800 mt-5">
-            <p>
-              The <a href="https://www.sattvasanio.in/price"><b>Sattva Sanio Price</b></a> is designed to offer excellent value for
-              homebuyers seeking premium apartments in <a href="https://en.wikipedia.org/wiki/Bangalore_East" rel="nofollow"><b>East Bangalore</b></a>. Located
-              on <b>Old Madras Main Road near Budigere Cross</b>, the project offers
-              spacious <b>2, 3, and 4 BHK luxury apartments</b> with prices starting
-              from <b>₹ 1.2 Crore onwards</b>.
-            </p>
-            <div className="flex justify-center items-center">
-                <img 
-                src="/images/gallery-1.webp" 
-                alt="Sattva Sanio" />
-            </div>
-            <p>
-              The development spans across <b>10+ acres</b> of land and features over
-              600 apartments across <b>4 high-rise towers with G + 35 floors.</b> The
-              pricing structure is thoughtfully planned to provide buyers with a
-              range of options depending on the apartment configuration, size,
-              and floor level.
-            </p>
+         <div className="space-y-6 text-gray-800 mt-5 leading-7">
 
-            <p>
-              <a href="https://www.sattvasanio.in/">Sattva Sanio</a> offers an opportunity for both <b>homebuyers and real
-              estate investors</b> to purchase property in one of the
-              fastest-growing residential corridors of Bangalore. East Bangalore
-              has seen consistent demand due to its strong connectivity to
-              <b>Whitefield, ITPL, KR Puram, and Kempegowda International Airport</b>,
-              making it a highly desirable location for property investment.
-            </p>
+  <p>
+    The <a href="https://www.sattvasanio.in/price"><b>Sattva Sanio pricing</b></a> is carefully positioned to deliver strong value for buyers looking for
+    premium homes in <b>East Bangalore</b>. Situated along Old Madras Road near Budigere Cross,
+    the project features thoughtfully designed <b>2, 3, and 4 BHK residences</b> with an
+    introductory price starting from <b>₹1.2 Crore onwards</b>.
+  </p>
 
-            <h3 className="text-2xl font-semibold mt-10">
-              Sattva Sanio Apartment Price
-            </h3>
-            <div className="flex justify-center items-center">
-                <img 
-                src="/images/apartments-price.jpeg" 
-                alt="Sattva Sanio Apartment Price" />
-            </div>
-            <p>
-              The project offers a variety of apartment configurations designed
-              to suit different lifestyle needs and budgets. Buyers can choose
-              from well-planned <b>2 BHK, 3 BHK, and 4 BHK apartments</b>, each
-              offering spacious interiors and modern layouts.
-            </p>
+  <div className="flex justify-center items-center">
+    <img 
+      src="/images/gallery-1.webp" 
+      alt="Sattva Sanio Apartments"
+      loading="lazy"
+    />
+  </div>
 
-            <h3 className="text-xl font-semibold mt-8">Price List</h3>
+  <p>
+    Spread across a large land parcel, the development includes modern high-rise towers
+    with premium specifications and lifestyle amenities. With multiple configurations
+    available, buyers can choose homes based on size, layout preferences, and budget.
+  </p>
 
-            <div className="overflow-x-auto">
-              <table className="w-full border border-gray-300 mt-4">
-                <thead className="bg-gray-100">
-                  <tr>
-                    <th className="border p-3 text-left">Unit Type</th>
-                    <th className="border p-3 text-left">Approx Size</th>
-                    <th className="border p-3 text-left">Starting Price</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td className="border p-3">2 BHK</td>
-                    <td className="border p-3">On Request</td>
-                    <td className="border p-3">₹ 1.2 Cr* Onwards</td>
-                  </tr>
-                  <tr>
-                    <td className="border p-3">3 BHK</td>
-                    <td className="border p-3">On Request</td>
-                    <td className="border p-3">
-                        <button 
-                        className="cursor-pointer" 
-                        onClick={() => {
+  <p>
+    Due to its location advantage and proximity to major employment hubs like Whitefield,
+    KR Puram, and IT corridors, this project stands out as a strong option for both
+    end-users and investors seeking long-term appreciation.
+  </p>
+
+  {/* Apartment Pricing */}
+  <h3 className="text-2xl font-semibold mt-10">
+    Apartment Configurations & Pricing
+  </h3>
+
+  <div className="flex justify-center items-center">
+    <img 
+      src="/images/apartments-price.jpeg" 
+      alt="Sattva Sanio Price List"
+      loading="lazy"
+    />
+  </div>
+
+  <p>
+    Sattva Sanio offers a range of apartment configurations designed for modern living.
+    Each unit is planned with efficient layouts, spacious interiors, and contemporary
+    finishes to suit different lifestyle needs.
+  </p>
+
+  <h3 className="text-xl font-semibold mt-6">Indicative Price Chart</h3>
+
+  <div className="overflow-x-auto">
+    <table className="w-full border border-gray-300 mt-4">
+      <thead className="bg-gray-100">
+        <tr>
+          <th className="border p-3 text-left">Configuration</th>
+          <th className="border p-3 text-left">Size Range</th>
+          <th className="border p-3 text-left">Starting Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td className="border p-3">2 BHK</td>
+          <td className="border p-3">Available on Request</td>
+          <td className="border p-3">₹1.2 Cr* Onwards</td>
+        </tr>
+        <tr>
+          <td className="border p-3">3 BHK</td>
+          <td className="border p-3">Available on Request</td>
+          <td className="border p-3">
+            <button
+              className="cursor-pointer text-blue-600 underline"
+              onClick={() => {
                 SetModelHeading("Download 3 BHK Price");
                 setIsModalOpen(true);
               }}
-                        >Enquiry Open
-                        </button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="border p-3">4 BHK</td>
-                    <td className="border p-3">On Request</td>
-                    <td className="border p-3">
-                        <button 
-                        className="cursor-pointer" 
-                        onClick={() => {
-                SetModelHeading("Download 3 BHK Price");
+            >
+              Get Price Details
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td className="border p-3">4 BHK</td>
+          <td className="border p-3">Available on Request</td>
+          <td className="border p-3">
+            <button
+              className="cursor-pointer text-blue-600 underline"
+              onClick={() => {
+                SetModelHeading("Download 4 BHK Price");
                 setIsModalOpen(true);
               }}
-                        >Enquiry Open
-                        </button>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+            >
+              Get Price Details
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 
-            <p>
-              Prices mentioned are indicative and may vary depending on floor
-              level, unit size, and availability.
-            </p>
+  <p className="text-sm text-gray-600">
+    *Prices are indicative and may vary based on unit size, floor level, and availability.
+  </p>
 
-            <h3 className="text-2xl font-semibold mt-10">
-              Price Advantages of Sattva Sanio
-            </h3>
+  {/* Pricing Benefits */}
+  <h3 className="text-2xl font-semibold mt-10">
+    Key Pricing Advantages
+  </h3>
 
-            <p>
-              One of the key highlights of the <b>Sattva Sanio pricing structure</b>
-              is the balance between premium features and competitive pricing.
-              Compared to other luxury developments in East Bangalore, the
-              project offers spacious apartments with modern amenities at
-              attractive launch prices.
-            </p>
+  <p>
+    One of the major highlights of this project is its competitive launch pricing
+    compared to other premium developments in the region. Buyers get access to
+    modern homes at an early-stage price point, which enhances investment potential.
+  </p>
 
-            <p>Key pricing benefits include:</p>
+  <ul className="list-disc pl-6 space-y-2">
+    <li>Attractive pre-launch and early-stage pricing</li>
+    <li>Premium homes in a fast-developing location</li>
+    <li>Flexible payment options during construction</li>
+    <li>Strong potential for capital appreciation</li>
+  </ul>
 
-            <ul className="list-disc pl-6 space-y-2">
-              <li>Competitive <b>new launch pricing</b></li>
-              <li>Premium apartments in a prime <b>East Bangalore location</b></li>
-              <li>Flexible payment plans during the construction phase</li>
-              <li>
-                Potential appreciation due to infrastructure growth in the area
-              </li>
-            </ul>
+  {/* Payment Plan */}
+  <h3 className="text-2xl font-semibold mt-10">
+    Payment Plan & Booking Process
+  </h3>
 
-            <p>
-              These factors make the project a promising investment opportunity
-              for buyers looking for long-term value.
-            </p>
+  <div className="flex justify-center items-center">
+    <img 
+      src="/images/payment-plan-and-booking-process.jpeg" 
+      alt="Payment Plan"
+      loading="lazy"
+    />
+  </div>
 
-            <h3 className="text-2xl font-semibold mt-10">
-              Payment Plan and Booking Process
-            </h3>
+  <p>
+    The project offers buyer-friendly payment plans aligned with construction
+    milestones. This staged payment structure reduces financial burden and
+    makes ownership more convenient.
+  </p>
 
-            <div className="flex justify-center items-center">
-                <img 
-                src="/images/payment-plan-and-booking-process.jpeg" 
-                alt="Sattva Sanio Apartment Price" 
-                loading="lazy"
-                />
-            </div>
-            <p>
-              Sattva Sanio offers flexible payment plans that make it easier
-              for buyers to secure their dream home. The payment structure
-              typically follows construction milestones, allowing buyers to pay
-              in stages.
-            </p>
+  <ul className="list-disc pl-6 space-y-2">
+    <li>Submit initial Expression of Interest (EOI)</li>
+    <li>Select preferred unit and configuration</li>
+    <li>Complete booking documentation</li>
+    <li>Pay in stages as construction progresses</li>
+  </ul>
 
-            <p>The booking process generally includes:</p>
+  <p>
+    Early buyers may also benefit from exclusive offers, launch discounts,
+    and priority unit selection.
+  </p>
 
-            <ul className="list-disc pl-6 space-y-2">
-              <li>
-                Submitting an <b>Expression of Interest (EOI)</b> or initial booking
-                amount
-              </li>
-              <li>Selecting the preferred apartment unit and floor</li>
-              <li>Completing documentation and agreement formalities</li>
-              <li>Paying instalments based on construction progress</li>
-            </ul>
+  {/* Additional Charges */}
+  <h3 className="text-2xl font-semibold mt-10">
+    Additional Costs to Consider
+  </h3>
 
-            <p>
-              Early buyers in the pre-launch phase may also receive special
-              offers, early-bird pricing, or promotional benefits.
-            </p>
+  <p>
+    Apart from the base price, buyers should account for standard additional
+    charges applicable in residential projects.
+  </p>
 
-            <h3 className="text-2xl font-semibold mt-10">Additional Charges</h3>
+  <ul className="list-disc pl-6 space-y-2">
+    <li>GST as per current government rules</li>
+    <li>Floor rise premium for higher levels</li>
+    <li>Parking and clubhouse charges</li>
+    <li>Maintenance deposit</li>
+    <li>Stamp duty and registration fees</li>
+  </ul>
 
-            <p>
-              Apart from the base apartment price, buyers may need to consider
-              additional charges that are commonly applicable in residential
-              projects. These charges typically include:
-            </p>
+  {/* Investment Section */}
+  <h3 className="text-2xl font-semibold mt-10">
+    Investment Potential
+  </h3>
 
-            <ul className="list-disc pl-6 space-y-2">
-              <li>GST as per government norms</li>
-              <li>Floor rise charges for higher floors</li>
-              <li>Car parking charges</li>
-              <li>Clubhouse membership fees</li>
-              <li>Maintenance deposit</li>
-              <li>Stamp duty and registration charges</li>
-            </ul>
+  <p>
+    Sattva Sanio presents a strong investment opportunity due to its strategic
+    location, modern design, and brand reliability. The surrounding area is
+    witnessing rapid infrastructure development, which is expected to drive
+    property value growth over time.
+  </p>
 
-            <p>
-              These costs vary depending on the apartment configuration and
-              government regulations at the time of purchase.
-            </p>
+  <ul className="list-disc pl-6 space-y-2">
+    <li>Prime location on Old Madras Road</li>
+    <li>Close to IT hubs and business zones</li>
+    <li>Growing demand for residential properties</li>
+    <li>Future appreciation driven by infrastructure growth</li>
+  </ul>
 
-            <h3 className="text-2xl font-semibold mt-10">
-              Why Invest in Sattva Sanio
-            </h3>
+  {/* Highlights */}
+  <h3 className="text-2xl font-semibold mt-10">
+    Project Price Highlights
+  </h3>
 
-            <p>
-              The <b>Sattva Sanio apartments</b> provide an excellent opportunity for
-              investment due to their location, premium features, and strong
-              brand reputation of the developer.
-            </p>
+  <ul className="list-disc pl-6 space-y-2">
+    <li>Premium 2, 3 & 4 BHK apartments</li>
+    <li>Starting price from ₹1.2 Crore onwards</li>
+    <li>Located in Budigere Cross growth corridor</li>
+    <li>Modern high-rise living with amenities</li>
+    <li>Ideal for both end-use and investment</li>
+  </ul>
 
-            <p>Key investment highlights include:</p>
+  <p>
+    Overall, the pricing strategy makes Sattva Sanio a well-balanced option
+    for buyers looking for a premium home with long-term value in East Bangalore.
+  </p>
 
-            <ul className="list-disc pl-6 space-y-2">
-              <li>Strategic location on <a href="https://www.sattvasanio.in/location"><b>Old Madras Main Road</b></a></li>
-              <li>Close proximity to Whitefield IT hub and KR Puram</li>
-              <li>High demand for residential properties in East Bangalore</li>
-              <li>Modern amenities and spacious apartment designs</li>
-              <li>Potential for property appreciation in the future</li>
-            </ul>
-
-            <p>
-              With the continued development of infrastructure and commercial
-              hubs in East Bangalore, property values in this region are
-              expected to grow steadily over the coming years.
-            </p>
-
-            <h3 className="text-2xl font-semibold mt-10">
-              Sattva Sanio Price Highlights
-            </h3>
-
-            <p>
-              The project combines luxury living with a well-planned pricing
-              structure that suits both homeowners and investors.
-            </p>
-
-            <p>Key highlights include:</p>
-
-            <ul className="list-disc pl-6 space-y-2">
-              <li>Premium 2, 3, and 4 BHK apartments</li>
-              <li>Prices starting from ₹1.2 Crore onwards</li>
-              <li>Located in the rapidly developing Budigere Cross corridor</li>
-              <li>Modern high-rise towers with lifestyle amenities</li>
-              <li>Attractive pricing for early investors</li>
-            </ul>
-
-            <p>
-              The Sattva Sanio price list makes it a desirable residential
-              option for buyers who want to invest in a premium property with
-              long-term value.
-            </p>
-          </div>
+</div>
         </div>
       </main>
       <LeadModal

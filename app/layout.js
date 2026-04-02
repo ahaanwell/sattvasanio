@@ -21,28 +21,29 @@ const robotoMono = Roboto_Mono({
 export const metadata = {
   title: {
     default:
-      "Sattva Aangane | Old Madras Road | Budigere Cross | Review | Brochure  | New Launch",
-    template: "%s | Sattva Aangane Bangalore",
+      "Sattva Sanio Bangalore | Apartments at Budigere Cross, Old Madras Road",
+    template: "%s | Sattva Sanio Bangalore",
   },
 
   description:
-    "Sattva Aangane a new launch premium apartment project in Old Madras Road near Budigere Cross, Bangalore. Covers 10 acres of land, it offers 2, 3, and 4 BHK apartments over 4 high-rise towers.",
+    "Sattva Sanio is a premium apartment project at Budigere Cross, Old Madras Road, East Bangalore. Spread across 10+ acres, offering luxury 2, 3 & 4 BHK homes with modern amenities and excellent connectivity.",
 
   keywords: [
-    "Sattva Aangane",
-    "Sattva Aangane Bangalore",
-    "Sattva Aangane Budigere Cross",
-    "Sattva Aangane Old Madras Road",
-    "Sattva Aangane price",
-    "Sattva Aangane brochure",
-    "Sattva Aangane floor plan",
+    "Sattva Sanio",
+    "Sattva Sanio Bangalore",
+    "Sattva Sanio Budigere Cross",
+    "Sattva Sanio Old Madras Road",
+    "Sattva Sanio price",
+    "Sattva Sanio brochure",
+    "Sattva Sanio floor plan",
     "apartments in Budigere Cross",
-    "luxury apartments Bangalore",
+    "flats in Old Madras Road Bangalore",
+    "luxury apartments East Bangalore",
     "new launch apartments Bangalore",
+    "2 BHK flats Budigere Cross",
+    "3 BHK flats Budigere Cross",
+    "4 BHK flats Bangalore",
     "Sattva Group projects Bangalore",
-    "2 BHK apartments Budigere Cross",
-    "3 BHK apartments Budigere Cross",
-    "4 BHK apartments Budigere Cross",
   ],
 
   metadataBase: new URL("https://www.sattvasanio.in"),
@@ -53,17 +54,17 @@ export const metadata = {
 
   openGraph: {
     title:
-      "Sattva Aangane Bangalore | Luxury Apartments at Budigere Cross",
+      "Sattva Sanio Bangalore | Luxury Apartments at Budigere Cross",
     description:
-      "Discover luxury apartments at Sattva Aangane located at Budigere Cross, Old Madras Main Road, Bangalore with premium amenities and modern lifestyle.",
+      "Explore Sattva Sanio apartments at Budigere Cross, Old Madras Road, Bangalore. Premium 2, 3 & 4 BHK homes with world-class amenities.",
     url: "https://www.sattvasanio.in/",
-    siteName: "Sattva Aangane",
+    siteName: "Sattva Sanio",
     images: [
       {
         url: "https://www.sattvasanio.in/images/sattvaaangane.webp",
         width: 1200,
         height: 630,
-        alt: "Sattva Aangane Luxury Apartments Budigere Cross Bangalore",
+        alt: "Sattva Sanio Apartments Budigere Cross Bangalore",
       },
     ],
     locale: "en_IN",
@@ -73,9 +74,9 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Sattva Aangane Bangalore | Luxury Apartments Budigere Cross",
+      "Sattva Sanio Bangalore | Apartments in Budigere Cross",
     description:
-      "Explore Sattva Aangane apartments in Budigere Cross Bangalore offering premium 2, 3 and 4 BHK homes with world class amenities.",
+      "Discover Sattva Sanio in East Bangalore offering premium 2, 3 & 4 BHK apartments with modern lifestyle amenities.",
     images: [
       "https://www.sattvasanio.in/images/sattvaaangane.webp",
     ],
@@ -101,13 +102,13 @@ export const metadata = {
 
   authors: [
     {
-      name: "Sattva Aangane",
+      name: "Sattva Sanio",
       url: "https://www.sattvasanio.in/",
     },
   ],
 
-  creator: "Sattva Aangane",
-  publisher: "Sattva Aangane",
+  creator: "Sattva Sanio",
+  publisher: "Sattva Sanio",
 
   category: "Real Estate",
 
@@ -122,15 +123,15 @@ export default function RootLayout({ children }) {
     "@graph": [
       {
         "@type": "Organization",
-        name: "Sattva Aangane",
+        name: "Sattva Sanio",
         url: "https://www.sattvasanio.in/",
         logo: "https://www.sattvasanio.in/images/sattvaaangane.webp",
       },
       {
         "@type": "ApartmentComplex",
-        name: "Sattva Aangane",
+        name: "Sattva Sanio",
         description:
-          "Sattva Aangane is a luxury residential gated community located on Old Madras Main Road, Budigere Cross, Bangalore offering premium 2, 3 and 4 BHK apartments.",
+          "Sattva Sanio is a premium residential project located on Old Madras Road, Budigere Cross, East Bangalore offering 2, 3 and 4 BHK luxury apartments with modern amenities.",
         url: "https://www.sattvasanio.in/",
         image:
           "https://www.sattvasanio.in/images/sattvaaangane.webp",
@@ -151,7 +152,7 @@ export default function RootLayout({ children }) {
           },
           {
             "@type": "LocationFeatureSpecification",
-            name: "Gym",
+            name: "Gymnasium",
             value: true,
           },
           {
@@ -178,26 +179,26 @@ export default function RootLayout({ children }) {
         mainEntity: [
           {
             "@type": "Question",
-            name: "Where is Sattva Aangane located?",
+            name: "Where is Sattva Sanio located?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "Sattva Aangane is located on Old Madras Main Road at Budigere Cross in East Bangalore.",
+              text: "Sattva Sanio is located on Old Madras Road at Budigere Cross in East Bangalore.",
             },
           },
           {
             "@type": "Question",
-            name: "What is the starting price of Sattva Aangane apartments?",
+            name: "What is the starting price of Sattva Sanio apartments?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "The starting price of apartments at Sattva Aangane is approximately ₹1.2 Crore.",
+              text: "The starting price of apartments at Sattva Sanio is approximately ₹1.2 Crore.",
             },
           },
           {
             "@type": "Question",
-            name: "What apartment types are available in Sattva Aangane?",
+            name: "What apartment types are available in Sattva Sanio?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "The project offers spacious 2 BHK, 3 BHK and 4 BHK luxury apartments.",
+              text: "The project offers 2 BHK, 3 BHK and 4 BHK luxury apartments.",
             },
           },
         ],
@@ -218,7 +219,7 @@ export default function RootLayout({ children }) {
         className={`${poppins.variable} ${robotoMono.variable} antialiased`}
       >
         <Header />
-        <BrochureWrapper/>
+        <BrochureWrapper />
         {children}
         <Footer />
         <MobileBottomBar />

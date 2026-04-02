@@ -4,567 +4,279 @@ import SattvaProjects from "./SattvaProjects";
 export default function MoreAboutProjectSection() {
   return (
     <section id="seo-content" className="w-full bg-white pt-6 px-3 md:px-0">
-      <div className="max-w-5xl mx-auto space-y-6">
-        <div className="pt-6 text-gray-800">
+      <div className="max-w-5xl mx-auto space-y-10">
+
+        {/* Investment Section */}
+        <div className="text-gray-800">
           <h2 className="text-2xl font-semibold mb-6">
-            Top 6 Reasons to Choose Budigere Cross for Real Estate Investment
+            Why Budigere Cross is Emerging as a Smart Investment Destination
           </h2>
 
-          <div className="space-y-6">
-            <img
-              className="w-full"
-              src="/images/investment.jpeg"
-              alt="Real Estate Investment"
-              loading="lazy"
-            />
-            <p>
-              In a short amount of time, Budigere Cross has become one of the
-              best places to buy a house in East Bangalore. Both homeowners and
-              investors who remain invested are interested in the area because
-              it has good facilities, is close to IT hubs, and property prices
-              aren't too high.
-            </p>
+          <img
+            className="w-full mb-6"
+            src="/images/investment.jpeg"
+            alt="Budigere Cross Real Estate Investment"
+            loading="lazy"
+          />
+
+          <p className="mb-6 leading-7">
+            Budigere Cross has rapidly transformed into a promising residential
+            hotspot in East Bangalore. With its proximity to major IT corridors,
+            improving infrastructure, and competitive pricing, the area is
+            attracting both end-users and long-term investors.
+          </p>
+
+          <div className="grid md:grid-cols-2 gap-6">
 
             <div>
-              <h3 className="text-xl font-semibold mb-3">
-                1. Strategic Location Near Major IT Hubs.
+              <h3 className="text-lg font-semibold mb-2">
+                Excellent Connectivity to Work Hubs
               </h3>
               <p>
-                Whitefield, ITPL, and KR Puram are all close to Budigere Cross.
-                These are some of the most important places to work in East
-                Bangalore. People who work in technology parks like living in
-                areas where they can get to work faster. It's also easy to get
-                to places like Bagmane Tech Park and the Outer Ring Road
-                business areas, which are job hubs. Strong connections to the
-                job market continue to drive demand for homes in the area.
+                Key employment zones such as Whitefield, ITPL, and KR Puram are
+                easily accessible. This makes the location ideal for IT
+                professionals seeking reduced commute time.
               </p>
             </div>
 
             <div>
-              <h3 className="text-xl font-semibold mb-3">
-                2. Great connections on the roads
+              <h3 className="text-lg font-semibold mb-2">
+                Strong Road Network
               </h3>
               <p>
-                Old Madras Road (NH-75), one of the main roads connecting
-                Bangalore to the eastern areas, runs through the area. It's easy
-                to get to Whitefield, Hoskote, KR Puram, and Indiranagar from
-                Budigere Cross. This road network makes it easy for people to
-                get to both the centre of Bangalore and nearby industrial areas.
-                East Bangalore journey times have been cut by a large amount,
-                thanks to better road facilities.
+                Old Madras Road (NH-75) ensures smooth connectivity to major
+                parts of Bangalore, including Indiranagar and Outer Ring Road.
               </p>
             </div>
 
             <div>
-              <h3 className="text-xl font-semibold mb-3">
-                3. Rapid Infrastructure Development.
+              <h3 className="text-lg font-semibold mb-2">
+                Fast Infrastructure Growth
               </h3>
               <p>
-                The area is getting better facilities, like wider roads and new
-                transportation routes. More connections should be made possible
-                by projects like expanding metros and building big ring roads.
-                These changes make Budigere Cross a stronger developing private
-                micro market in the city.
+                Upcoming metro lines, road expansions, and civic upgrades are
+                improving accessibility and boosting future property value.
               </p>
             </div>
 
             <div>
-              <h3 className="text-xl font-semibold mb-3">
-                4. High Real Estate Growth Potential.
+              <h3 className="text-lg font-semibold mb-2">
+                High Appreciation Potential
               </h3>
               <p>
-                In the past few years, there has been a lot of private growth in
-                Budigere Cross. As more people move into the area and investors
-                start new projects, property prices have gone up a lot. Capital
-                gains and more homes on the market are both signs of good
-                business opportunities in the future.
+                The region has shown steady price growth, making it attractive
+                for investors looking for long-term returns.
               </p>
             </div>
 
             <div>
-              <h3 className="text-xl font-semibold mb-3">
-                5. Better Affordability Compared to Whitefield
+              <h3 className="text-lg font-semibold mb-2">
+                Better Pricing Advantage
               </h3>
               <p>
-                When compared to popular locations like Whitefield, Budigere
-                Cross has more reasonable prices for flats and new homes. It is
-                possible to buy bigger homes for less money while still being
-                close to major IT hubs. This makes the area appealing to people
-                who are buying their first home or investing.
+                Compared to Whitefield, Budigere Cross offers more spacious
+                homes at relatively affordable prices.
               </p>
             </div>
 
             <div>
-              <h3 className="text-xl font-semibold mb-3">
-                6. Growing Residential Infrastructure
+              <h3 className="text-lg font-semibold mb-2">
+                Growing Social Infrastructure
               </h3>
               <p>
-                Schools, hospitals, shopping malls, and neighbourhoods are being
-                built quickly in the area. Budigere Cross is becoming a modern
-                place to live thanks to new apartment buildings and gated
-                neighbourhoods. Lifestyle facilities and connections make it a
-                good place to live for a long time.
+                Schools, hospitals, and shopping centers are rapidly developing,
+                making it a self-sufficient residential zone.
               </p>
             </div>
+
           </div>
+        </div>
 
-          <h2 className="text-2xl font-semibold mt-12 mb-6">
-            Why the Budigere Cross is Good for Living High Up
+        {/* High Rise Living */}
+        <div className="text-gray-800">
+          <h2 className="text-2xl font-semibold mb-6">
+            Advantages of High-Rise Living in Budigere Cross
           </h2>
 
-          <div className="space-y-6">
+          <p className="mb-6 leading-7">
+            Budigere Cross is becoming a preferred location for modern
+            high-rise developments due to its availability of large land parcels
+            and well-planned infrastructure growth.
+          </p>
+
+          <div className="space-y-5">
+
             <p>
-              Budigere Cross is slowly turning into a great place for new high
-              rise apartment buildings. Big pieces of land are easy to find,
-              infrastructure has been improved, and the area is close to places
-              where people work, all of which make it a good place for large
-              living communities.
+              <b>Ample Land Availability:</b> Unlike crowded city centers, this
+              area allows developers to create spacious gated communities with
+              open green zones and premium amenities.
             </p>
 
-            <div>
-              <h3 className="text-xl font-semibold mb-3">
-                Spacious Land Availability.
-              </h3>
-              <p>
-                Unlike busy city areas, Budigere Cross still has big pieces of
-                land that can be turned into homes. Builders can make tall
-                structures with planted public areas and modern community
-                centres. This makes it possible for projects like Sattva Sanio
-                to offer luxurious properties with better features and planning.
-              </p>
-            </div>
+            <p>
+              <b>Balanced Lifestyle:</b> Residents can enjoy peaceful surroundings
+              without sacrificing connectivity to key commercial areas.
+            </p>
 
-            <div>
-              <h3 className="text-xl font-semibold mb-3">
-                Peaceful Area with Easy Access to Cities
-              </h3>
-              <p>
-                If you want to live somewhere quieter than Whitefield or central
-                Bangalore, this is the place to go. People who live there can
-                enjoy green spaces and open areas while still being close to big
-                jobs.
-              </p>
-            </div>
+            <p>
+              <b>Modern Community Living:</b> Projects here offer lifestyle
+              amenities like clubhouses, swimming pools, fitness centers, and
+              landscaped parks.
+            </p>
 
-            <div>
-              <h3 className="text-xl font-semibold mb-3">
-                Ideal for Modern Gated Communities
-              </h3>
-              <p>
-                Larger plots of land make it possible for builders to make gated
-                neighbourhoods with many towers, clubhouses, and leisure areas.
-                These neighbourhoods have modern conveniences for everyday life,
-                like fitness centres, swimming pools, parks, and sports
-                facilities.
-              </p>
-            </div>
+            <p>
+              <b>Ideal for Working Professionals:</b> Close proximity to IT hubs
+              makes it convenient for daily commuting.
+            </p>
 
-            <div>
-              <h3 className="text-xl font-semibold mb-3">
-                Demand from IT Professionals
-              </h3>
-              <p>
-                Budigere Cross is popular with workers who work in nearby IT
-                hubs because of its convenient location. More people want to
-                live in the area because they want to be close to their jobs
-                without having to deal with heavy traffic.
-              </p>
-            </div>
+            <p>
+              <b>Future Growth Prospects:</b> East Bangalore continues to expand,
+              ensuring sustained demand for residential properties.
+            </p>
 
-            <div>
-              <h3 className="text-xl font-semibold mb-3">
-                Future Growth of East Bangalore
-              </h3>
-              <p>
-                As the city's tech industry grows, East Bangalore continues to
-                grow. As more jobs and facilities are built, living places like
-                Budigere Cross should continue to be in high demand.
-              </p>
-            </div>
-
-            <div>
-              <h3 className="text-xl font-semibold mb-3">
-                Suitable for Premium High-Rise Projects
-              </h3>
-              <p>
-                Budigere Cross is perfect for residential apartment projects as
-                it is easy to get to, doesn't cost much, and has lots of land
-                available. Due to these benefits, developments like Sattva
-                Sanio can offer modern flats in an area where the number of
-                homes is growing greatly.
-              </p>
-            </div>
           </div>
+        </div>
 
-          <h2 className="text-2xl font-semibold mt-12 mb-6">
-            RERA, Permits, and Legal Documents
+        {/* Legal Section */}
+        <div className="text-gray-800">
+          <h2 className="text-2xl font-semibold mb-6">
+            Legal Status, RERA & Approvals
           </h2>
 
-          <div className="space-y-6">
-            <img
-              className="w-full"
-              src="/images/rerapermitsandlegaldocuments.jpeg"
-              alt="RERA, Permits, and Legal Documents"
-              loading="lazy"
-            />
+          <img
+            className="w-full mb-6"
+            src="/images/rerapermitsandlegaldocuments.jpeg"
+            alt="RERA and Legal Approvals"
+            loading="lazy"
+          />
 
-            <p>
-              By law, RERA (Real Estate Regulatory Authority) will protect your
-              wealth. It makes sure that builders understand how the money is
-              spent, how long the building will take, and how good the building
-              will be. For your safety, RERA says that builders must keep 70% of
-              the project money in a different bank account. This makes sure
-              that the money is only used to build that one thing.
-            </p>
-
-            <p>
-              Bank Loans: Both public and private banks will only lend money to
-              projects that have a legal RERA registration number and clear
-              proof that they own the land.
-            </p>
-
-            <h3 className="text-xl font-semibold mb-3">
-              Applied/Awaited RERA Registration Number
-            </h3>
-
-            <p>
-              All legal and title papers have been checked and signed by the
-              right people. The project has been submitted for approval by the{" "}
-              <b>Karnataka Real Estate Regulatory Authority (K-RERA)</b>. The
-              idea will get a real registration number once RERA is accepted.
-              This number helps buyers feel safe and makes sure that
-              transactions are clear and honest.
-            </p>
-
-            <h3 className="text-xl font-semibold mb-3">
-              Approvals from banks and home loan partners
-            </h3>
-
-            <p>
-              After the RERA permission is complete, official bank permits are
-              often given. But CRISIL and ICRA have given Sobha Limited good
-              credit ratings. This means that big banks are willing to give home
-              loans for the project. Leading banks will offer buyers good
-              interest rates and open payment terms.
-            </p>
-          </div>
-        </div>
-
-        <div className="mt-5 text-gray-800">
-          <div>
-            <h2 className="text-2xl font-semibold mb-6">
-              Top Schools Near Sattva Sanio
-            </h2>
-            <img
-              className="mb-4 w-full"
-              src="/images/schools.jpg"
-              alt="Schools"
-              loading="lazy"
-            />
-            <p className="mb-6 leading-7">
-              <b>
-                Sattva Sanio location on Old Madras Main Road near Budigere
-                Cross
-              </b>{" "}
-              is surrounded by several reputed educational institutions. This
-              area has become a strong educational hub in <b>East Bangalore</b>, with
-              many <b>CBSE, ICSE, and international curriculum schools</b> offering
-              modern facilities and high academic standards.
-            </p>
-
-            <div className="overflow-x-auto mb-12">
-              <table className="w-full border border-gray-300">
-                <thead className="bg-gray-100">
-                  <tr>
-                    <th className="p-3 border">School Name</th>
-                    <th className="p-3 border">Board / Curriculum</th>
-                    <th className="p-3 border">Distance from Sattva Sanio</th>
-                    <th className="p-3 border">Approx Travel Time</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td className="p-3 border">
-                      Orchids The International School, Budigere
-                    </td>
-                    <td className="p-3 border">CBSE / International</td>
-                    <td className="p-3 border">2 km</td>
-                    <td className="p-3 border">5–7 minutes</td>
-                  </tr>
-                  <tr>
-                    <td className="p-3 border">
-                      Chrysalis High, Budigere Road
-                    </td>
-                    <td className="p-3 border">CBSE</td>
-                    <td className="p-3 border">4 km</td>
-                    <td className="p-3 border">10 minutes</td>
-                  </tr>
-                  <tr>
-                    <td className="p-3 border">
-                      Sri Jnanagangotri International School
-                    </td>
-                    <td className="p-3 border">CBSE</td>
-                    <td className="p-3 border">3 km</td>
-                    <td className="p-3 border">8–10 minutes</td>
-                  </tr>
-                  <tr>
-                    <td className="p-3 border">
-                      New Baldwin International School
-                    </td>
-                    <td className="p-3 border">CBSE / ICSE</td>
-                    <td className="p-3 border">6 km</td>
-                    <td className="p-3 border">15 minutes</td>
-                  </tr>
-                  <tr>
-                    <td className="p-3 border">
-                      Delhi Public School, Whitefield
-                    </td>
-                    <td className="p-3 border">CBSE</td>
-                    <td className="p-3 border">10–12 km</td>
-                    <td className="p-3 border">20–25 minutes</td>
-                  </tr>
-                  <tr>
-                    <td className="p-3 border">
-                      VIBGYOR High School, Whitefield
-                    </td>
-                    <td className="p-3 border">ICSE / CBSE</td>
-                    <td className="p-3 border">11 km</td>
-                    <td className="p-3 border">20–25 minutes</td>
-                  </tr>
-                  <tr>
-                    <td className="p-3 border">Deens Academy, Whitefield</td>
-                    <td className="p-3 border">ICSE</td>
-                    <td className="p-3 border">12 km</td>
-                    <td className="p-3 border">25 minutes</td>
-                  </tr>
-                  <tr>
-                    <td className="p-3 border">Prerana International School</td>
-                    <td className="p-3 border">CBSE</td>
-                    <td className="p-3 border">4–5 km</td>
-                    <td className="p-3 border">10–12 minutes</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-
-          <div>
-            <h2 className="text-2xl font-semibold mb-6">
-              Top Hospitals Near Sattva Sanio
-            </h2>
-            <img
-              className="mb-4 w-full"
-              src="/images/hospital.jpg"
-              alt="Hospitals"
-              loading="lazy"
-            />
-            <p className="mb-6 leading-7">
-              Sattva Sanio location on Old Madras Main Road near Budigere
-              Cross offers convenient access to several reputed hospitals and
-              healthcare centers in East Bangalore. The surrounding areas such
-              as <b>Whitefield, KR Puram, and Old Madras Road</b> are known for their
-              advanced <b>medical infrastructure and multi-speciality hospitals</b>.
-            </p>
-
-            <div className="overflow-x-auto mb-12">
-              <table className="w-full border border-gray-300">
-                <thead className="bg-gray-100">
-                  <tr>
-                    <th className="p-3 border">Hospital Name</th>
-                    <th className="p-3 border">Type of Hospital</th>
-                    <th className="p-3 border">Distance from Sattva Sanio</th>
-                    <th className="p-3 border">Approx Travel Time</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td className="p-3 border">East Point Hospital</td>
-                    <td className="p-3 border">Multi-Speciality</td>
-                    <td className="p-3 border">5 km</td>
-                    <td className="p-3 border">10–12 minutes</td>
-                  </tr>
-                  <tr>
-                    <td className="p-3 border">
-                      Sathya Sai Super Speciality Hospital
-                    </td>
-                    <td className="p-3 border">Super Speciality</td>
-                    <td className="p-3 border">9 km</td>
-                    <td className="p-3 border">18–20 minutes</td>
-                  </tr>
-                  <tr>
-                    <td className="p-3 border">Manipal Hospital, Whitefield</td>
-                    <td className="p-3 border">Multi-Speciality</td>
-                    <td className="p-3 border">12 km</td>
-                    <td className="p-3 border">25 minutes</td>
-                  </tr>
-                  <tr>
-                    <td className="p-3 border">
-                      Narayana Multispeciality Hospital, Whitefield
-                    </td>
-                    <td className="p-3 border">Multi-Speciality</td>
-                    <td className="p-3 border">11 km</td>
-                    <td className="p-3 border">22–25 minutes</td>
-                  </tr>
-                  <tr>
-                    <td className="p-3 border">
-                      Aster Women & Children Hospital, Whitefield
-                    </td>
-                    <td className="p-3 border">Speciality Hospital</td>
-                    <td className="p-3 border">12 km</td>
-                    <td className="p-3 border">25 minutes</td>
-                  </tr>
-                  <tr>
-                    <td className="p-3 border">Vydehi Hospital, Whitefield</td>
-                    <td className="p-3 border">Multi-Speciality</td>
-                    <td className="p-3 border">14 km</td>
-                    <td className="p-3 border">25–30 minutes</td>
-                  </tr>
-                  <tr>
-                    <td className="p-3 border">
-                      MVJ Medical College & Hospital
-                    </td>
-                    <td className="p-3 border">Teaching Hospital</td>
-                    <td className="p-3 border">8 km</td>
-                    <td className="p-3 border">15–18 minutes</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-
-          <div>
-            <h2 className="text-2xl font-semibold mb-6">
-              Top Lifestyle & Entertainment Centers Near Sattva Sanio
-            </h2>
-            <img
-              className="mb-4 w-full"
-              src="/images/entertainment.jpg"
-              alt="Lifestyle & Entertainment"
-              loading="lazy"
-            />
-            <p className="mb-6 leading-7">
-              The <b>Sattva Sanio</b> location on Old Madras Main Road near Budigere
-              Cross offers residents access to several premium lifestyle and
-              entertainment destinations. The surrounding areas such as
-              Whitefield, Mahadevapura, and KR Puram are well known for their
-              modern <b>shopping malls, restaurants, multiplex cinemas, and
-              entertainment hubs</b>.
-            </p>
-
-            <div className="overflow-x-auto">
-              <table className="w-full border border-gray-300">
-                <thead className="bg-gray-100">
-                  <tr>
-                    <th className="p-3 border">Lifestyle Destination</th>
-                    <th className="p-3 border">Type</th>
-                    <th className="p-3 border">Distance from Sattva Sanio</th>
-                    <th className="p-3 border">Approx Travel Time</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td className="p-3 border">Orion Uptown Mall</td>
-                    <td className="p-3 border">
-                      Shopping & Entertainment Mall
-                    </td>
-                    <td className="p-3 border">6 km</td>
-                    <td className="p-3 border">12–15 minutes</td>
-                  </tr>
-                  <tr>
-                    <td className="p-3 border">Ascendas Park Square Mall</td>
-                    <td className="p-3 border">Shopping Mall</td>
-                    <td className="p-3 border">10 km</td>
-                    <td className="p-3 border">20 minutes</td>
-                  </tr>
-                  <tr>
-                    <td className="p-3 border">Forum Shantiniketan Mall</td>
-                    <td className="p-3 border">
-                      Shopping & Entertainment Mall
-                    </td>
-                    <td className="p-3 border">11 km</td>
-                    <td className="p-3 border">20–22 minutes</td>
-                  </tr>
-                  <tr>
-                    <td className="p-3 border">VR Bengaluru Mall</td>
-                    <td className="p-3 border">Shopping, Dining & Cinema</td>
-                    <td className="p-3 border">13 km</td>
-                    <td className="p-3 border">22–25 minutes</td>
-                  </tr>
-                  <tr>
-                    <td className="p-3 border">Phoenix Marketcity</td>
-                    <td className="p-3 border">Premium Shopping Mall</td>
-                    <td className="p-3 border">17 km</td>
-                    <td className="p-3 border">25–30 minutes</td>
-                  </tr>
-                  <tr>
-                    <td className="p-3 border">Brookefield Mall</td>
-                    <td className="p-3 border">Shopping & Entertainment</td>
-                    <td className="p-3 border">15 km</td>
-                    <td className="p-3 border">25 minutes</td>
-                  </tr>
-                  <tr>
-                    <td className="p-3 border">Virginia Mall</td>
-                    <td className="p-3 border">Shopping & Dining Mall</td>
-                    <td className="p-3 border">14 km</td>
-                    <td className="p-3 border">25 minutes</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-          </div>
-        </div>
-
-        <div className="space-y-6 text-gray-800 mt-2">
-          <h2 className="text-2xl font-semibold mb-6">About the Developer</h2>
-          <p>
-            <a href="https://sattvagroup.com/" rel="nofollow">
-              <b>Sattva Group</b>
-            </a>{" "}
-            is a renowned Indian real estate developer that works on a lot of
-            different types of projects, including residential, industrial, and
-            mixed-use ones. The company is based in Bangalore and has built many
-            famous buildings in many big towns. It is known for focusing on
-            quality building, modern design, and planned communities.
+          <p className="mb-4 leading-7">
+            RERA (Real Estate Regulatory Authority) ensures transparency and
+            protects homebuyers by regulating project timelines, financial
+            usage, and construction quality standards.
           </p>
 
-          <p>
-            Sattva Group has built a strong name among owners and investors over
-            the years by producing projects that blend strong design with useful
-            living areas. The builder has completed several successful
-            residential projects in{" "}
-            <a href="https://en.wikipedia.org/wiki/Bengaluru" rel="nofollow">
-              <b>Bangalore</b>
-            </a>
-            . These projects include modern flats with living features and
-            detailed plans. The Sattva East Crest, Sattva Exotic, Sattva Gold
-            Summit, Sattva Park Cubix, and Salarpuria Sattva Magnificia are some
-            of the most well known projects.
+          <p className="mb-4 leading-7">
+            Builders are required to allocate a significant portion of project
+            funds exclusively for construction, ensuring timely completion and
+            reducing risks for buyers.
           </p>
 
-          <p>
-            The company's method is to develop planned neighborhoods with open
-            areas, modern facilities, and nice places to live. These projects
-            show that strategy. The group has built more than just homes. They
-            have also completed big industrial and IT park projects that help
-            the business and technology sectors grow. The company has built a
-            strong reputation in the real estate business thanks to this wide
-            range of projects.
+          <p className="leading-7">
+            The project is currently under registration with the Karnataka RERA
+            authority. Upon approval, a unique registration number will be
+            assigned, enhancing trust and legal transparency.
+          </p>
+        </div>
+
+        {/* Schools */}
+        <div className="text-gray-800">
+          <h2 className="text-2xl font-semibold mb-6">
+            Nearby Schools & Educational Institutions
+          </h2>
+
+          <img
+            className="mb-6 w-full"
+            src="/images/schools.jpg"
+            alt="Schools near Budigere Cross"
+            loading="lazy"
+          />
+
+          <p className="mb-6 leading-7">
+            The area around Budigere Cross is home to several reputed schools
+            offering CBSE, ICSE, and international curricula, making it ideal
+            for families.
           </p>
 
-          <p>
-            The company is developing Sattva Sanio at Budigere Cross on Old
-            Madras Main Road in East Bangalore to carry on this tradition. The
-            project covers more than10 acres and has modern high rise towers and
-            premium flats built for modern city life. Sattva Sanio shows the
-            developer's dedication to building high quality neighborhoods in new
-            areas by featuring large homes, neatly maintained grounds, and
-            livable features.
+          <ul className="list-disc pl-6 space-y-2">
+            <li>Orchids The International School – 2 km</li>
+            <li>Chrysalis High – 4 km</li>
+            <li>New Baldwin International School – 6 km</li>
+            <li>Delhi Public School, Whitefield – 10 km</li>
+            <li>VIBGYOR High School – 11 km</li>
+          </ul>
+        </div>
+
+        {/* Hospitals */}
+        <div className="text-gray-800">
+          <h2 className="text-2xl font-semibold mb-6">
+            Healthcare Facilities Nearby
+          </h2>
+
+          <img
+            className="mb-6 w-full"
+            src="/images/hospital.jpg"
+            alt="Hospitals near Budigere Cross"
+            loading="lazy"
+          />
+
+          <p className="mb-6 leading-7">
+            Residents have access to leading multi-speciality hospitals in and
+            around Whitefield and KR Puram, ensuring quality healthcare services.
+          </p>
+
+          <ul className="list-disc pl-6 space-y-2">
+            <li>East Point Hospital – 5 km</li>
+            <li>Manipal Hospital, Whitefield – 12 km</li>
+            <li>Narayana Multispeciality Hospital – 11 km</li>
+            <li>Vydehi Hospital – 14 km</li>
+          </ul>
+        </div>
+
+        {/* Lifestyle */}
+        <div className="text-gray-800">
+          <h2 className="text-2xl font-semibold mb-6">
+            Lifestyle & Entertainment Options
+          </h2>
+
+          <img
+            className="mb-6 w-full"
+            src="/images/entertainment.jpg"
+            alt="Lifestyle near Budigere Cross"
+            loading="lazy"
+          />
+
+          <p className="mb-6 leading-7">
+            Budigere Cross is well connected to popular shopping malls,
+            restaurants, and entertainment zones in Whitefield and nearby areas.
+          </p>
+
+          <ul className="list-disc pl-6 space-y-2">
+            <li>Orion Uptown Mall – 6 km</li>
+            <li>Forum Shantiniketan – 11 km</li>
+            <li>VR Bengaluru Mall – 13 km</li>
+            <li>Phoenix Marketcity – 17 km</li>
+          </ul>
+        </div>
+
+        {/* Developer */}
+        <div className="text-gray-800">
+          <h2 className="text-2xl font-semibold mb-6">
+            About Sattva Group
+          </h2>
+
+          <p className="leading-7 mb-4">
+            Sattva Group is one of India's leading real estate developers known
+            for delivering high-quality residential and commercial projects.
+            With a strong presence in Bangalore, the company has built a solid
+            reputation for innovation, design excellence, and timely delivery.
+          </p>
+
+          <p className="leading-7">
+            The developer has delivered several landmark projects across the
+            city, offering modern living spaces combined with premium
+            amenities. Sattva Sanio reflects this legacy with thoughtfully
+            planned homes and a well-designed community environment.
           </p>
         </div>
-        <div className="space-y-6 text-gray-800 mt-2">
-          <h2 className="text-2xl font-semibold mb-6">Sattva Group Latest Projects</h2>
-          <SattvaProjects/>
+
+        {/* Projects */}
+        <div className="text-gray-800">
+          <h2 className="text-2xl font-semibold mb-6">
+            Latest Projects by Sattva Group
+          </h2>
+          <SattvaProjects />
         </div>
+
       </div>
     </section>
   );

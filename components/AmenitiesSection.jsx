@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import Image from "next/image";
 
 const amenitiesData = [
@@ -34,104 +35,101 @@ export default function AmenitiesSection() {
 
       <div className="space-y-10 text-gray-800 mb-5">
 
-    <div>
-      <p className="mb-4">
-        There are many nice features at Sattva Sanio that are meant to make people's lives better.
-      </p>
+  <div>
+    <p className="mb-4">
+      Sattva Sanio offers a thoughtfully curated range of amenities designed to elevate everyday living with comfort, recreation, and convenience.
+    </p>
 
-      <h3 className="text-xl font-semibold mb-3">Lifestyle Amenities</h3>
+    <h3 className="text-xl font-semibold mb-3">Premium Lifestyle Amenities</h3>
 
-      <p className="mb-4">
-        The project includes modern living services that make it easier to relax and meet new people.
-        Some of the main amenities include
-      </p>
+    <p className="mb-4">
+      The project features a wide selection of modern lifestyle facilities that create opportunities for relaxation, social interaction, and leisure within the community.
+    </p>
 
-      <ul className="list-disc pl-6 space-y-2">
-        <li>Grand clubhouse</li>
-        <li>Swimming pool</li>
-        <li>Fully equipped gymnasium</li>
-        <li>Yoga and meditation space</li>
-        <li>Indoor games room</li>
-        <li>Multipurpose hall for events</li>
-        <li>Reading lounge</li>
-        <li>Party hall</li>
-      </ul>
+    <ul className="list-disc pl-6 space-y-2">
+      <li>Elegant clubhouse with modern interiors</li>
+      <li>Resort-style swimming pool</li>
+      <li>Fully equipped fitness center</li>
+      <li>Dedicated yoga and meditation zones</li>
+      <li>Indoor games and recreation room</li>
+      <li>Multipurpose hall for events and gatherings</li>
+      <li>Quiet reading and co-working lounge</li>
+      <li>Party and celebration space</li>
+    </ul>
 
-      <p className="mt-4">
-        Residents can spend valuable time in the neighbourhood thanks to these amenities.
-      </p>
-    </div>
-
-
-    <div>
-      <h3 className="text-xl font-semibold mb-3">Sports and Fitness Facilities</h3>
-
-      <p className="mb-4">
-        The building encourages people to live busy lives by including sports and exercise areas.
-        Residents will have access to
-      </p>
-
-      <ul className="list-disc pl-6 space-y-2">
-        <li>Jogging track</li>
-        <li>Cycling path</li>
-        <li>Outdoor sports courts</li>
-        <li>Fitness zones</li>
-        <li>Open exercise spaces</li>
-        <li>Meditation gardens</li>
-      </ul>
-
-      <p className="mt-4">
-        The people who live in these places are encouraged to live a healthy, peaceful life.
-      </p>
-    </div>
-
-
-    <div>
-      <h3 className="text-xl font-semibold mb-3">Family and Kids Amenities</h3>
-
-      <p className="mb-4">
-        The idea also aims to make places where kids and families can feel safe and have fun.
-        Important family-friendly features are
-      </p>
-
-      <ul className="list-disc pl-6 space-y-2">
-        <li>Children&#39;s play area</li>
-        <li>Sand play zone</li>
-        <li>Family seating areas</li>
-        <li>Community lawns</li>
-        <li>Activity zones for kids</li>
-        <li>Open parks for outdoor play</li>
-      </ul>
-
-      <p className="mt-4">
-        These places let kids play without being watched while their parents relax nearby.
-      </p>
-    </div>
-
-
-    <div>
-      <h3 className="text-xl font-semibold mb-3">Safety and Convenience Amenities</h3>
-
-      <p className="mb-4">
-        The idea is meant to make things safer and easier to use. The community includes
-      </p>
-
-      <ul className="list-disc pl-6 space-y-2">
-        <li>24/7 security system</li>
-        <li>CCTV surveillance</li>
-        <li>Intercom facilities</li>
-        <li>Power backup for common areas</li>
-        <li>Fire safety systems</li>
-        <li>Ample parking spaces</li>
-        <li>High-speed elevators</li>
-      </ul>
-
-      <p className="mt-4">
-        These features make sure that life there is safe and comfortable.
-      </p>
-    </div>
-
+    <p className="mt-4">
+      These amenities are designed to help residents unwind, socialize, and enjoy a balanced lifestyle without stepping out of the community.
+    </p>
   </div>
+
+
+  <div>
+    <h3 className="text-xl font-semibold mb-3">Health & Fitness Facilities</h3>
+
+    <p className="mb-4">
+      For those who prioritize wellness, the project includes dedicated spaces that promote an active and healthy routine.
+    </p>
+
+    <ul className="list-disc pl-6 space-y-2">
+      <li>Well-laid jogging and walking tracks</li>
+      <li>Dedicated cycling pathways</li>
+      <li>Outdoor sports courts</li>
+      <li>Open-air fitness stations</li>
+      <li>Exercise zones amidst greenery</li>
+      <li>Peaceful meditation gardens</li>
+    </ul>
+
+    <p className="mt-4">
+      These thoughtfully planned areas encourage residents to stay active while enjoying a refreshing outdoor environment.
+    </p>
+  </div>
+
+
+  <div>
+    <h3 className="text-xl font-semibold mb-3">Family & Kids-Friendly Spaces</h3>
+
+    <p className="mb-4">
+      The development also focuses on creating safe and engaging spaces for families and children to spend quality time together.
+    </p>
+
+    <ul className="list-disc pl-6 space-y-2">
+      <li>Secure children's play area</li>
+      <li>Interactive sand play zone</li>
+      <li>Comfortable family seating areas</li>
+      <li>Landscaped community lawns</li>
+      <li>Dedicated kids' activity zones</li>
+      <li>Open parks for outdoor fun</li>
+    </ul>
+
+    <p className="mt-4">
+      These spaces are designed to provide a joyful and safe environment where children can play freely while families relax nearby.
+    </p>
+  </div>
+
+
+  <div>
+    <h3 className="text-xl font-semibold mb-3">Security & Essential Conveniences</h3>
+
+    <p className="mb-4">
+      Sattva Sanio ensures a secure and hassle-free lifestyle with modern safety systems and essential infrastructure.
+    </p>
+
+    <ul className="list-disc pl-6 space-y-2">
+      <li>24/7 gated security with trained personnel</li>
+      <li>Advanced CCTV monitoring across premises</li>
+      <li>Intercom connectivity for residents</li>
+      <li>Power backup for common areas and essential services</li>
+      <li>Modern fire safety systems</li>
+      <li>Ample resident and visitor parking</li>
+      <li>High-speed elevators in all towers</li>
+    </ul>
+
+    <p className="mt-4">
+      These features ensure residents experience both safety and convenience in their daily lives.
+    </p>
+  </div>
+
+</div>
 
 
         <ul

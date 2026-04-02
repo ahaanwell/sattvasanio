@@ -39,288 +39,187 @@ function AmenitiesPage() {
               <IoPricetagsOutline /> Cost Sheet
             </button>
           </div>
-          <div className="space-y-6 text-gray-800 mt-5">
-            <p>
-              The <a href="https://www.sattvasanio.in/amenities"><b>Sattva Sanio Amenities</b></a> are designed to provide residents
-              with a modern lifestyle that combines comfort, wellness,
-              recreation, and social engagement. Located on <b>Old Madras Main Road
-              near Budigere Cross in East Bangalore</b>, the project spreads across
-              <b> 10+ acres</b> of land and offers a wide range of thoughtfully planned
-              facilities for people of all age groups.
-            </p>
+          <div className="mt-5 space-y-6 text-gray-800 leading-relaxed">
 
-            <p>
-              The development includes over <b>600 premium apartments</b> across <b>4
-              high-rise towers</b> with <b>G + 35 floors</b>, and the amenities are
-              carefully distributed throughout the property to ensure easy
-              accessibility for residents. These features create a vibrant
-              community environment where families can relax, exercise,
-              socialize, and enjoy leisure time within the comfort of their
-              residential township.
-            </p>
+  <p>
+    The <a href="https://www.sattvasanio.in/amenities" className="font-semibold text-blue-600 hover:underline">Sattva Sanio Amenities</a> are thoughtfully curated to deliver a well-balanced lifestyle that blends comfort, recreation, and wellness. Located at <b>Budigere Cross on Old Madras Road (NH-75), East Bangalore</b>, this premium residential development spans across <b>over 10 acres</b> and offers a modern living experience for families and professionals.
+  </p>
 
-            <p>
-              Modern residential communities focus not only on homes but also on
-              lifestyle. The amenities at <a href="https://www.sattvasanio.in/"><b>Sattva Sanio East Bangalore</b></a> are
-              planned to provide residents with spaces that support fitness,
-              recreation, and community interaction.
-            </p>
+  <p>
+    The project features <b>600+ well-designed apartments</b> spread across <b>4 iconic towers with G + 35 floors</b>. Every amenity is strategically placed within the community to ensure convenience, accessibility, and a seamless lifestyle for residents of all age groups.
+  </p>
 
-            <h2 className="text-2xl font-semibold mt-10">
-              Lifestyle Amenities at Sattva Sanio
-            </h2>
+  <p>
+    Designed as a self-sufficient residential enclave, <a href="https://www.sattvasanio.in/" className="font-semibold text-blue-600 hover:underline">Sattva Sanio East Bangalore</a> offers a mix of leisure, fitness, and social spaces that enhance everyday living while promoting community engagement.
+  </p>
 
-            <div className="flex justify-center items-center">
-                <img 
-                src="/images/amenities.jpeg"
-                loading="lazy" 
-                alt="Sattva Sanio Lifestyle Amenities" />
-            </div>
+  <h2 className="text-2xl font-semibold mt-10">
+    Premium Lifestyle Amenities at Sattva Sanio
+  </h2>
 
-            <p>
-              The project offers a variety of lifestyle amenities designed to
-              enhance everyday living. These facilities provide spaces where
-              residents can unwind, socialize, and enjoy recreational activities
-              without leaving the community.
-            </p>
+  <div className="flex justify-center">
+    <img 
+      src="/images/amenities.jpeg"
+      loading="lazy" 
+      alt="Sattva Sanio Lifestyle Amenities in East Bangalore"
+      className="rounded-xl shadow-md"
+    />
+  </div>
 
-            <p>Key lifestyle amenities include:</p>
+  <p>
+    The project offers a wide range of lifestyle features that allow residents to relax, entertain, and connect within the comfort of their gated community.
+  </p>
 
-            <ul className="list-disc pl-6 space-y-2">
-              <li>Grand clubhouse with modern facilities</li>
-              <li>Swimming pool with deck area</li>
-              <li>Multipurpose party hall</li>
-              <li>Indoor games and recreation room</li>
-              <li>Lounge and seating areas</li>
-              <li>Landscaped garden spaces</li>
-              <li>Amphitheatre and event lawns</li>
-            </ul>
+  <ul className="list-disc pl-6 space-y-2">
+    <li>Grand clubhouse with modern interiors</li>
+    <li>Swimming pool with leisure deck</li>
+    <li>Multipurpose party hall for events</li>
+    <li>Indoor games and recreation lounge</li>
+    <li>Amphitheatre and landscaped event lawns</li>
+    <li>Relaxation zones and seating areas</li>
+  </ul>
 
-            <p>
-              These <b>amenities</b> allow residents to host social gatherings,
-              celebrate special occasions, and interact with neighbors in a
-              well-designed community environment.
-            </p>
+  <h3 className="text-2xl font-semibold mt-10">
+    Fitness & Wellness Facilities
+  </h3>
 
-            <h3 className="text-2xl font-semibold mt-10">
-              Fitness and Wellness Amenities
-            </h3>
+  <div className="flex justify-center">
+    <img 
+      src="/images/fitness-and-wellness-amenities.jpeg"
+      loading="lazy" 
+      alt="Sattva Sanio Fitness and Wellness Amenities"
+      className="rounded-xl shadow-md"
+    />
+  </div>
 
-            <div className="flex justify-center items-center">
-                <img 
-                src="/images/fitness-and-wellness-amenities.jpeg"
-                loading="lazy" 
-                alt="Fitness and Wellness Amenities" />
-            </div>
+  <p>
+    Health and wellness are key highlights of the <a href="https://www.sattvasanio.in/master-plan" className="font-semibold text-blue-600 hover:underline">Sattva Sanio master plan</a>. The project includes dedicated spaces for maintaining an active and balanced lifestyle.
+  </p>
 
-            <p>
-              The <a href="https://www.sattvasanio.in/master-plan"><b>Sattva Sanio amenities master plan</b></a> includes several wellness
-              and fitness facilities that encourage a healthy and active
-              lifestyle. Residents can maintain their fitness routines with
-              modern exercise and wellness infrastructure within the property.
-            </p>
+  <ul className="list-disc pl-6 space-y-2">
+    <li>Fully equipped modern gymnasium</li>
+    <li>Yoga and meditation zones</li>
+    <li>Jogging and cycling tracks</li>
+    <li>Outdoor fitness stations</li>
+    <li>Aerobics and wellness studio</li>
+  </ul>
 
-            <p>Fitness amenities include:</p>
+  <h3 className="text-2xl font-semibold mt-10">
+    Sports & Outdoor Activities
+  </h3>
 
-            <ul className="list-disc pl-6 space-y-2">
-              <li>Fully equipped gymnasium</li>
-              <li>Yoga and meditation pavilion</li>
-              <li>Jogging and cycling tracks</li>
-              <li>Outdoor fitness stations</li>
-              <li>Aerobics and wellness studio</li>
-            </ul>
+  <p>
+    Residents can enjoy a variety of sports and recreational facilities within <b>Sattva Sanio</b>, making it an ideal choice for active lifestyles.
+  </p>
 
-            <p>
-              These facilities help residents maintain physical health and
-              mental well-being while enjoying peaceful surroundings within the
-              community.
-            </p>
+  <ul className="list-disc pl-6 space-y-2">
+    <li>Multi-purpose sports courts</li>
+    <li>Badminton and basketball courts</li>
+    <li>Indoor games and table tennis</li>
+    <li>Cricket practice net</li>
+    <li>Skating rink</li>
+  </ul>
 
-            <h3 className="text-2xl font-semibold mt-10">
-              Sports and Outdoor Recreation
-            </h3>
+  <h3 className="text-2xl font-semibold mt-10">
+    Kids & Family-Friendly Spaces
+  </h3>
 
-            <p>
-              For residents who enjoy sports and outdoor activities, <b>Sattva
-              Sanio</b> provides a variety of sports facilities designed for both
-              adults and children.
-            </p>
+  <p>
+    The community is designed with families in mind, offering safe and engaging zones for children to play and interact.
+  </p>
 
-            <p>Outdoor recreation amenities include:</p>
+  <ul className="list-disc pl-6 space-y-2">
+    <li>Children’s play area with modern equipment</li>
+    <li>Dedicated play lawn and sand pit</li>
+    <li>Indoor gaming and activity room</li>
+    <li>Safe and secure environment for kids</li>
+  </ul>
 
-            <ul className="list-disc pl-6 space-y-2">
-              <li>Multi-purpose sports courts</li>
-              <li>Badminton court</li>
-              <li>Basketball court</li>
-              <li>Table tennis and indoor sports room</li>
-              <li>Cricket practice area</li>
-              <li>Skating rink</li>
-            </ul>
+  <h3 className="text-2xl font-semibold mt-10">
+    Green Spaces & Relaxation Zones
+  </h3>
 
-            <p>
-              These sports facilities allow residents to stay active and engage
-              in recreational activities with friends and family.
-            </p>
+  <p>
+    One of the standout features of <b>Sattva Sanio</b> is its lush green environment that promotes peaceful and refreshing living.
+  </p>
 
-            <h3 className="text-2xl font-semibold mt-10">
-              Children and Family Amenities
-            </h3>
+  <ul className="list-disc pl-6 space-y-2">
+    <li>Landscaped gardens with seating areas</li>
+    <li>Tree-lined walking pathways</li>
+    <li>Senior citizen relaxation zones</li>
+    <li>Meditation lawns and open spaces</li>
+  </ul>
 
-            <p>
-              Families with children will benefit from several dedicated
-              recreational spaces designed to ensure fun and safety for young
-              residents.
-            </p>
+  <h3 className="text-2xl font-semibold mt-10">
+    Clubhouse & Social Infrastructure
+  </h3>
 
-            <p>Children’s amenities include:</p>
+  <p>
+    The clubhouse acts as the heart of the community, offering spaces for entertainment, relaxation, and social interaction.
+  </p>
 
-            <ul className="list-disc pl-6 space-y-2">
-              <li>Children’s play area with modern equipment</li>
-              <li>Sand pit and play lawn</li>
-              <li>Activity zone for kids</li>
-              <li>Indoor play and gaming room</li>
-            </ul>
+  <ul className="list-disc pl-6 space-y-2">
+    <li>Indoor games and lounge areas</li>
+    <li>Multipurpose hall for gatherings</li>
+    <li>Reading and co-working spaces</li>
+    <li>Café and social zones</li>
+  </ul>
 
-            <p>
-              These areas provide a safe and enjoyable environment where
-              children can play, learn, and interact with other kids in the
-              community.
-            </p>
+  <h3 className="text-2xl font-semibold mt-10">
+    Security & Safety Features
+  </h3>
 
-            <h3 className="text-2xl font-semibold mt-10">
-              Green Spaces and Relaxation Areas
-            </h3>
+  <p>
+    The project ensures a secure living environment with advanced safety systems and round-the-clock monitoring.
+  </p>
 
-            <p>
-              One of the highlights of the <b>Sattva Sanio amenities design</b> is
-              the presence of beautifully landscaped green spaces. These areas
-              provide residents with a calm and refreshing environment away from
-              the busy city atmosphere.
-            </p>
+  <ul className="list-disc pl-6 space-y-2">
+    <li>24/7 gated security</li>
+    <li>CCTV surveillance across common areas</li>
+    <li>Intercom facility</li>
+    <li>Fire safety systems</li>
+    <li>Well-lit internal roads</li>
+  </ul>
 
-            <p>The green zones include:</p>
+  <h3 className="text-2xl font-semibold mt-10">
+    Infrastructure & Convenience Features
+  </h3>
 
-            <ul className="list-disc pl-6 space-y-2">
-              <li>Landscaped gardens with seating areas</li>
-              <li>Walking pathways surrounded by greenery</li>
-              <li>Senior citizen seating zones</li>
-              <li>Meditation lawns and relaxation corners</li>
-            </ul>
+  <p>
+    In addition to lifestyle amenities, the project also offers essential infrastructure that ensures a smooth and sustainable living experience.
+  </p>
 
-            <p>
-              These spaces encourage residents to enjoy outdoor relaxation and
-              connect with nature while staying within the residential complex.
-            </p>
+  <ul className="list-disc pl-6 space-y-2">
+    <li>Basement and visitor parking</li>
+    <li>Wide internal roads</li>
+    <li>Power backup for common areas</li>
+    <li>Rainwater harvesting</li>
+    <li>Sewage treatment plant</li>
+    <li>Efficient waste management system</li>
+  </ul>
 
-            <h3 className="text-2xl font-semibold mt-10">
-              Clubhouse Facilities
-            </h3>
+  <h3 className="text-2xl font-semibold mt-10">
+    Why Choose Sattva Sanio Amenities?
+  </h3>
 
-            <p>
-              The clubhouse at <b>Sattva Sanio</b> serves as the central hub for
-              recreation and social interaction within the community. It
-              includes a range of indoor amenities designed for entertainment,
-              relaxation, and community events.
-            </p>
+  <p>
+    The amenities at <b>Sattva Sanio East Bangalore</b> are designed to offer a complete lifestyle within a single community. From leisure and wellness to security and infrastructure, every aspect is planned to provide residents with a comfortable and modern living experience.
+  </p>
 
-            <p>Clubhouse facilities include:</p>
+  <ul className="list-disc pl-6 space-y-2">
+    <li>Modern clubhouse and lifestyle features</li>
+    <li>Dedicated wellness and fitness zones</li>
+    <li>Sports and recreation facilities</li>
+    <li>Green landscapes and open spaces</li>
+    <li>High-end security systems</li>
+    <li>Strong community living environment</li>
+  </ul>
 
-            <ul className="list-disc pl-6 space-y-2">
-              <li>Indoor games room</li>
-              <li>Reading and lounge areas</li>
-              <li>Multipurpose hall for events</li>
-              <li>Café or refreshment zone</li>
-              <li>Community gathering spaces</li>
-            </ul>
+  <p>
+    Strategically located on <b>Old Madras Road near Budigere Cross</b>, <a href="https://www.sattvasanio.in/amenities" className="font-semibold text-blue-600 hover:underline">Sattva Sanio</a> offers a perfect combination of luxury, connectivity, and modern urban living in one of Bangalore’s fastest-growing residential corridors.
+  </p>
 
-            <p>
-              The clubhouse provides residents with a space to socialize, relax,
-              and participate in community activities throughout the year.
-            </p>
-
-            <h3 className="text-2xl font-semibold mt-10">
-              Safety and Security Amenities
-            </h3>
-
-            <p>
-              Safety is a top priority at Sattva Sanio, and the project
-              includes advanced security systems to ensure a secure living
-              environment for residents.
-            </p>
-
-            <p>Security features include:</p>
-
-            <ul className="list-disc pl-6 space-y-2">
-              <li>24/7 gated community security</li>
-              <li>CCTV surveillance in common areas</li>
-              <li>Intercom connectivity between apartments and security</li>
-              <li>Fire safety systems and alarms</li>
-              <li>Well-lit internal roads and pathways</li>
-            </ul>
-
-            <p>
-              These features ensure residents can enjoy a peaceful and secure
-              lifestyle within the gated community.
-            </p>
-
-            <h3 className="text-2xl font-semibold mt-10">
-              Infrastructure and Convenience Amenities
-            </h3>
-
-            <p>
-              Apart from lifestyle and recreational facilities, the project also
-              provides essential infrastructure that supports convenient
-              everyday living.
-            </p>
-
-            <p>Infrastructure amenities include:</p>
-
-            <ul className="list-disc pl-6 space-y-2">
-              <li>Basement parking facilities</li>
-              <li>Visitor parking spaces</li>
-              <li>Wide internal roads</li>
-              <li>Power backup for common areas</li>
-              <li>Rainwater harvesting systems</li>
-              <li>Sewage treatment plant</li>
-              <li>Efficient waste management systems</li>
-            </ul>
-
-            <p>
-              These features ensure that the residential community operates
-              smoothly while promoting sustainability and environmental
-              responsibility.
-            </p>
-
-            <h3 className="text-2xl font-semibold mt-10">
-              Why Sattva Sanio Amenities Stand Out
-            </h3>
-
-            <p>
-              The <b>Sattva Sanio Amenities in East Bangalore</b> are designed to
-              provide a complete lifestyle experience within the residential
-              community. The combination of recreation, wellness, green spaces,
-              and modern infrastructure ensures that residents can enjoy a
-              balanced and comfortable living environment.
-            </p>
-
-            <p>Key highlights include:</p>
-
-            <ul className="list-disc pl-6 space-y-2">
-              <li>Modern clubhouse with lifestyle facilities</li>
-              <li>Fitness and wellness infrastructure</li>
-              <li>Sports courts and recreational spaces</li>
-              <li>Landscaped gardens and open green areas</li>
-              <li>Advanced security systems</li>
-              <li>Community spaces for social interaction</li>
-            </ul>
-
-            <p>
-              With its well-planned amenities and strategic location on <a href="https://www.sattvasanio.in/amenities">Old
-              Madras Main Road, Sattva Sanio</a> offers residents a luxurious and
-              convenient lifestyle in one of the fastest-growing areas of East
-              Bangalore.
-            </p>
-          </div>
+</div>
         </div>
       </main>
       <LeadModal

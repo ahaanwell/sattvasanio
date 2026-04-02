@@ -115,290 +115,229 @@ export default function ProjectHighlights() {
           ))}
         </div>
 
-        <div className="max-w-5xl mx-auto">
-          <h2
-            id="overview-heading"
-            className="text-2xl font-semibold text-gray-900 text-center my-8"
-          >
-            Sattva Sanio – Luxurious Apartments at Budigere Cross, Bangalore
-          </h2>
+        <div className="max-w-5xl mx-auto text-gray-700 mt-6 leading-relaxed">
+  
+  <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
+    Premium Apartments at Budigere Cross, Bangalore
+  </h2>
 
-          <div className=" mb-12 space-y-4 text-gray-700 leading-relaxed">
-            <p>
-              <a href="http://www.sattvasanio.in/">
-                <strong>Sattva Sanio</strong>
-              </a>{" "}
-              is a luxurious residential development project by <a href="https://sattvagroup.com/" rel="nofollow"><b>Sattva Group</b></a> located on Old Madras Main
-              Road near Budigere Cross in <b>East Bangalore</b>. The project is
-              designed to offer spacious homes within a thoughtfully planned
-              gated community that combines comfort, convenience, and
-              contemporary lifestyle features.
-            </p>
-            <p>
-              The project covers more than <b>10 acres</b> of land and has
-              planned apartment buildings bordered by planted green areas and
-              trees. The building includes four high rise towers that reach up
-              to
-              <b> G+35 floors</b>. It offers amazing views of the city and a
-              peaceful place to live in a neighborhood that is growing.
-            </p>
-            <p>
-              The building has <b>2 BHK, 3 BHK, and 4 BHK homes</b>, so it can
-              fit the needs of a wide range of customers, such as young workers,
-              families and businessmen. Each home is designed with attention to
-              detail, efficient layouts and modern architecture that supports
-              comfortable everyday living.
-            </p>
-            <p>
-              Sattva Sanio will have more than 600 high end homes, as well as
-              lifestyle perks and public areas that make living better overall.
-              Building an active neighbourhood where people can live, work and
-              play without leaving the safety of their gated community is the
-              main goal of the project.
-            </p>
-            <p>
-              The project finds its home in a swiftly developing area of East
-              Bangalore, boasting superb access to major IT parks, schools,
-              medical facilities and leisure locations. This advantageous
-              location presents a compelling choice for professionals traveling
-              to nearby business districts, and for families in search of a well
-              connected community. Sattva Sanio aims to promote a healthy
-              lifestyle, blending contemporary apartments, modern amenities, and
-              a prime location.
-            </p>
-          </div>
-        </div>
-        <div className=" text-gray-800">
-          <h2 className="text-2xl font-semibold text-gray-800 my-6">
-            Sattva Sanio Project Highlights
-          </h2>
+  <p className="mb-4">
+    Sattva Sanio is a premium residential project by the reputed Sattva Group, located on Old Madras Road near Budigere Cross in East Bangalore. This modern gated community is thoughtfully designed to offer a perfect balance of comfort, convenience, and a contemporary lifestyle.
+  </p>
 
-          <div className="overflow-x-auto mb-10">
-            <table className="w-full border border-gray-200">
-              <tbody>
-                <tr className="border-b border-gray-400">
-                  <td className="p-2 font-semibold">Project Name</td>
-                  <td className="p-2">Sattva Sanio</td>
-                </tr>
-                <tr className="border-b border-gray-400">
-                  <td className="p-2 font-semibold">Location</td>
-                  <td className="p-2">Old Madras Main Road, Budigere Cross</td>
-                </tr>
-                <tr className="border-b border-gray-400">
-                  <td className="p-2 font-semibold">Property Type</td>
-                  <td className="p-2">Luxury Residential Apartments</td>
-                </tr>
-                <tr className="border-b border-gray-400">
-                  <td className="p-2 font-semibold">Land Area</td>
-                  <td className="p-2">10+ Acres</td>
-                </tr>
-                <tr className="border-b border-gray-400">
-                  <td className="p-2 font-semibold">Total Towers</td>
-                  <td className="p-2">4</td>
-                </tr>
-                <tr className="border-b border-gray-400">
-                  <td className="p-2 font-semibold">Floor Structure</td>
-                  <td className="p-2">G + 35 Floors</td>
-                </tr>
-                <tr className="border-b border-gray-400">
-                  <td className="p-2 font-semibold">Total Units</td>
-                  <td className="p-2">600+</td>
-                </tr>
-                <tr className="border-b border-gray-400">
-                  <td className="p-2 font-semibold">Unit Types</td>
-                  <td className="p-2">2, 3 and 4 BHK</td>
-                </tr>
-                <tr className="border-b border-gray-400">
-                  <td className="p-2 font-semibold">Starting Price</td>
-                  <td className="p-2">₹1.2 Crore*</td>
-                </tr>
-                <tr>
-                  <td className="p-2 font-semibold">Community Type</td>
-                  <td className="p-2">Gated Residential Development</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+  <p className="mb-4">
+    Spread across over 10 acres, the project features well-planned high-rise towers surrounded by landscaped gardens and open green spaces. With four elegant towers rising up to G+35 floors, residents can enjoy panoramic city views along with a peaceful living environment.
+  </p>
 
-          <h2 className="text-2xl font-semibold mb-6">
-            Sattva Sanio's key highlights and unique selling points
-          </h2>
+  <h2 className="text-xl md:text-2xl font-semibold text-gray-900 mt-6 mb-3">
+    Spacious & Modern Homes
+  </h2>
+  <p className="mb-4">
+    The project offers 2 BHK, 3 BHK, and 4 BHK apartments designed to meet the needs of working professionals, families, and investors. Each home is built with smart layouts, ample ventilation, and modern architecture to ensure comfortable everyday living.
+  </p>
 
-          <div className="space-y-6 leading-relaxed">
-            <div>
-              <h3 className="text-xl font-semibold mb-2">
-                Prime Location at Budigere Cross
-              </h3>
-              <p>
-                Sattva Sanio is situated in a great spot on Old Madras Main
-                Road, close to Budigere Cross, which is one of{" "}
-                <b>East Bangalore's</b> quickly growing living areas. It is easy
-                to get to Whitefield, KR Puram, and other big business areas
-                from this location, which makes it a great choice for both
-                workers and families.
-              </p>
-            </div>
+  <h2 className="text-xl md:text-2xl font-semibold text-gray-900 mt-6 mb-3">
+    Lifestyle Amenities & Community Living
+  </h2>
+  <p className="mb-4">
+    With more than 600 premium residences, the development includes a wide range of modern amenities and shared spaces. From recreational facilities to social zones, it is designed to create a vibrant and active community within a secure environment.
+  </p>
 
-            <div>
-              <h3 className="text-xl font-semibold mb-2">
-                Large Township Spread Across 10+ Acres.
-              </h3>
-              <p>
-                The project covers more than 10 acres of beautiful land, so
-                there are lots of open areas and a well designed place to live.
-                As the land is so big, the building can have planted parks, play
-                areas, and wide roads inside the community.
-              </p>
-            </div>
+  <h2 className="text-xl md:text-2xl font-semibold text-gray-900 mt-6 mb-3">
+    Excellent Connectivity & Location Benefits
+  </h2>
+  <p className="mb-4">
+    Located in a rapidly developing part of East Bangalore, the project enjoys excellent connectivity to major IT parks, reputed schools, hospitals, and entertainment hubs. This makes it an ideal choice for professionals working in nearby business districts and families looking for a well-connected yet peaceful residential destination.
+  </p>
 
-            <div>
-              <h3 className="text-xl font-semibold mb-2">
-                High-Rise Towers with Modern Architecture
-              </h3>
-              <p>
-                At Sattva Sanio, there are four impressive residential towers
-                with contemporary designs. The towers go up to G+35 floors,
-                giving residents an advanced towering living experience with
-                views of the surrounding areas.
-              </p>
-            </div>
+  <p>
+    Sattva Sanio combines modern apartments, premium amenities, and a prime location to offer a balanced and elevated lifestyle in Bangalore.
+  </p>
 
-            <div>
-              <h3 className="text-xl font-semibold mb-2">
-                600+ Premium Residential Units
-              </h3>
-              <p>
-                There will be more than 600 flats in the building, each one
-                carefully planned. This makes a lively closed community where
-                people can enjoy getting to know each other, using modern
-                services, and living in a safe area.
-              </p>
-            </div>
+</div>
+        <div className="text-gray-800">
 
-            <div>
-              <h3 className="text-xl font-semibold mb-2">
-                Multiple Apartment Configurations
-              </h3>
-              <p>
-                There are <b>2 BHK, 3 BHK, and 4 BHK flats in the project</b>,
-                each built to meet the wants of a different family. The plan of
-                these homes is smart, and they have large living rooms,
-                bedrooms, and decks that let in natural light and air flow.
-              </p>
-            </div>
+  <h2 className="text-2xl font-semibold text-gray-800 my-6">
+    Sattva Sanio Project Overview & Key Details
+  </h2>
 
-            <div>
-              <h3 className="text-xl font-semibold mb-2">
-                Modern Lifestyle Amenities
-              </h3>
-              <p>
-                Residents will be able to use a lounge, swimming pool, gym, and
-                landscaped gardens, grounds, jogging tracks, children’s play
-                areas, and sports facilities, among other things. These features
-                are meant to help you live a healthy and busy life.
-              </p>
-            </div>
+  <div className="overflow-x-auto mb-10">
+    <table className="w-full border border-gray-200">
+      <tbody>
+        <tr className="border-b border-gray-400">
+          <td className="p-2 font-semibold">Project Name</td>
+          <td className="p-2">Sattva Sanio</td>
+        </tr>
+        <tr className="border-b border-gray-400">
+          <td className="p-2 font-semibold">Location</td>
+          <td className="p-2">Old Madras Road, Budigere Cross, East Bangalore</td>
+        </tr>
+        <tr className="border-b border-gray-400">
+          <td className="p-2 font-semibold">Development Type</td>
+          <td className="p-2">Premium Residential Apartments</td>
+        </tr>
+        <tr className="border-b border-gray-400">
+          <td className="p-2 font-semibold">Total Land Area</td>
+          <td className="p-2">10+ Acres</td>
+        </tr>
+        <tr className="border-b border-gray-400">
+          <td className="p-2 font-semibold">Number of Towers</td>
+          <td className="p-2">4 High-Rise Towers</td>
+        </tr>
+        <tr className="border-b border-gray-400">
+          <td className="p-2 font-semibold">Structure</td>
+          <td className="p-2">Ground + 35 Floors</td>
+        </tr>
+        <tr className="border-b border-gray-400">
+          <td className="p-2 font-semibold">Total Residences</td>
+          <td className="p-2">600+ Units</td>
+        </tr>
+        <tr className="border-b border-gray-400">
+          <td className="p-2 font-semibold">Configurations</td>
+          <td className="p-2">2, 3 & 4 BHK Apartments</td>
+        </tr>
+        <tr className="border-b border-gray-400">
+          <td className="p-2 font-semibold">Price Range</td>
+          <td className="p-2">Starting from ₹1.2 Cr*</td>
+        </tr>
+        <tr>
+          <td className="p-2 font-semibold">Community Type</td>
+          <td className="p-2">Secure Gated Community</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 
-            <div>
-              <h3 className="text-xl font-semibold mb-2">
-                Green and Open Spaces
-              </h3>
-              <p>
-                The master plan includes open leisure areas and parks that have
-                been planted to make the area a peaceful place to live. People
-                who live nearby can use these open places to relax, walk, work
-                out, and have fun outside.
-              </p>
-            </div>
+  <h2 className="text-2xl font-semibold mb-6">
+    Key Highlights & Advantages
+  </h2>
 
-            <div>
-              <h3 className="text-xl font-semibold mb-2">
-                Secure Gated Community
-              </h3>
-              <p>
-                Key parts of the project are safety and security. Gated entry
-                points, <b>24/7 security</b>, CCTV monitoring and limited access
-                are all planned for the building to make sure that people can
-                live in a safe place.
-              </p>
-            </div>
+  <div className="space-y-6 leading-relaxed">
 
-            <div>
-              <h3 className="text-xl font-semibold mb-2">
-                Strong potential for investment
-              </h3>
-              <p>
-                Budigere Cross is seeing steady progress in both infrastructure
-                and real estate. People who want to buy a home or invest in real
-                estate will like Sattva Sanio because it is close to big
-                business and IT hubs.
-              </p>
-            </div>
+    <div>
+      <h3 className="text-xl font-semibold mb-2">
+        Strategic Location in East Bangalore
+      </h3>
+      <p>
+        Located on Old Madras Road near Budigere Cross, the project enjoys excellent connectivity to major hubs like Whitefield and KR Puram. This fast-developing corridor makes daily commuting easy and adds strong value for both homebuyers and investors.
+      </p>
+    </div>
 
-            <div>
-              <h3 className="text-xl font-semibold mb-2">
-                Comfortable Urban Lifestyle
-              </h3>
-              <p>
-                Sattva Sanio provides residents with high quality apartments,
-                modern services, a green environment and great transportation
-                links, allowing them to live a healthy life that combines
-                comfort and community living.
-              </p>
-            </div>
-          </div>
-        </div>
+    <div>
+      <h3 className="text-xl font-semibold mb-2">
+        Expansive Development Across 10+ Acres
+      </h3>
+      <p>
+        Spread over a large land parcel, the community is designed with a balanced mix of open spaces and residential zones, allowing residents to enjoy greenery, wide roads, and well-planned infrastructure within the project.
+      </p>
+    </div>
 
-        <div className=" text-gray-800 mt-6">
+    <div>
+      <h3 className="text-xl font-semibold mb-2">
+        Modern High-Rise Living
+      </h3>
+      <p>
+        The development features four iconic towers rising up to 35 floors, offering elevated living with scenic views, better ventilation, and a modern architectural design.
+      </p>
+    </div>
+
+    <div>
+      <h3 className="text-xl font-semibold mb-2">
+        Premium Residences in a Gated Community
+      </h3>
+      <p>
+        With over 600 thoughtfully designed apartments, the project fosters a vibrant community lifestyle while ensuring privacy, safety, and a well-maintained living environment.
+      </p>
+    </div>
+
+    <div>
+      <h3 className="text-xl font-semibold mb-2">
+        Flexible Apartment Options
+      </h3>
+      <p>
+        The project offers 2 BHK, 3 BHK, and 4 BHK homes, catering to different family sizes. Each unit is planned to maximize space utilization, natural light, and airflow for a comfortable living experience.
+      </p>
+    </div>
+
+    <div>
+      <h3 className="text-xl font-semibold mb-2">
+        Lifestyle Amenities for All Age Groups
+      </h3>
+      <p>
+        Residents can enjoy a wide range of facilities including a clubhouse, swimming pool, gymnasium, landscaped gardens, jogging tracks, children’s play areas, and sports zones designed for an active lifestyle.
+      </p>
+    </div>
+
+    <div>
+      <h3 className="text-xl font-semibold mb-2">
+        Green & Open Environment
+      </h3>
+      <p>
+        The project emphasizes open spaces and greenery, with landscaped parks and relaxation zones that provide a calm and refreshing atmosphere within the community.
+      </p>
+    </div>
+
+    <div>
+      <h3 className="text-xl font-semibold mb-2">
+        Advanced Security Features
+      </h3>
+      <p>
+        The gated community is equipped with 24/7 security, CCTV surveillance, and controlled access points, ensuring a safe and secure environment for residents.
+      </p>
+    </div>
+
+    <div>
+      <h3 className="text-xl font-semibold mb-2">
+        Strong Investment Potential
+      </h3>
+      <p>
+        With rapid infrastructure growth and proximity to IT hubs, Budigere Cross is emerging as a promising real estate destination, making this project a smart investment opportunity.
+      </p>
+    </div>
+
+    <div>
+      <h3 className="text-xl font-semibold mb-2">
+        Balanced Urban Lifestyle
+      </h3>
+      <p>
+        Combining premium homes, modern amenities, green surroundings, and seamless connectivity, the project offers a well-rounded lifestyle that meets the needs of today’s urban residents.
+      </p>
+    </div>
+
+  </div>
+
+</div>
+
+        <div className="text-gray-800 mt-6">
 
   <h2 className="text-2xl font-semibold mb-6">About the Project</h2>
 
   <div className="space-y-6">
 
     <p>
-      <strong>Sattva Sanio</strong> is a big residential project that is going to be built in East Taluk, Bengaluru. It
-      is being built by <a href="https://sattvagroup.com/" rel="nofollow"><strong>Sattva Resi Pvt Ltd</strong></a>, and the building contract was given to Starworth
-      Infrastructure &amp; Building Ltd (SICL), a division of Puravankara, for about <b>₹311.18 crore</b>. The
-      project covers 3.04 million square feet and is expected to be completed over 37 months. Sattva
-      Sanio wants to be a top notch living neighborhood that fits the needs of today&#39;s homes. This
-      project blends large living areas with modern design and features that were all carefully chosen
-      to meet the needs of everyday life.
+      <strong>Sattva Sanio</strong> is a large-scale residential development coming up in East Bangalore, designed to offer a modern and comfortable lifestyle. Developed by <a href="https://sattvagroup.com/" rel="nofollow"><strong>Sattva Resi Pvt Ltd</strong></a>, the construction contract has been awarded to Starworth Infrastructure &amp; Construction Ltd (SICL), a subsidiary of Puravankara, with an estimated value of <b>₹311.18 crore</b>. Spanning approximately 3.04 million sq. ft., the project is planned for completion within 37 months. It aims to deliver a well-planned urban community that blends spacious living with contemporary architecture and practical design.
     </p>
 
     <p>
-      The high rise towers are one of the best things about the project because they let people enjoy
-      beautiful views and fresh air. The way the towers are built makes sure that every room gets
-      enough natural light and air flow. The building focuses on open areas and plants, so people can
-      get away from the noise of the city and enjoy a peaceful place to live. The plan of the
-      community includes landscaped parks, walking tracks, and places to sit to encourage health
-      and life outside. Apartments are built with carefully planned features that make life there easy.
-      The living rooms offer ample space, perfect for family gatherings, while the bedrooms are
-      designed for privacy and tranquility.
+      One of the key highlights of the development is its impressive high-rise towers, offering expansive views and a refreshing living environment. The layout is carefully planned to maximize natural light and cross ventilation in every home. With a strong focus on greenery and open spaces, residents can enjoy a calm and relaxing atmosphere away from the city’s hustle. Landscaped gardens, walking pathways, and dedicated seating zones are thoughtfully integrated to promote an active and healthy lifestyle. The apartments are designed with efficient layouts, ensuring spacious living areas for family time and private bedrooms for relaxation.
     </p>
 
     <p>
-      The kitchens are modern and functional, ensuring everyday usability. In addition to living, the
-      design includes a number of community features that are meant to get people to connect with
-      each other and promote a lively way of life. For people of all ages, there will be sports facilities,
-      fitness centres, and playgrounds that will be open to residents. Overall, Sattva Sanio is
-      meant to be a full living community with a modern style. The core vision for Sattva Sanio is to
-      create a vibrant community, complete with contemporary amenities and thoughtfully designed
-      spaces. The development includes
+      The kitchens are designed to be modern and functional, making daily activities convenient and efficient. Beyond individual homes, the project emphasizes community living with a wide range of shared amenities that encourage social interaction and an engaging lifestyle. Residents will have access to sports facilities, fitness centers, and play areas suitable for all age groups. Overall, the development is envisioned as a complete residential ecosystem that combines comfort, connectivity, and modern living standards. Key features of the project include:
     </p>
 
     <ul className="list-disc pl-6 space-y-2">
-      <li>4 high rise residential towers</li>
-      <li>Landscaped open spaces</li>
-      <li>Community activity areas</li>
-      <li>Wide internal roads</li>
-      <li>Dedicated pedestrian pathways</li>
-      <li>Secure gated entry points.</li>
-      <li>Clubhouse and recreational zones</li>
+      <li>4 high-rise residential towers</li>
+      <li>Beautifully landscaped open spaces</li>
+      <li>Dedicated community activity zones</li>
+      <li>Wide internal roads for smooth movement</li>
+      <li>Well-planned pedestrian pathways</li>
+      <li>Secure gated community with controlled access</li>
+      <li>Clubhouse and recreational facilities</li>
     </ul>
 
     <p>
-      The plan is made so that people can move around easily in the community while still being able
-      to enjoy the open views and green areas.
+      The overall master plan ensures seamless movement within the community while maintaining a balance between built spaces and greenery, creating a comfortable and visually appealing living environment.
     </p>
 
   </div>
@@ -407,168 +346,117 @@ export default function ProjectHighlights() {
 
 <div className="pt-6 text-gray-800">
 
-  <h2 className="text-2xl font-semibold mb-6">Customer Ratings and Reviews</h2>
+  <h2 className="text-2xl font-semibold mb-6">Customer Reviews & Market Response</h2>
 
   <div className="space-y-6">
 
     <p>
-      One of the best things about Sattva Sanio is its thoughtfully planned layout and luxurious
-      residential tower design. Real estate agents and people who want to buy homes are excited
-      about this new development, which will cover more than 10 acres at Budigere Cross on Old
-      Madras Main Road.
+      Sattva Sanio has been generating strong interest among homebuyers and real estate experts due to its well-planned layout, premium high-rise design, and strategic location. Spread across a large land parcel in Budigere Cross, the project is being seen as a promising addition to East Bangalore’s residential landscape.
     </p>
 
     <p>
-      People in East Bangalore think the project is a good place to live because it is in a good spot
-      and has modern design and planned community amenities. Sattva Sanio Budigere Cross is
-      likely to become one of the most desirable places to live in the area.
+      Property consultants highlight its connectivity to key areas like Whitefield and KR Puram, along with its modern amenities and community-focused design. These factors make it an attractive option for both end-users and investors looking for long-term value.
     </p>
 
     <p>
-      The building has four private towers that go up to G+35 floors. The towers have modern homes,
-      living features, and green open areas. Within a gated community, the building is meant to offer
-      easy city living while still keeping a peaceful atmosphere.
+      The development features four tall residential towers with thoughtfully designed homes, open green zones, and lifestyle amenities. The overall concept focuses on offering a peaceful yet well-connected urban lifestyle within a secure gated environment.
     </p>
 
     <p>
-      The Sattva Sanio document has a lot of information about the location of the project, the
-      master plan, the different types of apartments, and the living facilities. It shows off the modern
-      style of the apartment towers, the carefully constructed floor plans, and the clubhouse facilities
-      that are planned for the development. The leaflet tells potential buyers why Sattva Sanio is
-      seen as a good place to live and invest in East Bangalore&#39;s growing real estate market.
+      Project brochures and official materials showcase detailed master plans, apartment configurations, and lifestyle features, giving buyers a clear understanding of the project’s vision. This transparency and planning have contributed to positive initial feedback in the market.
     </p>
 
   </div>
 
-  <h2 className="text-2xl font-semibold mt-12 mb-6">RERA Approval</h2>
+  <h2 className="text-2xl font-semibold mt-12 mb-6">RERA Status & Approvals</h2>
 
   <div className="space-y-6">
 
     <p>
-      It is now time for Sattva Sanio&#39;s RERA application to be approved. The Karnataka Real
-      Estate Regulatory Authority will give the project its official registration number once it has been
-      given the go-ahead. Before the official start, the creator made sure that all the required rights
-      and approvals were obtained from the correct authorities and government offices.
+      The project is currently in the process of obtaining RERA registration from the Karnataka Real Estate Regulatory Authority. Once approved, the official RERA number will be published along with verified project details such as timelines, layout plans, and specifications.
     </p>
 
     <p>
-      These permissions include building permits, planning rights, and other legal clearances needed
-      for building homes in the area. As soon as the RERA approval is given, buyers will be able to
-      see all the official information about the development, such as layout plans, timelines, and other
-      project details.
+      The developer has already initiated necessary approvals, including land clearances, building permissions, and planning sanctions from relevant authorities. RERA approval will further enhance transparency and buyer confidence.
     </p>
 
   </div>
 
   <h2 className="text-2xl font-semibold mt-12 mb-6">
-    Expression of Interest (EOI) Charges for Sattva Sanio
+    Expression of Interest (EOI) & Booking Details
   </h2>
 
   <div className="space-y-6">
 
     <p>
-      Expressions of Interest (EOI) for Sattva Sanio will start when the project is just getting
-      started. Buyers who submit an EOI will be given priority in securing units and will also be able to
-      take advantage of early start prices and other special deals. People who want to buy the project
-      must send a post dated cheque (PDC) in the name of the creator to show that they are serious
-      about buying it. Customers who sign up through EOI will be given priority when the official
-      booking process starts. The EOI numbers that are expected for the project are
+      The Expression of Interest (EOI) phase allows early buyers to secure priority access to units at pre-launch pricing. This stage is ideal for investors and homebuyers who want to benefit from initial offers and better unit selection.
+    </p>
+
+    <p>
+      Buyers can participate in the EOI process by submitting a token amount, which indicates their intent to purchase. This ensures early allocation once bookings officially open.
     </p>
 
     <ul className="list-disc pl-6 space-y-2">
-      <li>2 BHK Apartments – ₹6 Lakhs</li>
-      <li>3 BHK Apartments – ₹9 Lakhs</li>
-      <li>4 BHK Apartments – ₹12 Lakhs</li>
+      <li>2 BHK Apartments – ₹6 Lakhs (Approx.)</li>
+      <li>3 BHK Apartments – ₹9 Lakhs (Approx.)</li>
+      <li>4 BHK Apartments – ₹12 Lakhs (Approx.)</li>
     </ul>
 
     <p>
-      By sending in an EOI, buyers can reserve the flats they want and get early prices before the
-      project starts officially. There is an easy construction linked payment plan. People expect Sattva
-      Sanio to offer an easy and open payment plan that will make buying a home easy for people.
-      This is what a normal construction linked payment plan might look like
+      The project is expected to follow a construction-linked payment plan, offering flexibility to buyers by aligning payments with development milestones.
     </p>
 
     <ul className="list-disc pl-6 space-y-2">
-      <li>10% on booking confirmation</li>
-      <li>10% during agreement signing</li>
-      <li>Construction linked payments during project development.</li>
+      <li>Initial booking amount at confirmation</li>
+      <li>Payment during agreement stage</li>
+      <li>Stage-wise payments during construction</li>
       <li>Final payment at possession</li>
     </ul>
 
     <p>
-      This arranged payment method lets buyers pay in steps based on how far along the project is in
-      its building. This makes the buying process more doable from a financial point of view.
+      This structured approach makes the investment more manageable and financially convenient for buyers.
     </p>
 
   </div>
 
-  <h2 className="text-2xl font-semibold mt-12 mb-6">Latest Update 2026</h2>
+  <h2 className="text-2xl font-semibold mt-12 mb-6">Latest Project Updates 2026</h2>
 
   <div className="space-y-6">
 
     <p>
-      Sattva Group is a well known Indian real estate company known for building premium homes
-      and businesses in many of the country&#39;s biggest cities. The business is known for focusing on
-      high quality building, modern design, and getting jobs done on time. The developer wants to add
-      a new place to live in East Bangalore with the opening of Sattva Sanio near Budigere Cross
-      on Old Madras Main Road.
+      Sattva Group continues to strengthen its presence in Bangalore with premium residential developments, and this project is a part of that expansion. Known for quality construction and timely delivery, the developer aims to introduce a modern living destination in East Bangalore.
     </p>
 
     <p>
-      The project is meant to give modern families large homes, living features, and a well designed
-      community setting. Homebuyers and investors are likely to be very interested in the building
-      because of its great location and the ongoing growth of East Bangalore&#39;s housing market. As
-      this part of the city&#39;s infrastructure keeps getting better, projects like Sattva Sanio will likely
-      have a big impact on the way the city looks.
+      With increasing demand for well-connected residential communities, the project is expected to attract strong interest from both buyers and investors. Its location advantage and planned infrastructure growth further enhance its future potential.
     </p>
 
   </div>
 
   <h2 className="text-2xl font-semibold mt-12 mb-6">
-    Historical Growth of Budigere Cross &amp; East Bangalore
+    Growth of Budigere Cross & East Bangalore
   </h2>
 
   <div className="space-y-6">
 
     <p>
-      Before it became one of Bangalore&#39;s fastest growing living areas, the area around Budigere
-      Cross and Old Madras Road was mostly known for its farmland and small towns in the country.
-      The area was an important path that connected Bangalore to Kolar and Chennai, but not many
-      people lived there. In the late 2010s, the Whitefield IT corridor grew easily, which started to
-      change this area.
+      Budigere Cross has transformed significantly over the past decade from a quiet peripheral area into a rapidly developing residential hub. Its proximity to Whitefield and major IT corridors has played a key role in this growth.
     </p>
 
     <p>
-      As the number of jobs in Whitefield, ITPL, and close technology parks grew, so did the need for
-      homes in the surrounding areas. Since it is so close to major job hubs, Budigere Cross grew as
-      a logical result of this growth.
+      As employment opportunities increased in nearby tech parks, the demand for quality housing in surrounding areas also rose. Budigere Cross emerged as a preferred location due to its connectivity and relatively open land availability.
     </p>
 
     <p>
-      Several building and road changes made in the early 2020s made it easier to get from Budigere
-      Cross to KR Puram and other parts of East Bangalore. Residents could get to work more easily
-      after Old Madras Road was widened and entry to major roads was made better. At the same
-      time, families started moving to the area as the schools, health care centres, and shopping
-      malls were opening. Along the Budigere Cross route, housing projects began to pop up,
-      turning the area into a growing residential area.
+      Infrastructure upgrades such as road widening, improved connectivity to KR Puram, and better access to highways have made commuting more convenient. In addition, the development of schools, hospitals, and retail spaces has improved overall livability.
     </p>
 
     <p>
-      The continued growth of East Bangalore&#39;s IT business is another important force driving
-      growth. Since Whitefield is still one of the city&#39;s main technology hubs, nearby neighbourhoods
-      like Budigere Cross are becoming popular places for tech people to live.
+      The continued expansion of East Bangalore’s IT sector and upcoming infrastructure projects are expected to further boost the region’s real estate demand. As a result, Budigere Cross is steadily evolving into a well-connected and high-growth residential zone.
     </p>
 
     <p>
-      The area&#39;s growth will likely be helped even more by planned infrastructure changes, such as
-      better road connections and transportation projects. As a result, Budigere Cross is slowly
-      becoming a domestic area that is well linked and has a lot of room to grow in the future.
-    </p>
-
-    <p>
-      Sattva Sanio is in an area that is growing quickly, so it has good access to other places and
-      good chances for future growth. The building offers modern apartment living in an area that is
-      fast becoming one of the best places to live in East Bangalore.
+      Positioned in this fast-growing corridor, the project offers a combination of modern living, connectivity, and long-term investment potential, making it a compelling choice for today’s homebuyers.
     </p>
 
   </div>

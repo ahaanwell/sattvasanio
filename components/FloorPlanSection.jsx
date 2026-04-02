@@ -2,7 +2,7 @@
 "use client";
 
 import { useState } from "react";
-import { FaDownload, FaPhone } from "react-icons/fa";
+import { FaDownload } from "react-icons/fa";
 import LeadModal from "./LeadModal";
 
 const floorPlans = [
@@ -10,19 +10,19 @@ const floorPlans = [
     id: 1,
     label: "2 BHK Floor Plan",
     image: "./images/2-bhk-floorplan.webp",
-    alt: "2 BHK Floor Plan",
+    alt: "2 BHK Apartment Layout",
   },
   {
     id: 2,
     label: "3 BHK Floor Plan",
     image: "./images/3-bhk-floorplan.webp",
-    alt: "3 BHK Floor Plan",
+    alt: "3 BHK Apartment Layout",
   },
   {
     id: 3,
     label: "4 BHK Floor Plan",
     image: "./images/3-bhk-floorplan.webp",
-    alt: "4 BHK Floor Plan",
+    alt: "4 BHK Apartment Layout",
   },
 ];
 
@@ -30,6 +30,7 @@ export default function FloorPlanSection() {
   const [hoveredId, setHoveredId] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [modelHeading, SetModelHeading] = useState("");
+
   return (
     <section
       id="floor-plan"
@@ -42,19 +43,21 @@ export default function FloorPlanSection() {
           id="floor-plan-heading"
           className="text-xl md:text-2xl font-semibold text-gray-900 text-center mb-2"
         >
-          Floor Plan
+          Floor Plans & Layout Designs
         </h2>
 
         <div className="w-full h-px bg-gray-200 mb-5" />
-        <div className="text-gray-800 space-x-6 pb-5">
+
+        <div className="text-gray-800 pb-5">
           <p>
-            The <a href="https://www.sattvasanio.in/floor-plan">floor plans of Sattva Sanio</a> were carefully thought out to be as useful and comfortable as
-possible.
+            The <a href="https://www.sattvasanio.in/floor-plan">floor plans</a> are intelligently designed to offer maximum space efficiency, proper ventilation, and a comfortable living experience for modern families.
           </p>
         </div>
+
+        {/* Floor Plan Grid */}
         <ul
           className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"
-          aria-label="Sattva Sanio floor plans"
+          aria-label="Apartment floor plan layouts"
         >
           {floorPlans.map((plan) => (
             <li
@@ -77,11 +80,11 @@ possible.
                   }`}
                 >
                   <button
-                  onClick={()=>{
-                SetModelHeading(`Download ${plan.label}`)
-                setIsModalOpen(true)
-              }}
-                    aria-label={`Enquire about ${plan.label}`}
+                    onClick={() => {
+                      SetModelHeading(`Download ${plan.label}`);
+                      setIsModalOpen(true);
+                    }}
+                    aria-label={`Download ${plan.label}`}
                     className="flex cursor-pointer items-center gap-2 bg-transparent border-2 border-white text-white font-semibold text-lg px-5 py-2 rounded-sm hover:bg-white hover:text-gray-900 transition-colors duration-200"
                   >
                     <FaDownload />
@@ -97,79 +100,79 @@ possible.
           ))}
         </ul>
 
+        {/* Content Section */}
+        <div className="space-y-10 pt-6 text-gray-800">
 
-  <div className="space-y-10 pt-6 text-gray-800">
+          <div>
+            <h3 className="text-xl font-semibold mb-4">2 BHK Layout Overview</h3>
 
-    <div>
-      <h3 className="text-xl font-semibold mb-4">2 BHK Apartments</h3>
+            <p className="mb-4">
+              The 2 BHK apartments are ideal for working professionals and small families looking for efficient and comfortable living spaces.
+            </p>
 
-      <p className="mb-4">
-        The <b>2 BHK apartments</b> are good for young couples and small families. Usually, these houses
-        have
-      </p>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>Well-planned living and dining area</li>
+              <li>Two spacious bedrooms</li>
+              <li>Functional kitchen layout</li>
+              <li>Attached and common bathrooms</li>
+              <li>Balcony for natural light and ventilation</li>
+            </ul>
 
-      <ul className="list-disc pl-6 space-y-2">
-        <li>Spacious living and dining area</li>
-        <li>Two comfortable bedrooms</li>
-        <li>Modern kitchen</li>
-        <li>Attached bathrooms</li>
-        <li>Private balcony</li>
-      </ul>
+            <p className="mt-4">
+              These homes are designed to maximize usability while maintaining a cozy and modern feel.
+            </p>
+          </div>
 
-      <p className="mt-4">
-        The plan makes sure that the people have a small but cosy place to live.
-      </p>
-    </div>
+          <div>
+            <h3 className="text-xl font-semibold mb-4">3 BHK Layout Overview</h3>
 
+            <p className="mb-4">
+              The 3 BHK apartments provide additional space, making them suitable for growing families who need more flexibility and comfort.
+            </p>
 
-    <div>
-      <h3 className="text-xl font-semibold mb-4">3 BHK Apartments</h3>
+            <ul className="list-disc pl-6 space-y-2">
+              <li>Large living and dining areas</li>
+              <li>Three well-designed bedrooms</li>
+              <li>Spacious kitchen with utility area</li>
+              <li>Multiple bathrooms for convenience</li>
+              <li>Balconies with open views</li>
+            </ul>
 
-      <p className="mb-4">
-        The <b>3 BHK homes</b> have more space and are made for families who need more room for daily
-        tasks. Some features are
-      </p>
+            <p className="mt-4">
+              These layouts offer a perfect balance between space, functionality, and modern design.
+            </p>
+          </div>
 
-      <ul className="list-disc pl-6 space-y-2">
-        <li>Large living and dining area</li>
-        <li>3 designed bedrooms</li>
-        <li>Spacious kitchen</li>
-        <li>Multiple bathrooms</li>
-        <li>Balcony spaces with good views</li>
-      </ul>
+          <div>
+            <h3 className="text-xl font-semibold mb-4">4 BHK Layout Overview</h3>
 
-      <p className="mt-4">
-        There is a great mix between ease and usefulness in these houses.
-      </p>
-    </div>
+            <p className="mb-4">
+              The 4 BHK residences are designed for those seeking premium and expansive living spaces with enhanced privacy and comfort.
+            </p>
 
+            <ul className="list-disc pl-6 space-y-2">
+              <li>Expansive living and dining zones</li>
+              <li>Four large bedrooms with attached bathrooms</li>
+              <li>Premium kitchen and utility space</li>
+              <li>High-end layout with better space distribution</li>
+              <li>Wide balconies for outdoor relaxation</li>
+            </ul>
 
-    <div>
-      <h3 className="text-xl font-semibold mb-4">4 BHK Apartments</h3>
+            <p className="mt-4">
+              These homes deliver a luxury lifestyle within a well-planned gated community environment.
+            </p>
+          </div>
 
-      <p className="mb-4">
-        The project's most luxurious units are the <b>4 BHK homes</b>, which are made for bigger families.
-        Key features include
-      </p>
-
-      <ul className="list-disc pl-6 space-y-2">
-        <li>Expansive living spaces</li>
-        <li>Multiple bedrooms with attached bathrooms</li>
-        <li>Large kitchen and dining areas</li>
-        <li>Premium interiors</li>
-        <li>Spacious balconies</li>
-      </ul>
-
-      <p className="mt-4">
-        In a safe, gated neighbourhood, these houses offer an exceptional way to live.
-      </p>
-    </div>
-
-  </div>
-
+        </div>
 
       </div>
-      <LeadModal isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} modelHeading={modelHeading} modelBtnLabel="Download" />
+
+      <LeadModal
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+        modelHeading={modelHeading}
+        modelBtnLabel="Download"
+      />
     </section>
   );
 }

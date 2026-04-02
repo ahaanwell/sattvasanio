@@ -4,42 +4,39 @@ import MasterPlanPage from "./MasterPlanPage";
 export const metadata = {
   title: {
     default:
-      "Sattva Sanio Master Plan | Township Layout & Project Site Plan Budigere Cross",
+      "Sattva Sanio Master Plan | Township Layout in Budigere Cross Bangalore",
     template: "%s | Sattva Sanio Master Plan",
   },
 
   description:
-    "Explore the master plan of Sattva Sanio located on Old Madras Main Road, Budigere Cross, Bangalore. Discover the well-planned township layout with residential towers, landscaped gardens, modern amenities, and open green spaces.",
+    "Explore the Sattva Sanio master plan in Budigere Cross, Bangalore. Discover a thoughtfully designed township layout with residential towers, landscaped open spaces, modern amenities and smart infrastructure.",
 
   keywords: [
     "Sattva Sanio master plan",
-    "Sattva Sanio Bangalore master plan",
-    "Sattva Sanio Budigere Cross master plan",
     "Sattva Sanio township layout",
-    "Sattva Sanio site plan",
-    "Sattva Sanio project layout",
-    "Sattva Sanio apartment township plan",
-    "Budigere Cross apartment master plan",
-    "Sattva Sanio tower layout",
-    "Sattva Sanio residential layout Bangalore"
+    "Sattva Sanio site plan Bangalore",
+    "Budigere Cross apartment layout",
+    "Sattva Sanio tower plan",
+    "Sattva Sanio project design",
+    "East Bangalore township projects"
   ],
 
   metadataBase: new URL("https://www.sattvasanio.in"),
 
   alternates: {
-    canonical: "https://www.sattvasanio.in/master-plan",
+    canonical: "/master-plan",
   },
 
   openGraph: {
     title:
-      "Sattva Sanio Master Plan | Township Layout & Project Site Plan",
+      "Sattva Sanio Master Plan | Smart Township Layout in Bangalore",
     description:
-      "View the detailed master layout of Sattva Sanio Bangalore featuring residential towers, landscaped gardens, modern amenities, and open green spaces.",
+      "View the master layout of Sattva Sanio featuring premium towers, green landscapes, internal roads and modern amenities.",
     url: "https://www.sattvasanio.in/master-plan",
     siteName: "Sattva Sanio",
     images: [
       {
-        url: "https://www.sattvasanio.in/images/master-plan-banner.jpeg",
+        url: "https://www.sattvasanio.in/images/master-plan-banner.webp",
         width: 1200,
         height: 630,
         alt: "Sattva Sanio Master Plan Layout",
@@ -52,18 +49,17 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Sattva Sanio Master Plan | Township Layout Budigere Cross",
+      "Sattva Sanio Master Plan | Township Layout Overview",
     description:
-      "Discover the master plan layout of Sattva Sanio Bangalore including tower placement, amenities, green areas and project infrastructure.",
+      "Discover the complete master plan of Sattva Sanio including towers, green spaces and amenities.",
     images: [
-      "https://www.sattvasanio.in/images/master-plan-banner.jpeg",
+      "https://www.sattvasanio.in/images/master-plan-banner.webp",
     ],
   },
 
   robots: {
     index: true,
     follow: true,
-    nocache: false,
     googleBot: {
       index: true,
       follow: true,
@@ -77,7 +73,6 @@ export const metadata = {
 };
 
 export default function page() {
-
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -101,46 +96,38 @@ export default function page() {
       },
 
       {
-        "@type": "ApartmentComplex",
+        "@type": "Product",
         name: "Sattva Sanio Master Plan",
         description:
-          "Master plan of Sattva Sanio residential project in Budigere Cross Bangalore featuring 4 towers, landscaped gardens, modern amenities and planned open spaces.",
-        url: "https://www.sattvasanio.in/master-plan",
+          "Detailed township master plan of Sattva Sanio in Budigere Cross, Bangalore showcasing residential towers, landscaped gardens, open spaces and modern infrastructure.",
+        
+        brand: {
+          "@type": "Brand",
+          name: "Sattva Group",
+        },
+
         image:
           "https://www.sattvasanio.in/images/master-plan-banner.webp",
 
-        address: {
-          "@type": "PostalAddress",
-          streetAddress: "Old Madras Main Road, Budigere Cross",
-          addressLocality: "Bangalore",
-          addressRegion: "Karnataka",
-          addressCountry: "IN"
+        url: "https://www.sattvasanio.in/master-plan",
+
+        areaServed: {
+          "@type": "City",
+          name: "Bangalore",
         },
 
-        numberOfAccommodationUnits: "600+",
+        offers: {
+          "@type": "Offer",
+          priceCurrency: "INR",
+          availability: "https://schema.org/InStock",
+          url: "https://www.sattvasanio.in/master-plan",
+        },
+      },
 
-        amenityFeature: [
-          {
-            "@type": "LocationFeatureSpecification",
-            name: "Landscaped Gardens",
-            value: true
-          },
-          {
-            "@type": "LocationFeatureSpecification",
-            name: "Clubhouse",
-            value: true
-          },
-          {
-            "@type": "LocationFeatureSpecification",
-            name: "Swimming Pool",
-            value: true
-          },
-          {
-            "@type": "LocationFeatureSpecification",
-            name: "Children Play Area",
-            value: true
-          }
-        ]
+      {
+        "@type": "Place",
+        name: "Budigere Cross",
+        description: "Prime residential location in East Bangalore",
       },
 
       {
@@ -148,32 +135,31 @@ export default function page() {
         mainEntity: [
           {
             "@type": "Question",
-            name: "What does the Sattva Sanio master plan include?",
+            name: "What is included in the Sattva Sanio master plan?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "The master plan of Sattva Sanio includes residential towers, landscaped gardens, modern amenities, open green spaces and internal roads designed for comfortable living."
-            }
+              text: "The master plan includes well-positioned residential towers, landscaped open areas, internal roads, clubhouse facilities and dedicated spaces for recreation.",
+            },
           },
           {
             "@type": "Question",
-            name: "How many towers are included in Sattva Sanio master plan?",
+            name: "How is the layout of Sattva Sanio designed?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "The master plan of Sattva Sanio includes 4 residential towers with G+35 floors."
-            }
+              text: "The layout is designed to maximize space utilization, natural light and ventilation while maintaining a balance between green spaces and built areas.",
+            },
           },
           {
             "@type": "Question",
-            name: "Where is Sattva Sanio located?",
+            name: "Is Sattva Sanio located in a good area?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "Sattva Sanio is located on Old Madras Main Road at Budigere Cross in East Bangalore."
-            }
-          }
-        ]
-      }
-
-    ]
+              text: "Yes, Sattva Sanio is located at Budigere Cross on Old Madras Road, offering excellent connectivity to major IT hubs and key areas of Bangalore.",
+            },
+          },
+        ],
+      },
+    ],
   };
 
   return (
@@ -183,7 +169,7 @@ export default function page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
       <MasterPlanPage />
-      <BlogSection/>
+      <BlogSection />
     </>
   );
 }

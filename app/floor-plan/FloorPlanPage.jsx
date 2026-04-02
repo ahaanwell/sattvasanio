@@ -40,409 +40,249 @@ function FloorPlanPage() {
             </button>
           </div>
           <div className="space-y-6 mt-5 text-gray-800">
-            <p>
-              The <b><a href="https://www.sattvasanio.in/">Sattva Sanio</a> Floor Plan</b> presents thoughtfully designed <b>2, 3,
-              and 4 BHK luxury apartments</b> created for modern urban living. The
-              project spreads across <b>10+ acres</b> of land on <a href="https://maps.app.goo.gl/eNuiU2qvVq6cxLAL6" rel="nofollow"><b>Old Madras Main Road,
-              East Bangalore</b></a>, and features over <b>600 premium homes across 4
-              high-rise towers with G + 35 floors</b>. Each apartment layout is
-              carefully crafted to offer spacious interiors, natural
-              ventilation, and smart space utilization.
-            </p>
+  <p>
+    The <b><a href="https://www.sattvasanio.in/">Sattva Sanio Floor Plan</a></b> showcases a refined collection of <b>2, 3, and 4 BHK premium residences</b> crafted for contemporary city living. Located along <a href="https://maps.app.goo.gl/eNuiU2qvVq6cxLAL6" rel="nofollow"><b>Old Madras Road in East Bangalore</b></a>, the development spans over <b>10 acres</b> and features more than <b>600 thoughtfully designed apartments</b> spread across <b>four iconic towers rising up to G+35 floors</b>. Each unit emphasizes intelligent space planning, ventilation, and natural light.
+  </p>
 
-            <p>
-              A floor plan is a detailed visual representation of how an
-              apartment is designed. It shows the arrangement of bedrooms,
-              living areas, kitchens, bathrooms, balconies, and utility spaces.
-              Studying the floor plan helps homebuyers clearly understand the
-              layout, room dimensions, and flow of space before making a
-              purchase decision.
-            </p>
+  <p>
+    Floor plans play a crucial role in understanding how a home is structured. They provide a clear layout of rooms, including living areas, bedrooms, kitchens, bathrooms, balconies, and utility zones. Reviewing these layouts helps buyers visualize daily living and make confident decisions.
+  </p>
 
-            <p>
-              The apartment floor plans at <a href="https://www.sattvasanio.in/"><b>Sattva Sanio</b></a> are designed by
-              experienced architects to ensure maximum comfort and
-              functionality. Each layout focuses on efficient space planning,
-              privacy between rooms, and abundant natural light, making it ideal
-              for individuals, couples, and growing families looking for a
-              modern home in East Bangalore.
-            </p>
+  <p>
+    At <a href="https://www.sattvasanio.in/"><b>Sattva Sanio</b></a>, every apartment is carefully designed to deliver a balance of privacy, openness, and functionality. The layouts are ideal for professionals, families, and investors seeking a modern lifestyle in one of Bangalore’s fastest-growing regions.
+  </p>
 
-            <h2 className="text-2xl font-semibold mt-8">
-              Types of Apartment Floor Plans
-            </h2>
+  <h2 className="text-2xl font-semibold mt-8">
+    Apartment Configurations Available
+  </h2>
 
-            <p>
-              Sattva Sanio Bangalore offers the following apartment floor plan
-              options:
-            </p>
+  <p>
+    The project offers multiple configurations to suit different lifestyle needs:
+  </p>
 
-            <ul className="list-disc pl-6 space-y-2">
-              <li>Sattva Sanio 2 BHK apartment floor plan</li>
-              <li>Sattva Sanio 3 BHK apartment floor plan</li>
-              <li>Sattva Sanio 4 BHK apartment floor plan</li>
-            </ul>
+  <ul className="list-disc pl-6 space-y-2">
+    <li>Well-planned 2 BHK apartments</li>
+    <li>Spacious 3 BHK residences</li>
+    <li>Luxury 4 BHK homes</li>
+  </ul>
 
-            <p>
-              All homes are planned with Vaastu-inspired layouts and wide
-              windows to allow fresh air and sunlight throughout the day. The
-              apartments are positioned in a way that offers privacy, beautiful
-              views, and better airflow across the entire residential community.
-            </p>
+  <p>
+    All residences are designed with efficient layouts, large windows, and open balconies to ensure better airflow and daylight. The positioning of towers enhances privacy while offering scenic views of the surroundings.
+  </p>
 
-            <h3 className="text-2xl font-semibold mt-10">
-              Availability Status (New Launch)
-            </h3>
+  <h3 className="text-2xl font-semibold mt-10">
+    Project Status & Pricing
+  </h3>
 
-            <p>
-              Sattva Sanio is currently a new launch residential project in
-              <a href="https://en.wikipedia.org/wiki/Bangalore_East" rel="nofollow"><b> East Bangalore</b></a>. Interested buyers can explore different apartment
-              configurations and register their interest for early booking.
-            </p>
+  <p>
+    Sattva Sanio is currently in its <b>new launch phase</b> in
+    <a href="https://en.wikipedia.org/wiki/Bangalore_East" rel="nofollow"><b> East Bangalore</b></a>. Buyers can explore early-stage pricing and secure preferred units during the launch window.
+  </p>
 
-            <div className="overflow-x-auto">
-              <table className="w-full border border-gray-300 mt-4">
-                <thead>
-                  <tr className="bg-gray-100">
-                    <th className="border p-3 text-left">Unit Type</th>
-                    <th className="border p-3 text-left">Availability</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td className="border p-3">2 BHK Apartments</td>
-                    <td className="border p-3">₹ 1.2 Cr* onwards</td>
-                  </tr>
-                  <tr>
-                    <td className="border p-3">3 BHK Apartments</td>
-                    <td className="border p-3">
-                        <button 
-                        className="cursor-pointer" 
-                        onClick={() => {
+  <div className="overflow-x-auto">
+    <table className="w-full border border-gray-300 mt-4">
+      <thead>
+        <tr className="bg-gray-100">
+          <th className="border p-3 text-left">Configuration</th>
+          <th className="border p-3 text-left">Price Details</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td className="border p-3">2 BHK</td>
+          <td className="border p-3">Starting from ₹1.2 Cr*</td>
+        </tr>
+        <tr>
+          <td className="border p-3">3 BHK</td>
+          <td className="border p-3">
+            <button
+              className="cursor-pointer text-blue-600 underline"
+              onClick={() => {
                 SetModelHeading("Download 3 BHK Price");
                 setIsModalOpen(true);
               }}
-                        >Enquiry Open
-                        </button>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className="border p-3">4 BHK Apartments</td>
-                    <td className="border p-3">
-                        <button 
-                        className="cursor-pointer" 
-                        onClick={() => {
+            >
+              Get Price Details
+            </button>
+          </td>
+        </tr>
+        <tr>
+          <td className="border p-3">4 BHK</td>
+          <td className="border p-3">
+            <button
+              className="cursor-pointer text-blue-600 underline"
+              onClick={() => {
                 SetModelHeading("Download 4 BHK Price");
                 setIsModalOpen(true);
               }}
-                        >Enquiry Open
-                        </button>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
+            >
+              Get Price Details
+            </button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 
-            <p>
-              The project offers modern apartments starting from <b>₹ 1.2 Cr
-              onwards</b>, making it a premium residential choice for families
-              seeking spacious homes in a rapidly developing location.
-            </p>
+  <p>
+    With premium specifications and a strategic location, the project offers excellent value for buyers seeking long-term investment or self-use homes in East Bangalore.
+  </p>
 
-            <h3 className="text-2xl font-semibold mt-10">
-              Sattva Sanio 2 BHK Apartment Floor Plan
-            </h3>
+  <h3 className="text-2xl font-semibold mt-10">
+    2 BHK Floor Plan Overview
+  </h3>
 
-            <p>
-              The <b>2 BHK apartments</b> at Sattva Sanio are designed to offer a
-              perfect combination of comfort, practicality, and elegant living.
-              These homes are ideal for young professionals, couples, and small
-              families who want a well-organized living space with modern
-              amenities.
-            </p>
+  <p>
+    The 2 BHK homes are designed for compact yet comfortable living, making them ideal for working professionals and small families.
+  </p>
 
-            <div className="flex justify-center items-center">
-                <img 
-                className="w-full md:w-1/2"
-                src="/images/2-bhk-floorplan.webp" alt="2 BHK Floor Plan" />
-            </div>
-            <p>
-              The layout ensures that every room is designed for maximum
-              functionality while maintaining openness and natural ventilation.
-            </p>
+  <div className="flex justify-center items-center">
+    <img
+      className="w-full md:w-1/2"
+      src="/images/2-bhk-floorplan.webp"
+      alt="Sattva Sanio 2 BHK Floor Plan"
+    />
+  </div>
 
-            <p>The 2 BHK floor plan includes:</p>
+  <ul className="list-disc pl-6 space-y-2">
+    <li>Entrance foyer leading to living space</li>
+    <li>Combined living and dining area</li>
+    <li>Two bedrooms with ample space</li>
+    <li>Two bathrooms with modern fittings</li>
+    <li>Kitchen with attached utility</li>
+    <li>Balcony for ventilation and views</li>
+  </ul>
 
-            <ul className="list-disc pl-6 space-y-2">
-              <li>A welcoming foyer</li>
-              <li>Spacious living and dining area</li>
-              <li>2 comfortable bedrooms</li>
-              <li>2 modern bathrooms</li>
-              <li>A well-designed kitchen</li>
-              <li>Utility area attached to the kitchen</li>
-              <li>1 or 2 balconies for natural light and views</li>
-            </ul>
+  <h3 className="text-2xl font-semibold mt-10">
+    3 BHK Floor Plan Overview
+  </h3>
 
-            <p>
-              The living room connects smoothly to the balcony, creating a
-              bright and airy environment. Bedrooms are thoughtfully positioned
-              for privacy and relaxation.
-            </p>
+  <p>
+    Designed for growing families, 3 BHK units offer larger interiors and enhanced functionality.
+  </p>
 
-            <h3 className="text-2xl font-semibold mt-10">
-              Sattva Sanio 3 BHK Apartment Floor Plan
-            </h3>
+  <div className="flex justify-center items-center">
+    <img
+      className="w-full md:w-1/2"
+      src="/images/3-bhk-floorplan.webp"
+      alt="Sattva Sanio 3 BHK Floor Plan"
+    />
+  </div>
 
-            <p>
-              The <b>3 BHK apartments</b> at Sattva Sanio are spacious homes designed
-              for growing families who need extra room and comfort. These homes
-              provide larger living areas and improved privacy between spaces.
-            </p>
-            <div className="flex justify-center items-center">
-                <img 
-                className="w-full md:w-1/2"
-                src="/images/3-bhk-floorplan.webp" alt="3 BHK Floor Plan" />
-            </div>
-            <p>
-              The layout offers a balanced design that allows residents to enjoy
-              both functional spaces and relaxing living areas.
-            </p>
+  <ul className="list-disc pl-6 space-y-2">
+    <li>Spacious living and dining zone</li>
+    <li>Three well-separated bedrooms</li>
+    <li>Three bathrooms</li>
+    <li>Modern kitchen with utility area</li>
+    <li>Wide balconies with open views</li>
+    <li>Optional study or flexible space</li>
+  </ul>
 
-            <p>The 3 BHK floor plan includes:</p>
+  <h3 className="text-2xl font-semibold mt-10">
+    4 BHK Floor Plan Overview
+  </h3>
 
-            <ul className="list-disc pl-6 space-y-2">
-              <li>A welcoming foyer entrance</li>
-              <li>Large living and dining area</li>
-              <li>3 spacious bedrooms</li>
-              <li>3 well-appointed bathrooms</li>
-              <li>Modern kitchen with utility space</li>
-              <li>Wide balconies offering scenic views</li>
-              <li>Optional study or multipurpose space</li>
-            </ul>
+  <p>
+    The 4 BHK residences offer expansive layouts tailored for luxury living and larger families.
+  </p>
 
-            <p>
-              These homes provide generous room sizes and smart layouts that
-              make daily living convenient. The balconies allow residents to
-              enjoy outdoor relaxation while remaining connected to the living
-              area.
-            </p>
+  <div className="flex justify-center items-center">
+    <img
+      className="w-full md:w-1/2"
+      src="/images/4-bhk-floorplan.webp"
+      alt="Sattva Sanio 4 BHK Floor Plan"
+    />
+  </div>
 
-            <h3 className="text-2xl font-semibold mt-10">
-              Sattva Sanio 4 BHK Apartment Floor Plan
-            </h3>
+  <ul className="list-disc pl-6 space-y-2">
+    <li>Grand entrance foyer</li>
+    <li>Large living and dining spaces</li>
+    <li>Four spacious bedrooms</li>
+    <li>Four bathrooms</li>
+    <li>Kitchen with utility area</li>
+    <li>Multiple balconies</li>
+    <li>Maid’s room or study</li>
+  </ul>
 
-            <p>
-              The <b>4 BHK apartments</b> at Sattva Sanio represent the most
-              luxurious living option in the project. These homes are specially
-              designed for large families and buyers looking for expansive
-              luxury spaces.
-            </p>
+  <h3 className="text-2xl font-semibold mt-10">
+    Key Design Highlights
+  </h3>
 
-            <div className="flex justify-center items-center">
-                <img 
-                className="w-full md:w-1/2"
-                src="/images/4-bhk-floorplan.webp" alt="4 BHK Floor Plan" />
-            </div>
+  <ul className="list-disc pl-6 space-y-2">
+    <li>Smart space utilization with minimal wastage</li>
+    <li>Abundant natural light in all rooms</li>
+    <li>Cross ventilation for better airflow</li>
+    <li>Wide balconies for outdoor comfort</li>
+    <li>Privacy-focused bedroom layouts</li>
+    <li>Functional kitchen placements</li>
+  </ul>
 
-            <p>
-              The layouts feature grand interiors, spacious bedrooms, and
-              multiple balconies that enhance the overall living experience.
-            </p>
+  <h3 className="text-2xl font-semibold mt-10">
+    Benefits of Reviewing Floor Plans
+  </h3>
 
-            <p>Each 4 BHK apartment floor plan includes:</p>
+  <p>
+    Evaluating the layout before buying helps in selecting the right home based on lifestyle preferences.
+  </p>
 
-            <ul className="list-disc pl-6 space-y-2">
-              <li>Elegant entrance foyer</li>
-              <li>Expansive living and dining area</li>
-              <li>4 large bedrooms</li>
-              <li>4 modern bathrooms</li>
-              <li>Spacious kitchen with utility area</li>
-              <li>Multiple wide balconies</li>
-              <li>Maid’s room or study space</li>
-            </ul>
+  <ul className="list-disc pl-6 space-y-2">
+    <li>Understand room sizes and layout flow</li>
+    <li>Plan furniture placement</li>
+    <li>Compare different unit options</li>
+    <li>Choose the best fit for your family</li>
+  </ul>
 
-            <p>
-              These premium homes offer generous space, better privacy, and a
-              sophisticated layout suitable for modern lifestyles.
-            </p>
+  <h2 className="text-3xl font-bold mt-12">
+    FAQs – Sattva Sanio Floor Plan
+  </h2>
 
-            <h3 className="text-2xl font-semibold mt-10">
-              Sattva Sanio Floor Plan Design Highlights
-            </h3>
+  <div className="space-y-6 mt-6">
+    <div>
+      <h3 className="text-xl font-semibold">
+        What configurations are available?
+      </h3>
+      <p>
+        The project offers 2, 3, and 4 BHK apartments designed with modern layouts and spacious interiors.
+      </p>
+    </div>
 
-            <p>
-              The apartment layouts at Sattva Sanio are designed with
-              attention to both functionality and aesthetics. Key highlights
-              include:
-            </p>
+    <div>
+      <h3 className="text-xl font-semibold">
+        How many towers are there?
+      </h3>
+      <p>
+        There are four high-rise towers, each extending up to G+35 floors.
+      </p>
+    </div>
 
-            <ul className="list-disc pl-6 space-y-2">
-              <li>Efficient use of space with minimal wastage</li>
-              <li>Large windows that allow natural light into all rooms</li>
-              <li>Cross-ventilation for better airflow</li>
-              <li>Wide balconies offering open views</li>
-              <li>Smart placement of bedrooms for privacy</li>
-              <li>Modern kitchen layouts with utility areas</li>
-            </ul>
+    <div>
+      <h3 className="text-xl font-semibold">
+        What is the total project size?
+      </h3>
+      <p>
+        The development spans more than 10 acres with landscaped open spaces and amenities.
+      </p>
+    </div>
 
-            <p>
-              The high-rise towers are positioned with sufficient distance
-              between them, ensuring that every apartment enjoys fresh air,
-              sunlight, and unobstructed views.
-            </p>
+    <div>
+      <h3 className="text-xl font-semibold">
+        What is the starting price?
+      </h3>
+      <p>
+        Pricing starts from approximately ₹1.2 Crore onwards depending on configuration.
+      </p>
+    </div>
 
-            <h3 className="text-2xl font-semibold mt-10">
-              Why Floor Plans Matter for Homebuyers
-            </h3>
-
-            <p>
-              Understanding the floor plan is an important step when purchasing
-              a home. It helps buyers evaluate whether the apartment suits their
-              lifestyle and space requirements.
-            </p>
-
-            <p>By studying the Sattva Sanio floor plans, buyers can:</p>
-
-            <ul className="list-disc pl-6 space-y-2">
-              <li>Understand the exact layout of each apartment</li>
-              <li>Visualize furniture placement and room sizes</li>
-              <li>Compare different apartment configurations</li>
-              <li>Choose the unit that best fits their family needs</li>
-            </ul>
-
-            <p>
-              Detailed floor plan layouts are available in the project brochure
-              and can also be explored through the model apartments.
-            </p>
-
-            <h3 className="text-2xl font-semibold mt-10">
-              Sattva Sanio Floor Plan Features
-            </h3>
-
-            <p>
-              The floor plans are designed to create comfortable homes that
-              blend luxury and practicality. Some important features include:
-            </p>
-
-            <ul className="list-disc pl-6 space-y-2">
-              <li>Vaastu-inspired apartment layouts</li>
-              <li>Wide corridors and spacious living areas</li>
-              <li>Dedicated utility spaces for convenience</li>
-              <li>Smart kitchen placement near dining areas</li>
-              <li>Private bedroom zones away from living spaces</li>
-            </ul>
-
-            <p>
-              All apartments are planned to provide a balanced mix of comfort,
-              elegance, and modern design, ensuring a high-quality lifestyle for
-              residents.
-            </p>
-
-            <h2 className="text-3xl font-bold mt-12">
-              Frequently Asked Questions (FAQs)
-            </h2>
-
-            <div className="space-y-6 mt-6">
-              <div>
-                <h3 className="text-xl font-semibold">
-                  1. What apartment configurations are available in the Sattva
-                  Sanio floor plan?
-                </h3>
-                <p>
-                  The Sattva Sanio Floor Plan offers well-designed 2 BHK, 3
-                  BHK, and 4 BHK luxury apartments. These homes are planned with
-                  spacious interiors, modern kitchens, comfortable bedrooms, and
-                  wide balconies that provide natural ventilation and sunlight.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-xl font-semibold">
-                  2. How many towers are included in the Sattva Sanio project?
-                </h3>
-                <p>
-                  Sattva Sanio features 4 premium residential towers, each
-                  rising up to G + 35 floors. The towers are carefully planned
-                  to provide open spaces, better airflow, and scenic views for
-                  residents.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-xl font-semibold">
-                  3. What is the total land area of the Sattva Sanio project?
-                </h3>
-                <p>
-                  The project is spread across 10+ acres of prime land on Old
-                  Madras Main Road in East Bangalore, offering a well-planned
-                  residential community with landscaped open spaces and modern
-                  amenities.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-xl font-semibold">
-                  4. What is the starting price of apartments at Sattva Sanio?
-                </h3>
-                <p>
-                  The apartments at Sattva Sanio Bangalore are expected to
-                  start from ₹1.2 Crore onwards, depending on the apartment
-                  size, floor level, and configuration selected by the buyer.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-xl font-semibold">
-                  5. How many total units are available in Sattva Sanio?
-                </h3>
-                <p>
-                  Sattva Sanio will include more than 600 premium apartments
-                  across its high-rise towers, making it a large residential
-                  community designed for comfortable and modern living.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-xl font-semibold">
-                  6. What are the main features of the Sattva Sanio floor plan
-                  layouts?
-                </h3>
-                <p>
-                  The floor plans at Sattva Sanio are designed with several
-                  modern features such as spacious living areas, wide balconies,
-                  natural ventilation, smart kitchen layouts, and
-                  Vaastu-inspired designs to ensure comfortable living for
-                  residents.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-xl font-semibold">
-                  7. Is Sattva Sanio a new launch project?
-                </h3>
-                <p>
-                  Yes, Sattva Sanio is a newly launched residential project
-                  located on Old Madras Main Road near Budigere Cross in East
-                  Bangalore. Buyers can currently explore early booking options
-                  and project details.
-                </p>
-              </div>
-
-              <div>
-                <h3 className="text-xl font-semibold">
-                  8. Why is the Sattva Sanio floor plan ideal for modern
-                  families?
-                </h3>
-                <p>
-                  The Sattva Sanio apartment layouts are designed to offer a
-                  perfect balance of space, privacy, and functionality. With
-                  well-planned bedrooms, large living areas, and open balconies,
-                  the homes are ideal for families seeking a modern lifestyle in
-                  East Bangalore.
-                </p>
-              </div>
-            </div>
-          </div>
+    <div>
+      <h3 className="text-xl font-semibold">
+        Is this a new launch project?
+      </h3>
+      <p>
+        Yes, it is currently in the new launch stage with early booking opportunities available.
+      </p>
+    </div>
+  </div>
+</div>
         </div>
       </main>
       <LeadModal

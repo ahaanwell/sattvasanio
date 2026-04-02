@@ -4,39 +4,35 @@ import PricePage from "./PricePage";
 export const metadata = {
   title: {
     default:
-      "Sattva Sanio Price | Old Madras Main Road | Pre Launch Offer",
+      "Sattva Sanio Price | 2, 3 & 4 BHK Price List in Budigere Cross Bangalore",
     template: "%s | Sattva Sanio Price",
   },
 
   description:
-    "Discover the latest Sattva Sanio price on Old Madras Main Road with exclusive pre-launch offers. Explore premium homes, floor plans, and early-bird deals in East Bangalore.",
+    "Check the latest Sattva Sanio price in Budigere Cross, Bangalore. Explore updated price list for 2 BHK, 3 BHK and 4 BHK apartments with exclusive pre-launch offers and flexible payment plans.",
 
   keywords: [
     "Sattva Sanio price",
-    "Sattva Sanio Bangalore price",
-    "Sattva Sanio apartment price",
-    "Sattva Sanio Budigere Cross price",
-    "Sattva Sanio price list",
     "Sattva Sanio 2 BHK price",
     "Sattva Sanio 3 BHK price",
     "Sattva Sanio 4 BHK price",
-    "Sattva Sanio cost",
+    "Sattva Sanio price list Bangalore",
+    "Budigere Cross apartment price",
     "Sattva Sanio payment plan",
-    "apartments price Budigere Cross",
-    "luxury apartment price Bangalore"
+    "Bangalore apartment price list"
   ],
 
   metadataBase: new URL("https://www.sattvasanio.in"),
 
   alternates: {
-    canonical: "https://www.sattvasanio.in/price",
+    canonical: "/price",
   },
 
   openGraph: {
     title:
-      "Sattva Sanio Price | 2, 3 & 4 BHK Apartment Price List Bangalore",
+      "Sattva Sanio Price | Latest Apartment Price List Bangalore",
     description:
-      "Explore the latest price list of Sattva Sanio apartments in Budigere Cross Bangalore including configuration wise pricing and payment plans.",
+      "Explore configuration-wise pricing of Sattva Sanio apartments with attractive pre-launch offers and payment options.",
     url: "https://www.sattvasanio.in/price",
     siteName: "Sattva Sanio",
     images: [
@@ -44,7 +40,7 @@ export const metadata = {
         url: "https://www.sattvasanio.in/images/sattvasanio.webp",
         width: 1200,
         height: 630,
-        alt: "Sattva Sanio Apartment Price List",
+        alt: "Sattva Sanio Price List",
       },
     ],
     locale: "en_IN",
@@ -54,16 +50,17 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Sattva Sanio Price | Apartment Price List Budigere Cross",
+      "Sattva Sanio Price | Apartment Price List Bangalore",
     description:
-      "View the latest price list of Sattva Sanio Bangalore including 2, 3 and 4 BHK apartment pricing and payment plans.",
-    images: ["https://www.sattvasanio.in/images/sattvasanio.webp"],
+      "View latest price details of Sattva Sanio including 2, 3 and 4 BHK configurations.",
+    images: [
+      "https://www.sattvasanio.in/images/sattvasanio.webp",
+    ],
   },
 
   robots: {
     index: true,
     follow: true,
-    nocache: false,
     googleBot: {
       index: true,
       follow: true,
@@ -77,7 +74,6 @@ export const metadata = {
 };
 
 export default function Page() {
-
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -89,40 +85,81 @@ export default function Page() {
             "@type": "ListItem",
             position: 1,
             name: "Home",
-            item: "https://www.sattvasanio.in/"
+            item: "https://www.sattvasanio.in/",
           },
           {
             "@type": "ListItem",
             position: 2,
             name: "Price",
-            item: "https://www.sattvasanio.in/price"
-          }
-        ]
+            item: "https://www.sattvasanio.in/price",
+          },
+        ],
       },
 
       {
-        "@type": "ApartmentComplex",
-        name: "Sattva Sanio",
+        "@type": "Product",
+        name: "Sattva Sanio Apartments",
         description:
-          "Sattva Sanio is a premium residential apartment project located at Budigere Cross, Old Madras Main Road Bangalore offering luxury 2, 3 and 4 BHK apartments with modern amenities.",
-        url: "https://www.sattvasanio.in/price",
-        image: "https://www.sattvasanio.in/images/sattvaSanio.webp",
+          "Premium 2 BHK, 3 BHK and 4 BHK apartments at Sattva Sanio in Budigere Cross, Bangalore with modern amenities and attractive pricing options.",
 
-        address: {
-          "@type": "PostalAddress",
-          streetAddress: "Old Madras Main Road, Budigere Cross",
-          addressLocality: "Bangalore",
-          addressRegion: "Karnataka",
-          addressCountry: "IN"
+        brand: {
+          "@type": "Brand",
+          name: "Sattva Group",
+        },
+
+        image:
+          "https://www.sattvasanio.in/images/sattvasanio.webp",
+
+        url: "https://www.sattvasanio.in/price",
+
+        areaServed: {
+          "@type": "City",
+          name: "Bangalore",
         },
 
         offers: {
-          "@type": "Offer",
+          "@type": "AggregateOffer",
           priceCurrency: "INR",
-          price: "On Request",
+          lowPrice: "On Request",
+          highPrice: "On Request",
+          offerCount: "3",
           availability: "https://schema.org/PreOrder",
-          url: "https://www.sattvasanio.in/price"
-        }
+          url: "https://www.sattvasanio.in/price",
+        },
+      },
+
+      {
+        "@type": "OfferCatalog",
+        name: "Sattva Sanio Price List",
+        itemListElement: [
+          {
+            "@type": "Offer",
+            itemOffered: {
+              "@type": "Apartment",
+              name: "2 BHK Apartment",
+            },
+            priceCurrency: "INR",
+            price: "On Request",
+          },
+          {
+            "@type": "Offer",
+            itemOffered: {
+              "@type": "Apartment",
+              name: "3 BHK Apartment",
+            },
+            priceCurrency: "INR",
+            price: "On Request",
+          },
+          {
+            "@type": "Offer",
+            itemOffered: {
+              "@type": "Apartment",
+              name: "4 BHK Apartment",
+            },
+            priceCurrency: "INR",
+            price: "On Request",
+          },
+        ],
       },
 
       {
@@ -130,32 +167,31 @@ export default function Page() {
         mainEntity: [
           {
             "@type": "Question",
-            name: "What is the starting price of Sattva Sanio apartments?",
+            name: "What is the price of Sattva Sanio apartments?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "The starting price of Sattva Sanio apartments depends on the configuration such as 2 BHK, 3 BHK and 4 BHK units. For the latest price list and offers you can request the updated pricing details."
-            }
+              text: "The price of Sattva Sanio apartments varies based on configuration such as 2 BHK, 3 BHK and 4 BHK units. You can request the latest price list for updated offers and availability.",
+            },
           },
           {
             "@type": "Question",
-            name: "Where is Sattva Sanio located?",
+            name: "Are there any pre-launch offers available?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "Sattva Sanio is located at Budigere Cross on Old Madras Main Road in East Bangalore."
-            }
+              text: "Yes, Sattva Sanio offers exclusive pre-launch pricing and early booking benefits for a limited time.",
+            },
           },
           {
             "@type": "Question",
-            name: "Does Sattva Sanio offer payment plans?",
+            name: "Does Sattva Sanio provide flexible payment plans?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "Yes, Sattva Sanio offers flexible payment plans for home buyers including construction linked plans and bank loan options."
-            }
-          }
-        ]
-      }
-
-    ]
+              text: "Yes, buyers can choose from flexible payment plans including construction-linked plans and home loan assistance from leading banks.",
+            },
+          },
+        ],
+      },
+    ],
   };
 
   return (
@@ -165,7 +201,7 @@ export default function Page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
       <PricePage />
-      <BlogSection/>
+      <BlogSection />
     </>
   );
 }

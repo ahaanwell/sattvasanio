@@ -4,39 +4,35 @@ import FloorPlanPage from "./FloorPlanPage";
 export const metadata = {
   title: {
     default:
-      "Sattva Sanio Floor Plan | Old Madras Main Road | Pre Launch Offer",
+      "Sattva Sanio Floor Plan | 2, 3 & 4 BHK Layouts in Budigere Cross Bangalore",
     template: "%s | Sattva Sanio Floor Plan",
   },
 
   description:
-    "Explore the detailed floor plans of Sattva Sanio located on Old Madras Main Road, Budigere Cross, Bangalore. View well-designed 2 BHK, 3 BHK and 4 BHK apartment layouts with spacious rooms, modern architecture, and efficient living spaces.",
+    "Explore Sattva Sanio floor plans in Budigere Cross, Bangalore. Discover well-designed 2 BHK, 3 BHK and 4 BHK apartment layouts with spacious rooms, modern architecture and smart living spaces.",
 
   keywords: [
     "Sattva Sanio floor plan",
-    "Sattva Sanio Bangalore floor plan",
-    "Sattva Sanio Budigere Cross floor plan",
-    "Sattva Sanio apartment layout",
-    "Sattva Sanio unit plan",
-    "Sattva Sanio 2 BHK floor plan",
-    "Sattva Sanio 3 BHK floor plan",
-    "Sattva Sanio 4 BHK floor plan",
-    "Sattva Sanio flat layout",
-    "Sattva Sanio apartment design",
-    "Budigere Cross apartment floor plan",
-    "apartments floor plan Bangalore",
+    "Sattva Sanio 2 BHK layout",
+    "Sattva Sanio 3 BHK layout",
+    "Sattva Sanio 4 BHK layout",
+    "Sattva Sanio Budigere Cross apartments",
+    "Sattva Sanio Bangalore layout",
+    "apartment floor plans Bangalore",
+    "Budigere Cross apartment layouts"
   ],
 
   metadataBase: new URL("https://www.sattvasanio.in"),
 
   alternates: {
-    canonical: "https://www.sattvasanio.in/floor-plan",
+    canonical: "/floor-plan",
   },
 
   openGraph: {
     title:
       "Sattva Sanio Floor Plan | 2, 3 & 4 BHK Apartment Layouts",
     description:
-      "View the spacious floor plans and apartment layouts of Sattva Sanio Bangalore featuring modern architecture and smart living spaces.",
+      "View detailed floor plans of Sattva Sanio Bangalore with spacious layouts, modern design and efficient living spaces.",
     url: "https://www.sattvasanio.in/floor-plan",
     siteName: "Sattva Sanio",
     images: [
@@ -44,7 +40,7 @@ export const metadata = {
         url: "https://www.sattvasanio.in/images/floor-plan-banner.webp",
         width: 1200,
         height: 630,
-        alt: "Sattva Sanio Floor Plan Layout",
+        alt: "Sattva Sanio Floor Plan",
       },
     ],
     locale: "en_IN",
@@ -56,16 +52,15 @@ export const metadata = {
     title:
       "Sattva Sanio Floor Plan | 2, 3 & 4 BHK Apartment Layout",
     description:
-      "Discover spacious and modern floor plans at Sattva Sanio Bangalore. View detailed apartment layouts for 2 BHK, 3 BHK and 4 BHK homes.",
+      "Discover modern and spacious floor plans at Sattva Sanio in Budigere Cross Bangalore.",
     images: [
-      "https://www.sattvasanio.in/images/floor-plan-banner.jpeg",
+      "https://www.sattvasanio.in/images/floor-plan-banner.webp",
     ],
   },
 
   robots: {
     index: true,
     follow: true,
-    nocache: false,
     googleBot: {
       index: true,
       follow: true,
@@ -79,7 +74,6 @@ export const metadata = {
 };
 
 export default function page() {
-
   const schema = {
     "@context": "https://schema.org",
     "@graph": [
@@ -102,40 +96,29 @@ export default function page() {
       },
 
       {
-        "@type": "Apartment",
-        name: "Sattva Sanio Floor Plan",
+        "@type": "Product",
+        name: "Sattva Sanio Floor Plans",
         description:
-          "Detailed floor plans of Sattva Sanio apartments located in Budigere Cross Bangalore including 2 BHK, 3 BHK and 4 BHK layouts.",
-        url: "https://www.sattvasanio.in/floor-plan",
+          "Premium 2 BHK, 3 BHK and 4 BHK apartment floor plans at Sattva Sanio in Budigere Cross, Bangalore with modern layouts and spacious design.",
+        brand: {
+          "@type": "Brand",
+          name: "Sattva Group",
+        },
         image:
           "https://www.sattvasanio.in/images/floor-plan-banner.webp",
+        url: "https://www.sattvasanio.in/floor-plan",
 
-        address: {
-          "@type": "PostalAddress",
-          streetAddress: "Old Madras Main Road, Budigere Cross",
-          addressLocality: "Bangalore",
-          addressRegion: "Karnataka",
-          addressCountry: "IN",
+        areaServed: {
+          "@type": "Place",
+          name: "Bangalore",
         },
 
-        numberOfRooms: "2,3,4",
-        amenityFeature: [
-          {
-            "@type": "LocationFeatureSpecification",
-            name: "Spacious Living Rooms",
-            value: true,
-          },
-          {
-            "@type": "LocationFeatureSpecification",
-            name: "Modern Kitchen Layout",
-            value: true,
-          },
-          {
-            "@type": "LocationFeatureSpecification",
-            name: "Balcony Design",
-            value: true,
-          },
-        ],
+        offers: {
+          "@type": "Offer",
+          url: "https://www.sattvasanio.in/floor-plan",
+          priceCurrency: "INR",
+          availability: "https://schema.org/InStock",
+        },
       },
 
       {
@@ -143,26 +126,26 @@ export default function page() {
         mainEntity: [
           {
             "@type": "Question",
-            name: "What apartment types are available in Sattva Sanio floor plan?",
+            name: "What types of floor plans are available at Sattva Sanio?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "Sattva Sanio offers 2 BHK, 3 BHK and 4 BHK apartment floor plans designed for spacious and modern living.",
+              text: "Sattva Sanio offers 2 BHK, 3 BHK and 4 BHK apartment floor plans designed with modern layouts, spacious rooms and efficient space utilization.",
             },
           },
           {
             "@type": "Question",
-            name: "Where is Sattva Sanio located?",
+            name: "Where is Sattva Sanio located in Bangalore?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "Sattva Sanio is located on Old Madras Main Road at Budigere Cross in East Bangalore.",
+              text: "Sattva Sanio is located at Budigere Cross on Old Madras Main Road in East Bangalore, offering excellent connectivity to major IT hubs.",
             },
           },
           {
             "@type": "Question",
-            name: "Are the floor plans of Sattva Sanio spacious?",
+            name: "Are Sattva Sanio floor plans suitable for modern living?",
             acceptedAnswer: {
               "@type": "Answer",
-              text: "Yes, the floor plans are designed with spacious living areas, modern kitchens, balconies and efficient layouts for comfortable living.",
+              text: "Yes, the floor plans feature spacious living areas, modern kitchens, balconies and smart layouts ideal for contemporary urban living.",
             },
           },
         ],
@@ -177,7 +160,7 @@ export default function page() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
       />
       <FloorPlanPage />
-      <BlogSection/>
+      <BlogSection />
     </>
   );
 }

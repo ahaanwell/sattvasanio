@@ -28,29 +28,34 @@ export default function LocationSection() {
 
         <div className="w-full h-px bg-gray-200 mb-5" />
 
-        <div className="mb-5 space-y-6 text-gray-800">
+        <div className="mb-5 space-y-6 text-gray-800 leading-7">
           <p>
-            The <b>Sattva Sanio</b> is at Budigere Cross on the{" "}
-            <b>Old Madras Main Road (NH-75)</b>, which is in
-            <b> East Bangalore</b> and is one of the city's fast growing living
-            areas. More and more people are looking to buy homes in this area
-            because it has both peaceful settings and great access to big IT
-            hubs.
+            <b>Sattva Sanio</b> is strategically located at Budigere Cross along
+            <b> Old Madras Road (NH-75)</b>, one of the key growth corridors in
+            <b> East Bangalore</b>. This location has rapidly emerged as a
+            preferred residential destination due to its strong connectivity and
+            balanced lifestyle environment. Homebuyers are increasingly drawn to
+            this area for its peaceful surroundings combined with easy access to
+            major employment hubs.
           </p>
+
           <p>
-            Budigere Cross is conveniently located between Whitefield, KR Puram,
-            and Hoskote, making it easy for people who work in{" "}
-            <b>East Bangalore's</b> business areas and technology parks. It's
-            easy to get to important parts of the city thanks to major road
-            networks like <b> Old Madras Road and State Highway 104.</b>
+            Positioned close to important zones such as Whitefield, KR Puram,
+            and Hoskote, the project offers seamless connectivity to leading IT
+            parks and business districts. The presence of major road networks
+            including
+            <b> Old Madras Road</b> and <b> State Highway 104</b> ensures smooth
+            travel across the city, making daily commuting convenient for
+            working professionals.
           </p>
+
           <p>
-            The area is also steadily building homes and improving its
-            facilities. Budigere Cross is slowly becoming an important place to
-            live thanks to new neighbourhoods, schools, hospitals, and business
-            areas. People who want to buy modern homes in East Bangalore are
-            increasingly choosing this area because it is easy to get to and has
-            room to grow.
+            Budigere Cross is witnessing consistent infrastructure development,
+            with new residential communities, educational institutions,
+            healthcare centers, and retail spaces coming up in the vicinity.
+            With ongoing growth and future development potential, this location
+            is becoming a strong choice for those seeking modern homes in a
+            well-connected and rapidly evolving part of Bangalore.
           </p>
         </div>
 
@@ -82,553 +87,486 @@ export default function LocationSection() {
 
         <div className="text-gray-800 flex justify-between mt-4">
           <div>
-            <h2 className="text-2xl font-semibold mb-4">
-    Project Address
-  </h2>
+            <h2 className="text-2xl font-semibold mb-4">Project Address</h2>
 
-  <p className="leading-7">
-    <strong>Sattva Sanio</strong><br/>
-    Cheemasandra Village, Bidarahalli Hobli,<br/>
-    Budigere Cross, Off Old Madras Road (NH-75),<br/>
-    East Bangalore, Bengaluru Urban District,<br/>
-    Karnataka – 560049.
-  </p>
+            <p className="leading-7">
+              <strong>Sattva Sanio</strong>
+              <br />
+              Cheemasandra Village, Bidarahalli Hobli,
+              <br />
+              Budigere Cross, Off Old Madras Road (NH-75),
+              <br />
+              East Bangalore, Bengaluru Urban District,
+              <br />
+              Karnataka – 560049.
+            </p>
           </div>
 
-  <div>
-    <h3 className="text-2xl font-semibold mb-4">
-    Landmark and Map Details
-  </h3>
+          <div>
+            <h3 className="text-2xl font-semibold mb-4">
+              Landmark and Map Details
+            </h3>
 
-  <div className="space-y-2">
-    <p><strong>Landmark:</strong> Near Budigere Cross Junction, Off Old Madras Road (NH-75)</p>
-    <p><strong>Coordinates:</strong> 13.0491° N, 77.7483° E</p>
-    <p><strong>Google Plus Code:</strong> 2PXX+FM8, Budigere Cross, Bengaluru, Karnataka 560049</p>
-  </div>
-  </div>
+            <div className="space-y-2">
+              <p>
+                <strong>Landmark:</strong> Near Budigere Cross Junction, Off Old
+                Madras Road (NH-75)
+              </p>
+              <p>
+                <strong>Coordinates:</strong> 13.0491° N, 77.7483° E
+              </p>
+              <p>
+                <strong>Google Plus Code:</strong> 2PXX+FM8, Budigere Cross,
+                Bengaluru, Karnataka 560049
+              </p>
+            </div>
+          </div>
         </div>
 
         <div className="pt-6 text-gray-800">
           <h2 className="text-2xl font-semibold mb-6">
-            Location Advantages of Sattva Sanio
-          </h2>
+  Why Choose the Location of Sattva Sanio
+</h2>
 
-          <div className="space-y-6">
-            <p>
-              It is near Budigere Cross on <b>Old Madras Main Road (NH-75)</b>.
-              It is close to important <b>IT hubs like Whitefield and ITPL</b>.
-              It's easy to get to KR Puram, Hoskote, and the outer ring road.{" "}
-              <b> State Highway 104</b> and important city roads are easy to get
-              to. Near prestigious schools and other educational facilities
-              Hospitals and health care centres are easy to get to. There are
-              shopping malls, stores, and restaurants close by. Having easy
-              access to major public transportation routes.
-            </p>
-          </div>
+<div className="space-y-6 text-gray-800 leading-7">
+  <p>
+    The location of <b>Sattva Sanio</b> offers a perfect blend of connectivity,
+    convenience, and future growth potential. Situated near Budigere Cross on
+    <b> Old Madras Road (NH-75)</b>, the project ensures effortless access to
+    key destinations across East Bangalore while maintaining a peaceful
+    residential environment.
+  </p>
 
-          <div className="mt-4">
-            <img
-              className="mb-3 w-full"
-              src="/images/locationview.jpg"
-              alt="Airport"
-              loading="lazy"
-            />
-          </div>
+  <ul className="list-disc pl-6 space-y-2">
+    <li>Strategic location near Budigere Cross with direct highway access</li>
+    <li>Close proximity to major IT hubs like <b>Whitefield</b> and <b>ITPL</b></li>
+    <li>Seamless connectivity to KR Puram, Hoskote, and Outer Ring Road</li>
+    <li>Easy access to <b>State Highway 104</b> and major city routes</li>
+    <li>Nearby reputed schools, colleges, and educational institutions</li>
+    <li>Well-connected to hospitals and healthcare facilities</li>
+    <li>Availability of malls, retail outlets, and entertainment zones</li>
+    <li>Strong public transport connectivity including buses and metro access</li>
+  </ul>
+</div>
 
-          <h3 className="text-xl font-semibold mt-10 mb-6">
-            Connectivity Snapshot
-          </h3>
+<div className="mt-5">
+  <img
+    className="mb-3 w-full"
+    src="/images/locationview.jpg"
+    alt="Sattva Sanio Location Advantages"
+    loading="lazy"
+  />
+</div>
 
-          <div className="overflow-x-auto mb-10">
-            <table className="w-full border border-gray-200 text-left">
-              <thead>
-                <tr className="border-b bg-gray-50">
-                  <th className="p-3 font-semibold">Key Location</th>
-                  <th className="p-3 font-semibold">Approx Distance</th>
-                  <th className="p-3 font-semibold">Approx Time</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr className="border-b">
-                  <td className="p-3">Budigere Cross</td>
-                  <td className="p-3">2 km</td>
-                  <td className="p-3">5 Minutes</td>
-                </tr>
-                <tr className="border-b">
-                  <td className="p-3">Old Madras Road</td>
-                  <td className="p-3">1 km</td>
-                  <td className="p-3">3 Minutes</td>
-                </tr>
-                <tr className="border-b">
-                  <td className="p-3">KR Puram</td>
-                  <td className="p-3">12 km</td>
-                  <td className="p-3">20 Minutes</td>
-                </tr>
-                <tr className="border-b">
-                  <td className="p-3">Whitefield</td>
-                  <td className="p-3">10 km</td>
-                  <td className="p-3">18 Minutes</td>
-                </tr>
-                <tr className="border-b">
-                  <td className="p-3">ITPL Tech Park</td>
-                  <td className="p-3">12 km</td>
-                  <td className="p-3">20 Minutes</td>
-                </tr>
-                <tr className="border-b">
-                  <td className="p-3">Hoskote</td>
-                  <td className="p-3">8 km</td>
-                  <td className="p-3">15 Minutes</td>
-                </tr>
-                <tr className="border-b">
-                  <td className="p-3">Kempegowda International Airport</td>
-                  <td className="p-3">25–30 km</td>
-                  <td className="p-3">35-40 Minutes</td>
-                </tr>
-                <tr className="border-b">
-                  <td className="p-3">Phoenix Marketcity</td>
-                  <td className="p-3">13 km</td>
-                  <td className="p-3">23 Minutes</td>
-                </tr>
-                <tr className="border-b">
-                  <td className="p-3">Manyata Tech Park</td>
-                  <td className="p-3">27</td>
-                  <td className="p-3">45 Minutes</td>
-                </tr>
-                <tr className="border-b">
-                  <td className="p-3">Orion Uptown Mall</td>
-                  <td className="p-3">8</td>
-                  <td className="p-3">15 Minutes</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+<h3 className="text-xl font-semibold mt-10 mb-6">
+  Connectivity Overview
+</h3>
 
-          <div className="space-y-6">
-            <p>
-              Located in an{" "}
-              <a
-                href="https://en.wikipedia.org/wiki/Bangalore_East"
-                rel="nofoolow"
-              >
-                <b>East Bangalore</b>
-              </a>{" "}
-              neighbourhood that is growing quickly Strong growth promise
-              because the region's infrastructure is getting better. Budigere
-              Cross provides a healthy way of life where people can enjoy peace
-              and quiet while still being close to the city's main job hubs.
-              Residents may easily access major job centres, retail locations,
-              and transportation services from their location.
-            </p>
-          </div>
+<div className="overflow-x-auto mb-10">
+  <table className="w-full border border-gray-200 text-left">
+    <thead>
+      <tr className="border-b bg-gray-50">
+        <th className="p-3 font-semibold">Destination</th>
+        <th className="p-3 font-semibold">Distance</th>
+        <th className="p-3 font-semibold">Travel Time</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr className="border-b">
+        <td className="p-3">Budigere Cross</td>
+        <td className="p-3">2 km</td>
+        <td className="p-3">5 mins</td>
+      </tr>
+      <tr className="border-b">
+        <td className="p-3">Old Madras Road</td>
+        <td className="p-3">1 km</td>
+        <td className="p-3">3 mins</td>
+      </tr>
+      <tr className="border-b">
+        <td className="p-3">KR Puram</td>
+        <td className="p-3">12 km</td>
+        <td className="p-3">20 mins</td>
+      </tr>
+      <tr className="border-b">
+        <td className="p-3">Whitefield</td>
+        <td className="p-3">10 km</td>
+        <td className="p-3">18 mins</td>
+      </tr>
+      <tr className="border-b">
+        <td className="p-3">ITPL</td>
+        <td className="p-3">12 km</td>
+        <td className="p-3">20 mins</td>
+      </tr>
+      <tr className="border-b">
+        <td className="p-3">Hoskote</td>
+        <td className="p-3">8 km</td>
+        <td className="p-3">15 mins</td>
+      </tr>
+      <tr className="border-b">
+        <td className="p-3">Kempegowda International Airport</td>
+        <td className="p-3">25–30 km</td>
+        <td className="p-3">35–40 mins</td>
+      </tr>
+      <tr className="border-b">
+        <td className="p-3">Phoenix Marketcity</td>
+        <td className="p-3">13 km</td>
+        <td className="p-3">25 mins</td>
+      </tr>
+      <tr className="border-b">
+        <td className="p-3">Manyata Tech Park</td>
+        <td className="p-3">27 km</td>
+        <td className="p-3">45 mins</td>
+      </tr>
+      <tr>
+        <td className="p-3">Orion Uptown Mall</td>
+        <td className="p-3">8 km</td>
+        <td className="p-3">15 mins</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
-          <h3 className="text-xl font-semibold mt-10 mb-4">
-            Airport Connectivity
-          </h3>
-          <img
-            className="mb-3 w-full"
-            src="/images/airport.jpg"
-            alt="Airport"
-            loading="lazy"
-          />
-          <div className="space-y-6">
-            <p>
-              Kempegowda <b>International Airport is about 25 to 30 km</b> away
-              from the project. It can be reached by Old Madras Road and other
-              roads that lead to it. A smooth road connects East Bangalore to
-              the airport area. Easy for workers and business people who move a
-              lot. A strong factor that raises the value of real estate
-              investments in the area
-            </p>
-          </div>
+<div className="space-y-6 text-gray-800 leading-7">
+  <p>
+    Located in one of the fastest-developing regions of Bangalore, this area
+    continues to witness rapid infrastructure upgrades and residential demand.
+    The surroundings offer a calm lifestyle while ensuring quick access to
+    business districts, shopping destinations, and transport hubs.
+  </p>
+
+  <p>
+    With increasing investments and upcoming developments, Budigere Cross is
+    emerging as a high-potential real estate destination, making 
+    <b> Sattva Sanio</b> an excellent choice for both homebuyers and investors.
+  </p>
+</div>
 
           <h3 className="text-xl font-semibold mt-10 mb-4">
-            Metro Connectivity
-          </h3>
-          <img
-            className="mb-3 w-full"
-            src="/images/metro.jpg"
-            alt="Metro"
-            loading="lazy"
-          />
-          <div className="space-y-6">
-            <p>
-              Whitefield and KR Puram metro stops are the closest ones that link
-              to the metro. These stops link East Bangalore to the city's other
-              important areas. Plans to expand the metro in the future should
-              make it easier to get around in this area. Working workers will be
-              able to cut down on their commute times by using the metro. More
-              public transportation choices will be good for people who live in
-              Budigere Cross.
-            </p>
-          </div>
-          <h3 className="text-xl font-semibold mt-10 mb-4">
-            Bus and Public Transport
-          </h3>
+  Airport Accessibility
+</h3>
 
-          <img
-            className="mb-3 w-full"
-            src="/images/busandpublictransport.jpg"
-            alt="Bus and Public Transport"
-            loading="lazy"
-          />
+<img
+  className="mb-3 w-full"
+  src="/images/airport.jpg"
+  alt="Sattva Sanio Airport Connectivity"
+  loading="lazy"
+/>
 
-          <div className="space-y-6">
-            <p>
-              From Budigere Cross Junction, you can catch regular BMTC buses.
-              Buses that go between Whitefield, KR Puram, and downtown Bangalore
-              are easy to get to. Taxis and auto rickshaws are easy to find in
-              the area. Options for public transportation that can be used for
-              daily commutes. It is easy to get to the nearby bus and train
-              stops.
-            </p>
-          </div>
+<div className="space-y-5 text-gray-800 leading-7">
+  <p>
+    Sattva Sanio benefits from convenient access to Kempegowda International Airport,
+    located approximately 25–30 km away. The project is well connected through
+    major road networks including Old Madras Road, allowing residents to reach
+    the airport without hassle.
+  </p>
 
-          <h3 className="text-xl font-semibold mt-10 mb-4">
-            Connectivity by Road
-          </h3>
+  <ul className="list-disc pl-6 space-y-2">
+    <li>Smooth connectivity via NH-75 and key arterial roads</li>
+    <li>Ideal for frequent travelers and business professionals</li>
+    <li>Reduced travel stress due to improved road infrastructure</li>
+    <li>Strong factor contributing to long-term property value growth</li>
+  </ul>
+</div>
 
-          <ul className="list-disc pl-6 space-y-2 mb-10">
-            <li>
-              It is easy to get to Old Madras Road (NH-75). Simple ways to get
-              to Whitefield and KR Puram
-            </li>
-            <li>It is easy to get to Hoskote and Kolar.</li>
-            <li>Quick link to the Outer Ring Road route</li>
-            <li>Easy access to the highway between Bangalore and Chennai</li>
-            <li>Improvements to the roads help people get to work faster.</li>
-          </ul>
+<h3 className="text-xl font-semibold mt-10 mb-4">
+  Metro Connectivity & Future Expansion
+</h3>
 
-          <h2 className="text-2xl font-semibold mb-6">
-            Market Comparison of Budigere Cross with Whitefield
-          </h2>
+<img
+  className="mb-3 w-full"
+  src="/images/metro.jpg"
+  alt="Metro Connectivity near Sattva Sanio"
+  loading="lazy"
+/>
 
-          <div className="space-y-6">
-            <p>
-              Budigere Cross is becoming a strong place to live compared to
-              Whitefield. Whitefield is already a well known IT hub, and real
-              estate prices are high there. Budigere Cross, on the other hand,
-              has more reasonable housing choices that are still close to major
-              job centres. A lot of people are now thinking about buying homes
-              in Budigere Cross as it's a better deal, there's less traffic, and
-              it has a lot of room to grow in the future.
-            </p>
-          </div>
+<div className="space-y-5 text-gray-800 leading-7">
+  <p>
+    The project is supported by nearby metro stations at Whitefield and KR Puram,
+    which connect residents to major parts of Bangalore. These metro links offer
+    a reliable and time-saving commuting option for daily travel.
+  </p>
 
-          <div className="overflow-x-auto mt-6">
-            <table className="w-full border border-gray-200 text-left">
-              <thead>
-                <tr className="border-b bg-gray-50">
-                  <th className="p-3 font-semibold">Location</th>
-                  <th className="p-3 font-semibold">Approx Price Range</th>
-                  <th className="p-3 font-semibold">Growth Potential</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr className="border-b">
-                  <td className="p-3">Whitefield</td>
-                  <td className="p-3">₹10,000 – ₹14,000 per sq ft</td>
-                  <td className="p-3">Mature market with steady growth</td>
-                </tr>
-                <tr>
-                  <td className="p-3">Budigere Cross</td>
-                  <td className="p-3">₹7,000 – ₹9,000 per sq ft</td>
-                  <td className="p-3">High future growth potential</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+  <ul className="list-disc pl-6 space-y-2">
+    <li>Quick access to Whitefield and KR Puram metro stations</li>
+    <li>Direct connectivity to key business and residential zones</li>
+    <li>Upcoming metro extensions to enhance reach and convenience</li>
+    <li>Helps reduce traffic dependency and commute time</li>
+  </ul>
+</div>
 
-          <div className="mt-8 text-gray-800">
-            <h2 className="text-2xl font-semibold mb-6">East Bangalore</h2>
-            <img
-            className="mb-3 w-full"
-            src="/images/east-bangalore.jpg"
-            alt="East Bangalore"
-            loading="lazy"
-          />
-            <div className="space-y-6">
-              <p>
-                <a href="https://sattvasanio.in/east-bangalore">
-                  <b>East Bangalore</b>
-                </a>{" "}
-                has rapidly emerged as one of the most desirable residential
-                destinations in the city. Over the past decade, this region has
-                transformed from a quiet suburban zone into a thriving urban hub
-                filled with premium residential communities, IT parks,
-                educational institutions, and lifestyle conveniences. The
-                expansion of infrastructure, improved connectivity, and the
-                presence of major employment corridors have made East Bangalore
-                an attractive location for both homebuyers and investors. Among
-                the newest residential developments capturing attention in this
-                rapidly growing region is Sattva Sanio, an upcoming luxurious
-                residential project located on <b>Old Madras Main Road near
-                <a href="https://en.wikipedia.org/wiki/Budigere" rel="nofollow">Budigere Cross</a></b>.
-              </p>
+<h3 className="text-xl font-semibold mt-10 mb-4">
+  Public Transport & Daily Commute Options
+</h3>
 
-              <h3 className="text-2xl font-semibold">
-                The Rising Demand for East Bangalore
-              </h3>
+<img
+  className="mb-3 w-full"
+  src="/images/busandpublictransport.jpg"
+  alt="Public Transport near Sattva Sanio"
+  loading="lazy"
+/>
 
-              <p>
-                East Bangalore is widely known for its balanced mix of urban
-                development and peaceful residential surroundings. Areas such as
-                Whitefield, KR Puram, Budigere Cross, and Old Madras Road have
-                seen tremendous growth due to the presence of technology parks,
-                industrial zones, and business centers. The region offers
-                excellent connectivity to major parts of the city including
-                Indiranagar, Marathahalli, and the <a href="https://en.wikipedia.org/wiki/Kempegowda_International_Airport" rel="nofollow"><b>Kempegowda International
-                Airport.</b></a> With the ongoing infrastructure improvements such as
-                new highways, metro expansions, and road widening projects, East
-                Bangalore is becoming even more accessible and convenient for
-                residents.
-              </p>
+<div className="space-y-5 text-gray-800 leading-7">
+  <p>
+    Residents of Sattva Sanio enjoy easy access to various public transport
+    options, making daily commuting simple and efficient. The area is well
+    served by BMTC buses and other local transport facilities.
+  </p>
 
-              <p>
-                This rapid development has significantly increased the demand
-                for modern residential communities that offer comfort,
-                convenience, and premium living standards. Homebuyers today are
-                not just looking for a house; they are searching for a a
-                lifestyle. Developments that combine luxury, strategic location,
-                and thoughtfully designed spaces are gaining immense popularity.
-                This is where Sattva Sanio stands out as a promising
-                residential project in East Bangalore.
-              </p>
+  <ul className="list-disc pl-6 space-y-2">
+    <li>Regular BMTC bus services from Budigere Cross Junction</li>
+    <li>Easy connectivity to Whitefield, KR Puram, and central Bangalore</li>
+    <li>Availability of cabs and auto-rickshaws throughout the day</li>
+    <li>Convenient access to nearby bus and railway stations</li>
+  </ul>
+</div>
 
-              <h3 className="text-2xl font-semibold">
-                Prime Location on Old Madras Road
-              </h3>
+<h3 className="text-xl font-semibold mt-10 mb-4">
+  Road Connectivity & Highway Access
+</h3>
 
-              <p>
-                Sattva Sanio is strategically located on Old Madras Main Road
-                near Budigere Cross, one of the most rapidly developing
-                corridors in East Bangalore. Old Madras Road is an important
-                arterial route that connects Bangalore city with several key
-                localities and neighboring towns. This location provides
-                seamless access to important areas such as Whitefield, KR Puram,
-                Hoskote, and the IT hubs of East Bangalore.
-              </p>
+<div className="text-gray-800">
+  <p className="mb-4 leading-7">
+    The project enjoys excellent road connectivity, ensuring smooth travel
+    across Bangalore and nearby regions. Its strategic location along Old
+    Madras Road provides quick access to multiple important routes.
+  </p>
 
-              <p>
-                Budigere Cross has become a focal point for new residential
-                developments due to its excellent connectivity and growing
-                infrastructure. Residents living here benefit from smooth road
-                connectivity to major business centers, educational
-                institutions, hospitals, and shopping hubs. Additionally, the
-                location offers easy access to the Bangalore International
-                Airport, making it convenient for professionals who frequently
-                travel for work.
-              </p>
+  <ul className="list-disc pl-6 space-y-2 mb-10">
+    <li>Direct connectivity to Old Madras Road (NH-75)</li>
+    <li>Easy routes to Whitefield, KR Puram, and Hoskote</li>
+    <li>Quick access to Outer Ring Road and major highways</li>
+    <li>Seamless travel towards Bangalore–Chennai highway corridor</li>
+    <li>Continuous infrastructure upgrades improving travel efficiency</li>
+  </ul>
+</div>
 
-              <p>
-                Despite being well connected to the city's busy zones, the
-                Budigere Cross area still maintains a calm and green
-                environment, making it ideal for residential living. This
-                balance of accessibility and tranquility makes Sattva Sanio an
-                appealing choice for families looking for a peaceful yet
-                well-connected home.
-              </p>
+          <div>
 
-              <h3 className="text-2xl font-semibold">
-                Most important and useful places connected to Sattva Sanio in
-                East Bangalore
-              </h3>
+  {/* Market Comparison Section */}
+  <h2 className="text-2xl font-semibold mb-6">
+    Property Comparison: Budigere Cross vs Whitefield
+  </h2>
 
-              <div className="space-y-6">
-                <div>
-                  <h3 className="text-xl font-semibold mb-2">1. Budigere Cross</h3>
-                  <p>
-                    <b>Budigere Cross</b> is one of the fastest-growing
-                    residential zones in East Bangalore and is located very
-                    close to Sattva Sanio. It acts as a major junction
-                    connecting Old Madras Road, Whitefield, and Devanahalli. Due
-                    to upcoming infrastructure and premium residential projects
-                    in the area, Budigere Cross has become a preferred
-                    destination for property investment and long-term
-                    residential growth.
-                  </p>
-                </div>
+  <div className="space-y-5 text-gray-800 leading-7">
+    <p>
+      When comparing real estate opportunities in East Bangalore, Budigere Cross
+      is rapidly gaining attention as a strong alternative to Whitefield.
+      While Whitefield is a well-established IT hub with premium developments,
+      property prices there have already reached higher levels.
+    </p>
 
-                <div>
-                  <h3 className="text-xl font-semibold mb-2">2. Old Madras Road</h3>
-                  <p>
-                    <a 
-                    href="https://www.google.com/maps/search/78+Old+Madras+Road%2C+Bengaluru%2C+560048%2C+India" rel="nofollow"><b>Old Madras Road</b></a> is one of the most important arterial roads
-                    in East Bangalore. It connects central Bangalore with KR
-                    Puram, Hoskote, and other eastern suburbs. Living near this
-                    road ensures smooth commuting and quick connectivity to
-                    major city areas, making daily travel easier for residents.
-                  </p>
-                </div>
+    <p>
+      In contrast, Budigere Cross offers relatively affordable housing options
+      while still being well-connected to major employment zones. The area is
+      witnessing steady infrastructure growth, reduced congestion, and increased
+      interest from both homebuyers and investors.
+    </p>
 
-                <div>
-                  <h3 className="text-xl font-semibold mb-2">
-                    3. Whitefield IT Hub
-                  </h3>
-                  <p>
-                    <b>Whitefield</b> is one of Bangalore’s largest IT corridors
-                    and a major employment center. It houses several global
-                    technology companies and business parks. Residents of Sattva
-                    Sanio can easily commute to Whitefield, making it an ideal
-                    location for IT professionals working in this region.
-                  </p>
-                </div>
+    <ul className="list-disc pl-6 space-y-2">
+      <li>Better price advantage compared to Whitefield</li>
+      <li>Lower traffic density and peaceful surroundings</li>
+      <li>Close proximity to IT corridors and business hubs</li>
+      <li>High appreciation potential due to ongoing development</li>
+    </ul>
+  </div>
 
-                <div>
-                  <h3 className="text-xl font-semibold mb-2">4. KR Puram</h3>
-                  <p>
-                    <b>KR Puram</b> is an important transportation hub in East
-                    Bangalore. It has a major railway station, metro
-                    connectivity, and bus terminals. Living near KR Puram
-                    ensures residents have easy access to public transport and
-                    can conveniently travel to different parts of Bangalore.
-                  </p>
-                </div>
+  {/* Comparison Table */}
+  <div className="overflow-x-auto mt-6">
+    <table className="w-full border border-gray-200 text-left">
+      <thead>
+        <tr className="border-b bg-gray-50">
+          <th className="p-3 font-semibold">Area</th>
+          <th className="p-3 font-semibold">Price Range (Approx)</th>
+          <th className="p-3 font-semibold">Investment Outlook</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr className="border-b">
+          <td className="p-3">Whitefield</td>
+          <td className="p-3">₹10,000 – ₹14,000 / sq ft</td>
+          <td className="p-3">Stable growth in a developed market</td>
+        </tr>
+        <tr>
+          <td className="p-3">Budigere Cross</td>
+          <td className="p-3">₹7,000 – ₹9,000 / sq ft</td>
+          <td className="p-3">Emerging hotspot with strong future returns</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
 
-                <div>
-                  <h3 className="text-xl font-semibold mb-2">
-                    5. Kempegowda International Airport
-                  </h3>
-                  <p>
-                    The <b>Bangalore International Airport</b> is easily
-                    accessible from Budigere Cross through major highways. This
-                    is a major advantage for frequent travelers and
-                    professionals who travel for business. Easy airport
-                    connectivity also increases the long-term property value of
-                    homes in this area.
-                  </p>
-                </div>
+  {/* East Bangalore Section */}
+  <div className="mt-10 text-gray-800">
+    <h2 className="text-2xl font-semibold mb-6">Why East Bangalore is Booming</h2>
 
-                <div>
-                  <h3 className="text-xl font-semibold mb-2">6. Hoskote</h3>
-                  <p>
-                    <b>Hoskote</b> is a rapidly developing suburb known for
-                    industrial growth and infrastructure expansion. The area is
-                    attracting several new residential and commercial
-                    developments. Its proximity to Sattva Sanio ensures access
-                    to expanding job opportunities and urban facilities.
-                  </p>
-                </div>
+    <img
+      className="mb-4 w-full"
+      src="/images/east-bangalore.jpg"
+      alt="East Bangalore Growth"
+      loading="lazy"
+    />
 
-                <div>
-                  <h3 className="text-xl font-semibold mb-2">7. Indiranagar</h3>
-                  <p>
-                    Indiranagar is one of the most popular lifestyle and
-                    commercial areas in Bangalore. It offers premium
-                    restaurants, shopping streets, entertainment hubs, and
-                    nightlife. Residents of East Bangalore can easily reach
-                    Indiranagar via Old Madras Road, making it perfect for
-                    social and leisure activities.
-                  </p>
-                </div>
+    <div className="space-y-6 leading-7">
 
-                <div>
-                  <h3 className="text-xl font-semibold mb-2">
-                    8. Manyata Tech Park
-                  </h3>
-                  <p>
-                    <b>Manyata Tech Park</b> is one of the largest IT and
-                    business parks in Bangalore. Thousands of professionals work
-                    here in multinational companies. The connectivity from East
-                    Bangalore to this tech park provides additional employment
-                    access and enhances the attractiveness of residential
-                    projects in the region.
-                  </p>
-                </div>
+      <p>
+        East Bangalore has transformed into one of the city's most sought-after
+        residential zones. What was once a quiet suburban stretch has now evolved
+        into a thriving urban corridor with IT parks, residential communities,
+        educational institutions, and lifestyle hubs.
+      </p>
 
-                <div>
-                  <h3 className="text-xl font-semibold mb-2">
-                    9. ITPL (International Tech Park Bangalore)
-                  </h3>
-                  <p>
-                    <b>ITPL</b> in Whitefield is another major IT employment
-                    center. The presence of global companies and startups here
-                    makes it a prime workplace destination. Living near Sattva
-                    Sanio allows professionals working in ITPL to commute
-                    conveniently.
-                  </p>
-                </div>
+      <p>
+        The presence of major employment centers, improved road infrastructure,
+        and expanding metro connectivity has significantly boosted the demand
+        for housing in this region. Buyers today are actively looking for
+        properties that combine accessibility, comfort, and long-term value —
+        making East Bangalore an ideal choice.
+      </p>
 
-                <div>
-                  <h3 className="text-xl font-semibold mb-2">
-                    10. Orion Uptown Mall
-                  </h3>
-                  <p>
-                    <b>Orion Uptown Mall</b> is a popular shopping and
-                    entertainment destination located near Old Madras Road. It
-                    features retail stores, restaurants, cafes, and multiplex
-                    cinemas. Having such a lifestyle hub nearby allows residents
-                    to enjoy modern urban conveniences without traveling far.
-                  </p>
-                </div>
+      {/* Demand Section */}
+      <h3 className="text-xl font-semibold">
+        Growing Demand & Real Estate Potential
+      </h3>
 
-                <div>
-                  <h3 className="text-xl font-semibold mb-2">
-                    11. Columbia Asia Hospital (Whitefield)
-                  </h3>
-                  <p>
-                    Healthcare accessibility is an important factor when buying
-                    a home. <b>Columbia Asia Hospital in Whitefield</b> provides
-                    advanced medical facilities and emergency care. Its
-                    proximity ensures that residents of Sattva Sanio can
-                    access quality healthcare quickly.
-                  </p>
-                </div>
+      <p>
+        Areas like Whitefield, KR Puram, and Budigere Cross are seeing consistent
+        growth due to their proximity to IT hubs and business parks. With ongoing
+        infrastructure developments such as road expansions and metro projects,
+        commuting is becoming easier and faster.
+      </p>
 
-                <div>
-                  <h3 className="text-xl font-semibold v">
-                    12. Narayana Multispeciality Hospital
-                  </h3>
-                  <p>
-                    <b>Narayana Hospital</b> is one of the well-known healthcare
-                    institutions in Bangalore. It offers advanced treatments and
-                    specialized medical care. Easy access to such hospitals adds
-                    a sense of safety and convenience for families living in the
-                    area.
-                  </p>
-                </div>
+      <ul className="list-disc pl-6 space-y-2">
+        <li>Strong demand from IT professionals</li>
+        <li>Continuous infrastructure upgrades</li>
+        <li>Balanced mix of urban and peaceful living</li>
+        <li>Excellent long-term investment potential</li>
+      </ul>
 
-                <div>
-                  <h3 className="text-xl font-semibold mb-2">
-                    13. Delhi Public School (Whitefield)
-                  </h3>
-                  <p>
-                    <b>Delhi Public School</b> is one of the most reputed
-                    schools in Bangalore. Families with children prefer
-                    residential areas that are close to high-quality educational
-                    institutions. Sattva Sanio offers convenient access to
-                    schools like DPS, making it a suitable choice for families.
-                  </p>
-                </div>
+      {/* Location Advantage */}
+      <h3 className="text-xl font-semibold">
+        Strategic Location of Sattva Sanio
+      </h3>
 
-                <div>
-                  <h3 className="text-xl font-semibold mb-2">
-                    14. Garden City University
-                  </h3>
-                  <p>
-                    <b>Garden City University</b> is located near Old Madras
-                    Road and is known for offering a variety of academic
-                    programs. The presence of such universities nearby makes the
-                    location attractive for students, faculty members, and
-                    educational professionals.
-                  </p>
-                </div>
+      <p>
+        Located along Old Madras Road near Budigere Cross, Sattva Sanio enjoys
+        excellent connectivity to key areas like Whitefield, KR Puram, and
+        Hoskote. This location ensures smooth travel to workplaces, schools,
+        hospitals, and shopping destinations.
+      </p>
 
-                <div>
-                  <h3 className="text-xl font-semibold mb-2">
-                    15. Namma Metro (KR Puram Metro Station)
-                  </h3>
-                  <p>
-                    The upcoming and existing metro connectivity in KR Puram
-                    greatly improves commuting across Bangalore. Metro
-                    connectivity reduces travel time and provides a reliable
-                    transportation option for residents. This infrastructure
-                    development significantly increases the value of properties
-                    in East Bangalore.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+      <p>
+        Despite its connectivity advantages, the area still offers a calm and
+        green environment, making it perfect for families seeking a peaceful
+        lifestyle without compromising on accessibility.
+      </p>
+
+      {/* Key Landmarks Section */}
+      <h3 className="text-xl font-semibold">
+        Important Nearby Locations & Landmarks
+      </h3>
+
+      <div className="space-y-5">
+
+        <div>
+          <h4 className="font-semibold">Budigere Cross</h4>
+          <p>
+            A rapidly developing residential junction connecting major roads and
+            emerging as a prime investment hotspot.
+          </p>
+        </div>
+
+        <div>
+          <h4 className="font-semibold">Old Madras Road (NH-75)</h4>
+          <p>
+            A key arterial route offering seamless connectivity to East Bangalore
+            and nearby towns.
+          </p>
+        </div>
+
+        <div>
+          <h4 className="font-semibold">Whitefield IT Corridor</h4>
+          <p>
+            One of Bangalore’s largest employment hubs with major tech parks and
+            global companies.
+          </p>
+        </div>
+
+        <div>
+          <h4 className="font-semibold">KR Puram</h4>
+          <p>
+            A major transit hub with railway station, metro access, and bus
+            connectivity.
+          </p>
+        </div>
+
+        <div>
+          <h4 className="font-semibold">Kempegowda International Airport</h4>
+          <p>
+            Easily accessible via highways, ideal for frequent travelers and
+            business professionals.
+          </p>
+        </div>
+
+        <div>
+          <h4 className="font-semibold">Hoskote</h4>
+          <p>
+            A fast-growing suburb with industrial and residential development.
+          </p>
+        </div>
+
+        <div>
+          <h4 className="font-semibold">Indiranagar</h4>
+          <p>
+            A premium lifestyle destination known for dining, shopping, and
+            entertainment.
+          </p>
+        </div>
+
+        <div>
+          <h4 className="font-semibold">ITPL (Tech Park)</h4>
+          <p>
+            A major employment zone attracting professionals from across the
+            city.
+          </p>
+        </div>
+
+        <div>
+          <h4 className="font-semibold">Orion Uptown Mall</h4>
+          <p>
+            Nearby shopping and entertainment hub with retail, dining, and
+            cinema options.
+          </p>
+        </div>
+
+        <div>
+          <h4 className="font-semibold">Healthcare Facilities</h4>
+          <p>
+            Access to reputed hospitals in Whitefield ensures quality medical
+            care nearby.
+          </p>
+        </div>
+
+        <div>
+          <h4 className="font-semibold">Educational Institutions</h4>
+          <p>
+            Presence of top schools and universities makes it ideal for families.
+          </p>
+        </div>
+
+        <div>
+          <h4 className="font-semibold">Metro Connectivity</h4>
+          <p>
+            Upcoming and existing metro links at KR Puram improve city-wide
+            connectivity and reduce travel time.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+</div>
         </div>
       </div>
     </section>
