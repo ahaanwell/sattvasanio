@@ -1,8 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 async function getBlogs() {
-  const res = await fetch(process.env.NEXT_PUBLIC_API || "https://m2nblogcmsapi.vercel.app/api/blogs/project/sattva-aangane", {
-    headers: { "x-api-key": process.env.NEXT_PUBLIC_API_KEY || "sk_sattva_aangane_0985b8e5d05d95753ab267c05645a7db3b5f606391ee646e" },
+  const res = await fetch(process.env.NEXT_PUBLIC_API, {
+    headers: { "x-api-key": process.env.NEXT_PUBLIC_API_KEY },
     next: { revalidate: 60 }
   });
   if (!res.ok) return [];

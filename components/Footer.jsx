@@ -31,7 +31,7 @@ export default function Footer() {
           {/* Social Media */}
           <div className="flex justify-center gap-5">
             <a
-              href="https://www.facebook.com/sattvaaangane"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-100 text-gray-600 hover:bg-blue-600 hover:text-white transition-all duration-300 transform hover:scale-110 shadow-sm"
@@ -58,7 +58,7 @@ export default function Footer() {
             </a>
 
             <a
-              href="https://x.com/sattvaaangane"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-100 text-gray-600 hover:bg-sky-500 hover:text-white transition-all duration-300 transform hover:scale-110 shadow-sm"
@@ -66,7 +66,7 @@ export default function Footer() {
               <FaTwitter size={14} />
             </a>
             <a
-              href="https://www.youtube.com/@sattvaaangane"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 flex items-center justify-center rounded-full bg-gray-100 text-gray-600 hover:bg-red-500 hover:text-white transition-all duration-300 transform hover:scale-110 shadow-sm"
