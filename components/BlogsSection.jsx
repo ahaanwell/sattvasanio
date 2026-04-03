@@ -35,15 +35,15 @@ const blogs = await getBlogs();
         <ul className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {blogs.map((blog) => (
             <li
-              key={blog._id || blog.slug}
+              key={blog?._id || blog?.slug}
               className="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300 flex flex-col"
             >
 
               <div className="relative w-full aspect-[4/3] overflow-hidden bg-gray-200">
                 {blog.featuredImage?.url ? (
                   <Image
-                    src={blog.featuredImage.url}
-                    alt={blog.title}
+                    src={blog?.featuredImage.url}
+                    alt={blog?.title}
                     width={600}
                     height={400}
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
@@ -58,7 +58,7 @@ const blogs = await getBlogs();
 
                 <div className="absolute bottom-0 left-0 right-0 px-4 py-4">
                   <h3 className="text-white font-bold text-lg md:text-xl line-clamp-2">
-                    {blog.title}
+                    {blog?.title}
                   </h3>
                 </div>
               </div>
@@ -66,12 +66,12 @@ const blogs = await getBlogs();
               <div className="flex flex-col flex-1 px-5 pt-4 pb-5 gap-3">
 
                 <p className="text-sm text-gray-500 line-clamp-3 flex-1">
-                  {blog.metaDescription || ""}
+                  {blog?.metaDescription || ""}
                 </p>
 
-                {blog.slug && (
+                {blog?.slug && (
                   <Link
-                    href={`/${blog.slug}`}
+                    href={`/${blog?.slug}`}
                     className="mt-1 w-full text-center bg-primary text-white font-semibold py-3 rounded-lg transition-colors text-sm"
                   >
                     Read More
