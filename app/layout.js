@@ -21,7 +21,7 @@ const robotoMono = Roboto_Mono({
 export const metadata = {
   title: {
     default:
-      "Sattva Sanio Bangalore | Apartments at Budigere Cross, Old Madras Road",
+      "Sattva Sanio | Old Madras Road | Budigere Cross | Review  | New Launch",
     template: "%s | Sattva Sanio Bangalore",
   },
 
@@ -54,7 +54,7 @@ export const metadata = {
 
   openGraph: {
     title:
-      "Sattva Sanio Bangalore | Luxury Apartments at Budigere Cross",
+      "Sattva Sanio | Old Madras Road | Budigere Cross | Review  | New Launch",
     description:
       "Explore Sattva Sanio apartments at Budigere Cross, Old Madras Road, Bangalore. Premium 2, 3 & 4 BHK homes with world-class amenities.",
     url: "https://www.sattvasanio.in/",
@@ -74,7 +74,7 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title:
-      "Sattva Sanio Bangalore | Apartments in Budigere Cross",
+      "Sattva Sanio | Old Madras Road | Budigere Cross | Review  | New Launch",
     description:
       "Discover Sattva Sanio in East Bangalore offering premium 2, 3 & 4 BHK apartments with modern lifestyle amenities.",
     images: [
@@ -113,7 +113,7 @@ export const metadata = {
   category: "Real Estate",
 
   verification: {
-    google: "XnQjIMSQGzsEA6dSOT_sqOIHL__aRj8zn2coEhljaKc",
+    google: "dRlABeZ3CrEqb5hYxsH8Y9y1uDjg91M_dLWRC0TAbZc",
   },
 };
 
