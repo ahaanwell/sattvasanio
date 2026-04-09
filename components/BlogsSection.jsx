@@ -14,7 +14,7 @@ async function getBlogs() {
 export default async function BlogSection() {
 
 const blogs = await getBlogs();
-  if (!blogs || blogs.length === 0) return null;
+  if (!blogs || blogs?.length === 0) return null;
   return (
     <section
       id="blogs"
