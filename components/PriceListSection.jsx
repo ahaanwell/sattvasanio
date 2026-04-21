@@ -1,9 +1,8 @@
-"use client";
 
-import { useState } from "react";
+
 import { FaDownload } from "react-icons/fa";
-import LeadModal from "./LeadModal";
 import EMICalculator from "./Emicalculator";
+import DownloadCostSheetActions from "./DownloadCostSheetActions";
 
 const priceData = [
   { type: "2 BHK", size: "On Request", price: "₹ 1.2 Cr* onwards" },
@@ -12,9 +11,6 @@ const priceData = [
 ];
 
 export default function PriceListSection() {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [modelHeading, SetModelHeading] = useState("");
-
   return (
     <section
       id="price-table"
@@ -35,7 +31,7 @@ export default function PriceListSection() {
         <div className="flex flex-col lg:flex-row gap-0">
 
           {/* Desktop Table */}
-          <div className="flex-1 overflow-x-auto hidden md:block">
+          <div className="flex-1 overflow-x-auto">
             <table
               className="w-full text-sm md:text-base"
               role="table"
@@ -65,39 +61,7 @@ export default function PriceListSection() {
             </table>
           </div>
 
-          {/* Mobile Cards */}
-          <div className="md:hidden flex flex-col gap-5 px-2">
-            {priceData.map((row, i) => (
-              <div
-                key={i}
-                className="bg-gray-100 border border-gray-300 rounded-md p-6 text-center shadow-sm"
-              >
-                <h3 className="text-xl font-semibold text-gray-900 mb-2">
-                  {row.type}
-                </h3>
-
-                <p className="text-sm text-gray-700 mb-2">
-                  {row.size}
-                </p>
-
-                <p className="text-lg font-bold text-black mb-4">
-                  {row.price}
-                </p>
-
-                <button
-                  onClick={() => {
-                    SetModelHeading(`${row.type} - Price Details`);
-                    setIsModalOpen(true);
-                  }}
-                  className="w-full flex justify-center items-center gap-2 bg-primary text-white py-2 rounded-sm font-medium hover:opacity-90 transition"
-                >
-                  <FaDownload />
-                  Download Price
-                </button>
-              </div>
-            ))}
-          </div>
-
+          
           {/* Costing Image */}
           <div className="px-4 md:px-0">
             <img
@@ -106,16 +70,7 @@ export default function PriceListSection() {
               src="/images/costing-details.webp"
               alt="Sattva Sanio Price Sheet and Costing Details"
             />
-            <button
-              onClick={() => {
-                SetModelHeading("Download Complete Price List");
-                setIsModalOpen(true);
-              }}
-              className="flex items-center justify-center gap-2 px-3 py-3 bg-primary text-white w-full font-medium cursor-pointer"
-            >
-              <FaDownload />
-              Download Full Cost Sheet
-            </button>
+            <DownloadCostSheetActions/>
           </div>
 
         </div>
@@ -156,13 +111,6 @@ export default function PriceListSection() {
         </div>
 
       </div>
-
-      <LeadModal
-        isOpen={isModalOpen}
-        onClose={() => setIsModalOpen(false)}
-        modelHeading={modelHeading}
-        modelBtnLabel="Download"
-      />
     </section>
   );
 }

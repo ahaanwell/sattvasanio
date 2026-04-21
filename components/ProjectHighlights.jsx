@@ -1,5 +1,4 @@
 /* eslint-disable react/no-unescaped-entities */
-"use client";
 import {
   FaBuilding,
   FaRupeeSign,
@@ -84,12 +83,12 @@ export default function ProjectHighlights() {
       className="w-full bg-white pt-8 px-4 md:px-0"
     >
       <div className="max-w-5xl mx-auto">
-        <h2
+        <h1
           id="highlights-heading"
           className="text-3xl font-semibold text-gray-900 text-center mb-5"
         >
           About Sattva Sanio
-        </h2>
+        </h1>
         <div
           className="grid grid-cols-2 lg:grid-cols-4 gap-4"
           aria-label="Sattva Sanio project highlights"

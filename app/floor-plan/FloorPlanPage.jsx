@@ -1,13 +1,8 @@
-"use client";
-import LeadModal from "@/components/LeadModal";
+
+import DownloadActions from "@/components/DownloadActions";
 import PageHero from "@/components/PageHero";
-import { useState } from "react";
-import { FaDownload } from "react-icons/fa";
-import { IoPricetagsOutline } from "react-icons/io5";
 
 function FloorPlanPage() {
-  const [isModalOpen, setIsModalOpen] = useState(false);
-  const [modelHeading, SetModelHeading] = useState("");
 
   return (
     <>
@@ -19,26 +14,7 @@ function FloorPlanPage() {
           <h1 className="text-2xl md:text-3xl font-bold text-gray-800 text-center">
             Sattva Sanio Floor Plan
           </h1>
-          <div className="flex justify-center items-center gap-6 mt-3">
-            <button
-              onClick={() => {
-                SetModelHeading("Download Broucher");
-                setIsModalOpen(true);
-              }}
-              className="border border-blue-900 px-5 py-2 text-lg rounded cursor-pointer flex justify-center items-center gap-2 text-primary font-medium"
-            >
-              <FaDownload /> Broucher
-            </button>
-            <button
-              onClick={() => {
-                SetModelHeading("Download Cost Sheet");
-                setIsModalOpen(true);
-              }}
-              className="border border-blue-900 px-5 py-2 text-lg rounded cursor-pointer flex justify-center items-center gap-2 text-primary font-medium"
-            >
-              <IoPricetagsOutline /> Cost Sheet
-            </button>
-          </div>
+          <DownloadActions/>
           <div className="space-y-6 mt-5 text-gray-800">
   <p>
     The <b><a href="https://www.sattvasanio.in/">Sattva Sanio Floor Plan</a></b> showcases a refined collection of <b>2, 3, and 4 BHK premium residences</b> crafted for contemporary city living. Located along <a href="https://maps.app.goo.gl/eNuiU2qvVq6cxLAL6" rel="nofollow"><b>Old Madras Road in East Bangalore</b></a>, the development spans over <b>10 acres</b> and features more than <b>600 thoughtfully designed apartments</b> spread across <b>four iconic towers rising up to G+35 floors</b>. Each unit emphasizes intelligent space planning, ventilation, and natural light.
@@ -97,10 +73,7 @@ function FloorPlanPage() {
           <td className="border p-3">
             <button
               className="cursor-pointer text-blue-600 underline"
-              onClick={() => {
-                SetModelHeading("Download 3 BHK Price");
-                setIsModalOpen(true);
-              }}
+              
             >
               Get Price Details
             </button>
@@ -111,10 +84,7 @@ function FloorPlanPage() {
           <td className="border p-3">
             <button
               className="cursor-pointer text-blue-600 underline"
-              onClick={() => {
-                SetModelHeading("Download 4 BHK Price");
-                setIsModalOpen(true);
-              }}
+              
             >
               Get Price Details
             </button>
@@ -285,12 +255,7 @@ function FloorPlanPage() {
 </div>
         </div>
       </main>
-      <LeadModal
-        isOpen={isModalOpen}
-        onClose={() => setIsModalOpen(false)}
-        modelHeading={modelHeading}
-        modelBtnLabel="Download"
-      />
+      
     </>
   );
 }
