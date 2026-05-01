@@ -26,13 +26,13 @@ function LeadForm() {
       const data = {
         name,
         email,
-        phone:number,
+        number,
         country_code: countryCode,
         company_email: "info@searchmyspace.in",
         project_name: "Sattva Sanio",
       };
       try {
-        const res = await fetch("https://smtpwithexcel.vercel.app/send-lead", {
+        const res = await fetch("https://slategrey-narwhal-636137.hostingersite.com/send-lead", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(data),
